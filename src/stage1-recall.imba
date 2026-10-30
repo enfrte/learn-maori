@@ -102,7 +102,7 @@ tag recall-page
 		elif self.phase == 'done'
 			<div.tracker> "All recalls complete!"
 		else
-			<div.tracker>
+			<div.tracker> 
 				"{self.queue.length} learned words · {self.correct} correct of {self.answered} answered"
 			<mcq q=self.question emitter=(do(opt) self.answer-picked(opt))>
 			if self.question and self.question.pick

@@ -123,7 +123,7 @@ tag learn-page
 				<h2> "New words ({self.batch.length})"
 				<div.word-list>
 					for w in self.batch
-						<div.word key=w.id>
+						<div.word key=w.id> 
 							<div.mi> w.mi
 							<div.en> english(w)
 				<div.row>

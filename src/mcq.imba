@@ -29,7 +29,7 @@ tag mcq
 			<div.q-prompt> self.q.prompt
 			<div.q-options>
 				for opt in self.q.options
-					<button.opt
+					<button.primary
 						.right=(self.q.pick and opt == self.q.correct)
 						.wrong=(self.q.pick and self.q.pick != self.q.correct and opt == self.q.pick)
 						.dim=(self.q.pick and opt != self.q.correct and opt != self.q.pick)

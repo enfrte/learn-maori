@@ -25,3 +25,23 @@ export def saveProgress key, ids
 export def resetAll
 	await table.clear()
 	yes
+
+# ---- settings ----
+# Small user preferences (theme etc.) kept in localStorage, separate from
+# the Dexie-based progress store. localStorage is synchronous, so the
+# theme can be applied before the app first renders.
+
+export let keyTheme = 'theme'
+
+# record shape: {key: "theme", value: "light" | "dark"}
+export def loadSetting key
+	try
+		return global.localStorage.getItem(key)
+	catch e
+		return null
+
+export def saveSetting key, value
+	try
+		return global.localStorage.setItem(key, value)
+	catch e
+		return null

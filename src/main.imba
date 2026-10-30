@@ -1,44 +1,87 @@
 import {learnedStats} from './data/dictionary'
 import {loadProgress, resetAll, keyInProgress, keyLearned} from './data/store'
+import {loadSetting, saveSetting, keyTheme} from './data/store'
 
 import './mcq'
 import './stage1-learn'
 import './stage1-recall'
 
 # ---- theme ----
+# Colors come from semantic tokens. The light palette on :root is the
+# default; the same tokens are overridden under html.dark with the
+# original dark palette. The `dark` class is toggled on the document
+# element by the app tag and persisted via the settings store.
 
-global css body inset:0 m:0 bg:warm8 c:warm2 ff:Arial
+global css @root
+	$bg: #e9eeac          # page background
+	$surface: white     # cards, stats, word tiles
+	$hover: warm2       # quiet button hover surface
+	$text: #0d1713        # body text
+	$strong: #0d1713      # emphasized text (word tiles)
+	$muted: #0d1713       # secondary text and borders' contrast companion
+	$border: warm4      # outlines on quiet buttons
+	$error: red7        # error text links
+	$ok: green6         # success text
+
+global css html.dark
+	$bg: warm8
+	$surface: warm7
+	$hover: warm6
+	$text: warm2
+	$strong: warm1
+	$muted: warm4
+	$border: warm5
+	$error: red3
+	$ok: green4
+
+global css body inset:0 m:0 bg:$bg c:$text ff:Arial
 global css .app-shell max-width:960px p:5 ml:auto mr:auto
 global css .page-head d:flex ai:center gap:4 mb:5
 global css .page-head h1 fs:1.5rem fw:700 m:0
 global css .hero mb:6
 global css .hero h1 fs:2.4rem fw:800 m:0 mb:2
-global css .lead c:warm4 fs:1.05rem m:0 mb:2 max-width:640px
-global css .stats d:flex flex-wrap:wrap gap:5 ai:center bg:warm7 rd:4 p:4 mb:5
-global css .stats .label c:warm4 fs:0.85rem d:block
+global css .lead c:$muted fs:1.05rem m:0 mb:2 max-width:640px
+global css .stats d:flex flex-wrap:wrap gap:5 ai:center bg:$surface rd:4 p:4 mb:5
+global css .stats .label c:$muted fs:0.85rem d:block
 global css .stats .value fs:1.3rem fw:700
-global css .card bg:warm7 rd:4 p:5 mb:4
+global css .card bg:$surface rd:4 p:5 mb:4
 global css .card h2 m:0 mb:2 fs:1.2rem
-global css .card p c:warm4 m:0
+global css .card p c:$muted m:0
 global css .row d:flex gap:3 flex-wrap:wrap mt:4
-global css .primary c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:indigo5 @hover:indigo6
-global css .secondary c:warm3 p:3 px:5 rd:4 fs:1rem cursor:pointer bd:2px solid warm5 bg:transparent @hover:warm6
-global css .back c:warm3 p:2 px:3 rd:4 fs:0.9rem cursor:pointer bd:2px solid warm5 bg:transparent @hover:warm6
+global css .footer d:flex gap:3 flex-wrap:wrap ai:center mt:4
+global css .primary c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:#263f2d @hover:#a53c24
+global css .secondary c:$muted p:3 px:5 rd:4 fs:1rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
+global css .back c:$muted p:2 px:3 rd:4 fs:0.9rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
 global css .disabled o:0.45 pe:none
-global css .danger bg:transparent fs:0.85rem p:2 rd:2 cursor:pointer bd:0 c:warm5 @hover:red3
+global css .danger bg:transparent fs:0.85rem p:2 rd:2 cursor:pointer bd:0 c:$muted @hover:$error
+global css .theme-toggle bg:transparent fs:0.85rem p:2 px:3 rd:2 cursor:pointer bd:0 c:$muted @hover:$text
 global css .word-list d:flex flex-wrap:wrap gap:3
-global css .word bg:warm7 rd:4 p:3 min-width:180px flex:1 1 220px
-global css .word .mi d:block fs:1.5rem fw:700 c:warm1
-global css .word .en d:block fs:0.95rem c:warm4 mt:1
-global css .tracker c:warm4 mb:3 fs:0.95rem
-global css .feedback mt:3 c:red3 fs:1rem
-global css .feedback.ok c:green4
+global css .word bg:$surface rd:4 p:3 min-width:180px flex:1 1 220px
+global css .word .mi d:block fs:1.5rem fw:700 c:$strong
+global css .word .en d:block fs:0.95rem c:$muted mt:1
+global css .tracker c:$muted mb:3 fs:0.95rem
+global css .feedback mt:3 c:$error fs:1rem
+global css .feedback.ok c:$ok
+global css .plain-btn bg:$surface
+global css .hr h:2px c:$surface bg:$surface border:0
+
+
+# ---- theme bootstrap ----
+# Light is the default. A saved "dark" preference adds the `dark` class
+# to <html> before the app mounts, so there is no flash of the wrong theme.
+
+def set-theme theme
+	document.documentElement.classList.toggle('dark', theme == 'dark')
+
+let startTheme = (loadSetting(keyTheme) == 'dark') ? 'dark' : 'light'
+set-theme(startTheme)
 
 # ---- landing page ----
 # Introduction, progress stats and stage selection.
 
 tag landing-page
 	loaded = no
+	theme = 'light'      # light | dark (prop, owned by app)
 	inprogress-ids = []
 	learned-ids = []
 	stats = {count: 0, total: 0, percent: 0}
@@ -63,6 +106,9 @@ tag landing-page
 		self.inprogress-ids = []
 		self.stats = learnedStats([])
 		imba.commit!
+
+	def toggle-theme
+		self.emit('toggle-theme')
 
 	<self>
 		<div.hero>
@@ -93,13 +139,26 @@ tag landing-page
 		<div.card.locked>
 			<h2> "Stage 3"
 			<p> "To be announced."
-		<div.row>
-			<button.danger @click=(do self.reset-all!)> "Reset progress"
+		<hr.hr>
+		<div.footer>
+			<button.danger.plain-btn @click=(do self.reset-all!)> "Reset progress"
+			# shows the theme the switch will jump to
+			<button.theme-toggle.plain-btn @click=(do self.toggle-theme!)>
+				if self.theme == 'dark'
+					"☀️ Light mode"
+				else
+					"🌙 Dark mode"
 
 # ---- app root ----
 
 tag app
 	view = 'landing'    # landing | learn | recall
+	theme = startTheme  # light | dark, default light
+
+	def toggle-theme
+		self.theme = self.theme == 'light' ? 'dark' : 'light'
+		set-theme(self.theme)
+		saveSetting(keyTheme, self.theme)
 
 	def mount
 		# deep links: #learn or #recall land directly in stage 1
@@ -136,7 +195,7 @@ tag app
 	<self>
 		<div.app-shell>
 			if self.view == 'landing'
-				<landing-page @learn=(do self.show-learn!) @recall=(do self.show-recall!)>
+				<landing-page theme=self.theme @toggle-theme=(do self.toggle-theme!) @learn=(do self.show-learn!) @recall=(do self.show-recall!)>
 			elif self.view == 'learn'
 				<learn-page @close=(do self.show-landing!)>
 			else
