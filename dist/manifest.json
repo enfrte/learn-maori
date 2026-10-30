@@ -1,0 +1,15 @@
+{
+  "entry:src/main.imba?web": {
+    "url": "/assets/main.LOY2YBHR.js",
+    "path": "/home/leon/dev/learn-maori/dist/assets/main.LOY2YBHR.js"
+  },
+  "*?css": {
+    "url": "/assets/index.5INVF13N.css",
+    "path": "/home/leon/dev/learn-maori/dist/assets/index.5INVF13N.css"
+  },
+  "/index.html": {},
+  "/assets/main.LOY2YBHR.js": {},
+  "/assets/main.IT27BPZD.css": {},
+  "/assets/index.5INVF13N.css": {},
+  "main": "index.html"
+}
