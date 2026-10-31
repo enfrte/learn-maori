@@ -1,6 +1,6 @@
 # learn-maori
 
-Trying out imba to make a language learning app. 
+Trying out imba to make a language learning PWA app. 
 
 ## Demo
 
