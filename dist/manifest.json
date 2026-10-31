@@ -1,15 +1,15 @@
 {
   "entry:src/main.imba?web": {
-    "url": "/assets/main.RTMAC4QU.js",
-    "path": "/home/leon/dev/learn-maori/dist/assets/main.RTMAC4QU.js"
+    "url": "/assets/main.QX5LCGVN.js",
+    "path": "/home/leon/dev/learn-maori/dist/assets/main.QX5LCGVN.js"
   },
   "*?css": {
-    "url": "/assets/index.LTBME4GT.css",
-    "path": "/home/leon/dev/learn-maori/dist/assets/index.LTBME4GT.css"
+    "url": "/assets/index.ULDIKGVH.css",
+    "path": "/home/leon/dev/learn-maori/dist/assets/index.ULDIKGVH.css"
   },
   "/index.html": {},
-  "/assets/main.RTMAC4QU.js": {},
-  "/assets/main.56DXZBJB.css": {},
-  "/assets/index.LTBME4GT.css": {},
+  "/assets/main.QX5LCGVN.js": {},
+  "/assets/main.TN4VSKPE.css": {},
+  "/assets/index.ULDIKGVH.css": {},
   "main": "index.html"
 }

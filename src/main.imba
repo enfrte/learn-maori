@@ -20,8 +20,14 @@ global css @root
 	$strong: #0d1713      # emphasized text (word tiles)
 	$muted: #0d1713       # secondary text and borders' contrast companion
 	$border: warm4      # outlines on quiet buttons
-	$error: red7        # error text links
+	$error: red5        # error text links
 	$ok: green6         # success text
+	# Māori color palette...
+	$mi-flax-fiber: #e9eeac 
+	$mi-greenstone: #263f2d 
+	$mi-red-ochre: #a53c24 
+	$mi-fire: #f68b29 
+	$mi-black: #0d1713
 
 global css html.dark
 	$bg: warm8
@@ -31,7 +37,7 @@ global css html.dark
 	$strong: warm1
 	$muted: warm4
 	$border: warm5
-	$error: red3
+	$error: red5
 	$ok: green4
 
 global css body inset:0 m:0 bg:$bg c:$text ff:Arial
@@ -49,21 +55,26 @@ global css .card h2 m:0 mb:2 fs:1.2rem
 global css .card p c:$muted m:0
 global css .row d:flex gap:3 flex-wrap:wrap mt:4
 global css .footer d:flex gap:3 flex-wrap:wrap ai:center mt:4
+# Buttons
+global css .next-btn bg:$mi-greenstone c:white rd:4 p:3 flex:1 1 100% d:block fs:1.2rem fw:700 
+global css .mi-red-ochre-btn c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:$mi-red-ochre @hover:#a53c24
 global css .primary c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:#263f2d @hover:#a53c24
 global css .secondary c:$muted p:3 px:5 rd:4 fs:1rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
+global css .primary c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:#263f2d @hover:#a53c24
 global css .back c:$muted p:2 px:3 rd:4 fs:0.9rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
 global css .disabled o:0.45 pe:none
 global css .danger bg:transparent fs:0.85rem p:2 rd:2 cursor:pointer bd:0 c:$muted @hover:$error
-global css .theme-toggle bg:transparent fs:0.85rem p:2 px:3 rd:2 cursor:pointer bd:0 c:$muted @hover:$text
 global css .word-list d:flex flex-wrap:wrap gap:3
 global css .word bg:$surface rd:4 p:3 min-width:180px flex:1 1 220px
 global css .word .mi d:block fs:1.5rem fw:700 c:$strong
 global css .word .en d:block fs:0.95rem c:$muted mt:1
+global css .options-btn bg:$surface rd:4 p:3 flex:1 1 100% d:block fs:1.2rem fw:500 c:$strong
 global css .tracker c:$muted mb:3 fs:0.95rem
 global css .feedback mt:3 c:$error fs:1rem
 global css .feedback.ok c:$ok
 global css .plain-btn bg:$surface
 global css .hr h:2px c:$surface bg:$surface border:0
+global css .theme-toggle bg:transparent fs:0.85rem p:2 px:3 rd:2 cursor:pointer bd:0 c:$muted @hover:$text
 
 
 # ---- theme bootstrap ----
@@ -129,7 +140,7 @@ tag landing-page
 			<p> "Review new words, then test recall from word to English and back."
 			<div.row>
 				<button.primary @click=(self.emit('learn'))> "Learn new words"
-				<button.secondary
+				<button.mi-red-ochre-btn
 					.disabled=(self.loaded and !self.learned-ids.length)
 					@click=(self.emit('recall'))>
 					"Recall learned words ({self.learned-ids.length})"

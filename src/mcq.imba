@@ -12,7 +12,7 @@ tag mcq
 	css .opt w:100% ta:left p:3 fs:1.1rem rd:4 bg:gray2 c:warm9
 		bd:2px solid transparent @hover:indigo4
 	css .right bd:2px solid green5
-	css .wrong bg:red3 bd:2px solid red5
+	css .wrong bg:$error bd:2px solid red5
 	css .dim o:0.45
 
 	def pick-opt opt
@@ -27,9 +27,9 @@ tag mcq
 	<self>
 		if self.q
 			<div.q-prompt> self.q.prompt
-			<div.q-options>
+			<div.word-list>
 				for opt in self.q.options
-					<button.primary
+					<div.options-btn
 						.right=(self.q.pick and opt == self.q.correct)
 						.wrong=(self.q.pick and self.q.pick != self.q.correct and opt == self.q.pick)
 						.dim=(self.q.pick and opt != self.q.correct and opt != self.q.pick)

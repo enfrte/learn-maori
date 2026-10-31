@@ -1,7 +1,7 @@
 # learn-maori
 Trying out imba to make a language learning app
 
-### Color pallet
+### Color palette
 
 #e9eeac muka
 #263f2d pounamu

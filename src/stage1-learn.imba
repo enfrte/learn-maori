@@ -127,7 +127,7 @@ tag learn-page
 							<div.mi> w.mi
 							<div.en> english(w)
 				<div.row>
-					<button.primary @click=self.start-quiz('maori-en')> "Test me"
+					<button.next-btn @click=self.start-quiz('maori-en')> "Test me"
 			else
 				<div.tracker> "Kua oti! You have learned every word in the dictionary."
 		elif self.phase == 'quiz'
@@ -140,4 +140,4 @@ tag learn-page
 				else
 					<div.feedback> "It will come back around in a moment."
 				<div.row>
-					<button.primary @click=self.advance> "Continue"
+					<button.next-btn @click=self.advance> "Continue"

@@ -111,4 +111,4 @@ tag recall-page
 				else
 					<div.feedback> "Not quite - it will come back around soon."
 				<div.row>
-					<button.primary @click=self.advance> "Next"
+					<button.next-btn @click=self.advance> "Next"
