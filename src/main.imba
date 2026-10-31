@@ -58,7 +58,6 @@ global css .footer d:flex gap:3 flex-wrap:wrap ai:center mt:4
 # Buttons
 global css .next-btn bg:$mi-greenstone c:white rd:4 p:3 flex:1 1 100% d:block fs:1.2rem fw:700 
 global css .mi-red-ochre-btn c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:$mi-red-ochre @hover:#a53c24
-global css .primary c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:#263f2d @hover:#a53c24
 global css .secondary c:$muted p:3 px:5 rd:4 fs:1rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
 global css .primary c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:#263f2d @hover:#a53c24
 global css .back c:$muted p:2 px:3 rd:4 fs:0.9rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
@@ -76,6 +75,7 @@ global css .plain-btn bg:$surface
 global css .hr h:2px c:$surface bg:$surface border:0
 global css .theme-toggle fs:0.85rem p:2 px:3 rd:2 cursor:pointer bd:0 c:$muted @hover:$text
 
+const IS_DEV = location.hostname == 'localhost'
 
 # ---- theme bootstrap ----
 # Light is the default. A saved "dark" preference adds the `dark` class
@@ -122,6 +122,9 @@ tag landing-page
 		self.emit('toggle-theme')
 
 	<self>
+		if IS_DEV
+			<div [bg:yellow c:black p:2 bd:3px solid red]>
+				"Warning! Debug mode: On"
 		<div.hero>
 			<h1> "Learn Māori"
 			<p.lead> "Learn te reo Māori, one word at a time. Pick a stage below - your progress is saved automatically on this device."

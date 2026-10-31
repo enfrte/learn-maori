@@ -5,6 +5,7 @@ import rawText from '../maori-english-dictionary.jsonl?text'
 
 let words = []
 let groups = {}
+const IS_DEV = location.hostname == 'localhost'
 
 def english e
 	e.en.length ? e.en[0] : ''
@@ -22,6 +23,7 @@ export def shuffled arr
 	copy
 
 def add-picks picks, used-mi, used-en, pool, want
+	pool = shuffled(pool)
 	for w in pool
 		if picks.length >= want
 			break
@@ -30,6 +32,8 @@ def add-picks picks, used-mi, used-en, pool, want
 		used-mi[w.mi] = yes
 		used-en[english(w)] = yes
 		picks.push(w)
+	if IS_DEV
+		# console.log 'add-picks - picks', picks
 	return
 
 # Parse the packaged dictionary once on import.
@@ -71,6 +75,9 @@ export def pickUnseen n, excluded
 		if excluded-set.has(w.id)
 			continue
 		unseen.push(w)
+	if IS_DEV
+		# console.log('pickUnseen - unseen', unseen)
+		# console.log('pickUnseen - excluded-set', excluded-set)
 	shuffled(unseen).slice(0, n)
 
 # Multiple-choice decoys for a word. Words from the same grammatical
@@ -84,4 +91,7 @@ export def distractors entry, want = 3
 	add-picks(picks, used-mi, used-en, (groups[entry.gr] or []), want)
 	if picks.length < want
 		add-picks(picks, used-mi, used-en, words, want)
+	if IS_DEV
+		# console.log('pickUnseen - used-mi', used-mi)
+		# console.log('pickUnseen - used-en', used-en)
 	picks
