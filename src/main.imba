@@ -147,9 +147,6 @@ tag landing-page
 		<div.card.locked>
 			<h2> "Stage 2"
 			<p> "To be announced."
-		<div.card.locked>
-			<h2> "Stage 3"
-			<p> "To be announced."
 		<hr.hr>
 		<div.footer>
 			<button.danger.plain-btn @click=(do self.reset-all!)> "Reset progress"
