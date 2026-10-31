@@ -2,7 +2,7 @@
   "name": "learn-maori",
   "scripts": {
     "dev": "imba -w index.html",
-    "build": "imba build index.html"
+    "build": "imba build index.html && cp -r static/. dist/"
   },
   "devDependencies": {
     "imba": "^2.0.0-alpha.253"
