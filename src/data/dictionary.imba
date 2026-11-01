@@ -1,4 +1,4 @@
-import rawText from '../maori-english-dictionary-commonly-ordered.jsonl?text'
+import rawText from '../mi-en-dic-commonly-ordered-reduced.jsonl?text'
 
 # Dictionary ids are stable indexes: the position of the word in the
 # packaged dictionary file. All progress in the data store refers to these ids.
