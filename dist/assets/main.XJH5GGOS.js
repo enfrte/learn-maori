@@ -2682,7 +2682,6 @@ var qg=Object.create;var Yo=Object.defineProperty;var Bg=Object.getOwnPropertyDe
 {"mi": "haere rā", "gr": "intj", "en": ["goodbye (said by one staying to one going)"]}
 {"mi": "kia ora", "gr": "intj", "en": ["A greeting (salutation) said when meeting someone or acknowledging someone’s arrival or presence.", "An expression of gratitude (similar to cheers!).", "An expression of support or agreement (similar to hear hear)."]}
 {"mi": "Tāke", "gr": "name", "en": ["Turkey (a country located in Eastern Thrace in Southeastern Europe and Anatolia in West Asia)"]}
-{"mi": "i/languages M to Z", "gr": "particle", "en": ["from", "past-tense verbal particle", "particle indicating the direct object of a transitive sentence", "past-tense particle indicating location"]}
 {"mi": "mangamangaiatua", "gr": "intj", "en": ["abracadabra"]}
 {"mi": "mirumiru", "gr": "noun", "en": ["alternative form of miromiro (“North Island tomtit”)"]}
 {"mi": "haere mai", "gr": "verb", "en": ["come"]}
