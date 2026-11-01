@@ -1,4 +1,4 @@
-import rawText from '../maori-english-dictionary.jsonl?text'
+import rawText from '../maori-english-dictionary-commonly-ordered.jsonl?text'
 
 # Dictionary ids are stable indexes: the position of the word in the
 # packaged dictionary file. All progress in the data store refers to these ids.
@@ -76,9 +76,9 @@ export def pickUnseen n, excluded
 			continue
 		unseen.push(w)
 	if IS_DEV
-		# console.log('pickUnseen - unseen', unseen)
+		# console.log('pickUnseen - unseen', shuffled(unseen).slice(0, n))
 		# console.log('pickUnseen - excluded-set', excluded-set)
-	shuffled(unseen).slice(0, n)
+	unseen.slice(0, n) # shuffled(unseen).slice(0, n)
 
 # Multiple-choice decoys for a word. Words from the same grammatical
 # class are preferred so options feel plausible; falls back to any word.

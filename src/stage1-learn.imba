@@ -6,6 +6,9 @@ let BATCH = 5
 def english e
 	e.en.length ? e.en[0] : ''
 
+def grammar g
+	g.gr.length ? g.gr : ''
+
 # Stage 1 - Learning mode.
 # Reviews a batch of 5 new words, then tests recall in both directions.
 # Words answered wrongly come back around until every word is recalled.
@@ -62,12 +65,26 @@ tag learn-page
 			let options = [english(entry)]
 			for w in distractors(entry, 3)
 				options.push(english(w))
-			self.question = {entry: entry, prompt: "What does “{entry.mi}” mean?", options: shuffled(options), correct: english(entry), pick: null, was-right: no}
+			self.question = {
+				entry: entry, 
+				prompt: "What does “{entry.mi}” ({entry.gr}) mean?", 
+				options: shuffled(options), 
+				correct: english(entry), 
+				pick: null, 
+				was-right: no
+			}
 		else
 			let options = [entry.mi]
 			for w in distractors(entry, 3)
 				options.push(w.mi)
-			self.question = {entry: entry, prompt: "How do you say “{english(entry)}” in te reo Māori?", options: shuffled(options), correct: entry.mi, pick: null, was-right: no}
+			self.question = {
+				entry: entry, 
+				prompt: "How do you say “{english(entry)}” ({grammar(entry)}) in te reo Māori?", 
+				options: shuffled(options), 
+				correct: entry.mi, 
+				pick: null, 
+				was-right: no
+			}
 
 	def answer-picked opt
 		# double-picks are already blocked inside the mcq component
@@ -124,7 +141,9 @@ tag learn-page
 				<div.word-list>
 					for w in self.batch
 						<div.word key=w.id> 
-							<div.mi> w.mi
+							<span.mi> w.mi 
+							<span.gr>
+								<i> w.gr
 							<div.en> english(w)
 				<div.row>
 					<button.next-btn @click=self.start-quiz('maori-en')> "Test me"

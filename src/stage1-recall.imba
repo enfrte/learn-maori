@@ -4,6 +4,9 @@ import {loadProgress, keyLearned} from './data/store'
 def english e
 	e.en.length ? e.en[0] : ''
 
+def grammar g = {}
+	g.gr ?? ''
+
 def ascending a, b
 	a - b
 
@@ -50,7 +53,13 @@ tag recall-page
 		let options = [entry.mi]
 		for w in distractors(entry, 3)
 			options.push(w.mi)
-		self.question = {prompt: "How do you say “{english(entry)}” in te reo Māori?", options: shuffled(options), correct: entry.mi, pick: null, was-right: no}
+		self.question = {
+			prompt: "How do you say “{english(entry)}” ({grammar(entry)}) in te reo Māori?", 
+			options: shuffled(options), 
+			correct: entry.mi, 
+			pick: null, 
+			was-right: no
+		}
 
 	def answer-picked opt
 		# double-picks are already blocked inside the mcq component

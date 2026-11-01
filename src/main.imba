@@ -65,8 +65,9 @@ global css .disabled o:0.45 pe:none
 global css .danger bg:transparent fs:0.85rem p:2 rd:2 cursor:pointer bd:0 c:$muted @hover:$error
 global css .word-list d:flex flex-wrap:wrap gap:3
 global css .word bg:$surface rd:4 p:3 min-width:180px flex:1 1 220px
-global css .word .mi d:block fs:1.5rem fw:700 c:$strong
+global css .word .mi d:inline fs:1.5rem fw:700 c:$strong
 global css .word .en d:block fs:0.95rem c:$muted mt:1
+global css .word .gr d:inline fs:0.95rem c:$muted px:2
 global css .options-btn bg:$surface rd:4 p:5 flex:1 1 100% d:block fs:1.2rem fw:500 c:$strong cursor:pointer
 global css .tracker c:$muted mb:3 fs:0.95rem
 global css .feedback mt:3 c:$error fs:1rem
