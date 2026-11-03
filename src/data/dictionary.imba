@@ -1,11 +1,11 @@
-import rawText from '../mi-en-dic-commonly-ordered-reduced.jsonl?text'
+import {topicId, rawText} from './topics'
 
-# Dictionary ids are stable indexes: the position of the word in the
-# packaged dictionary file. All progress in the data store refers to these ids.
+# Topic dictionaries.
+# Ids are stable indexes per topic: the position of the word in the topic's
+# packaged .jsonl file. All progress in the data store refers to these ids.
 
-let words = []
-let groups = {}
 const IS_DEV = location.hostname == 'localhost'
+let byTopic = {}
 
 def english e
 	e.en.length ? e.en[0] : ''
@@ -36,23 +36,36 @@ def add-picks picks, used-mi, used-en, pool, want
 		# console.log 'add-picks - picks', picks
 	return
 
-# Parse the packaged dictionary once on import.
-for rawLine in rawText.split("\n")
-	let line = rawLine.trim!
-	unless line
-		continue
-	let item = JSON.parse(line)
-	let entry = {id: words.length, mi: item.mi, gr: item.gr, en: item.en or []}
-	words.push(entry)
-	if !groups[entry.gr]
-		groups[entry.gr] = []
-	groups[entry.gr].push(entry)
+# Parses one packaged topic file into {words, groups}.
+def parse text
+	let words = []
+	let groups = {}
+	for rawLine in text.split("\n")
+		let line = rawLine.trim!
+		unless line
+			continue
+		let item = JSON.parse(line)
+		let entry = {id: words.length, mi: item.mi, gr: item.gr, en: item.en or []}
+		words.push(entry)
+		if !groups[entry.gr]
+			groups[entry.gr] = []
+		groups[entry.gr].push(entry)
+	{words: words, groups: groups}
 
-export def word id
-	words[id]
+# Parses and memoizes each topic's dictionary on first use. Functions take
+# the topic as its id string or the topic record from data/topics.
+export def topicDict topic
+	let id = topicId(topic)
+	unless byTopic[id]
+		let text = rawText(id)
+		byTopic[id] = text ? parse(text) : {words: [], groups: {}}
+	byTopic[id]
 
-export def wordCount
-	words.length
+export def word topic, id
+	topicDict(topic).words[id]
+
+export def wordCount topic
+	topicDict(topic).words.length
 
 export def toIds entries
 	let ids = []
@@ -60,18 +73,18 @@ export def toIds entries
 		ids.push(e.id)
 	ids
 
-export def learnedStats learned-ids
-	let total = words.length
+export def learnedStats topic, learned-ids
+	let total = topicDict(topic).words.length
 	let count = learned-ids.length
 	let percent = total ? Math.round(count * 100 / total) : 0
 	{count: count, total: total, percent: percent}
 
 # Picks n random words the student has not seen yet,
 # excluding every id in the excluded collection.
-export def pickUnseen n, excluded
+export def pickUnseen topic, n, excluded
 	let excluded-set = new Set(excluded or [])
 	let unseen = []
-	for w in words
+	for w in topicDict(topic).words
 		if excluded-set.has(w.id)
 			continue
 		unseen.push(w)
@@ -82,15 +95,16 @@ export def pickUnseen n, excluded
 
 # Multiple-choice decoys for a word. Words from the same grammatical
 # class are preferred so options feel plausible; falls back to any word.
-export def distractors entry, want = 3
+export def distractors topic, entry, want = 3
+	let dict = topicDict(topic)
 	let picks = []
 	let used-mi = {}
 	let used-en = {}
 	used-mi[entry.mi] = yes
 	used-en[english(entry)] = yes
-	add-picks(picks, used-mi, used-en, (groups[entry.gr] or []), want)
+	add-picks(picks, used-mi, used-en, (dict.groups[entry.gr] or []), want)
 	if picks.length < want
-		add-picks(picks, used-mi, used-en, words, want)
+		add-picks(picks, used-mi, used-en, dict.words, want)
 	if IS_DEV
 		# console.log('pickUnseen - used-mi', used-mi)
 		# console.log('pickUnseen - used-en', used-en)

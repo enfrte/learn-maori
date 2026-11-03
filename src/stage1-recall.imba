@@ -1,5 +1,6 @@
 import {word, distractors, shuffled} from './data/dictionary'
 import {loadProgress, keyLearned} from './data/store'
+import {topicById} from './data/topics'
 
 def english e
 	e.en.length ? e.en[0] : ''
@@ -10,10 +11,10 @@ def grammar g = {}
 def ascending a, b
 	a - b
 
-# Stage 1 - Recall mode.
-# Tests every word from the "learned" store. The queue starts at the lowest
-# dictionary id. A correct answer moves the word to the last position of the
-# queue; a wrong answer moves it 5 places after the current position.
+# Topics - Recall mode.
+# Tests every word from the topic's "learned" store. The queue starts at
+# the lowest topic id. A correct answer moves the word to the last position
+# of the queue; a wrong answer moves it 5 places after the current position.
 
 tag recall-page
 	phase = 'loading'    # loading | empty | quiz | done
@@ -22,12 +23,17 @@ tag recall-page
 	question = null      # {prompt, options, correct, pick, was-right}
 	answered = 0
 	correct = 0
+	topic = ''           # topic id, passed in when the page is opened
+
+	get topic-label
+		let t = topicById(self.topic)
+		t ? t.label : 'Topic'
 
 	def mount
 		await self.setup!
 
 	def setup
-		let learned = await loadProgress(keyLearned)
+		let learned = await loadProgress(keyLearned(self.topic))
 		unless learned.length
 			self.phase = 'empty'
 			imba.commit!
@@ -39,7 +45,7 @@ tag recall-page
 		imba.commit!
 
 	def update-question
-		let entry = word(self.queue[self.pos])
+		let entry = word(self.topic, self.queue[self.pos])
 		unless entry
 			# dangling id (dictionary changed) - drop it from the queue
 			self.queue.splice(self.pos, 1)
@@ -51,7 +57,7 @@ tag recall-page
 				return
 			return self.update-question!
 		let options = [entry.mi]
-		for w in distractors(entry, 3)
+		for w in distractors(self.topic, entry, 3)
 			options.push(w.mi)
 		self.question = {
 			prompt: "How do you say “{english(entry)}” ({grammar(entry)}) in te reo Māori?", 
@@ -103,11 +109,11 @@ tag recall-page
 	<self>
 		<div.page-head>
 			<button.back @click=self.emit('close')> "Back"
-			<h1> "Stage 1 · Recall words"
+			<h1> "{self.topic-label} · Recall words"
 		if self.phase == 'loading'
 			<div.tracker> "Loading progress…"
 		elif self.phase == 'empty'
-			<div.tracker> "No learned words yet. Learn some words in Stage 1 first."
+			<div.tracker> "No learned words yet. Learn some words first."
 		elif self.phase == 'done'
 			<div.tracker> "All recalls complete!"
 		else

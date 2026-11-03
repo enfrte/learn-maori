@@ -1,5 +1,6 @@
 import {pickUnseen, word, distractors, shuffled, toIds} from './data/dictionary'
 import {loadProgress, saveProgress, keyInProgress, keyLearned} from './data/store'
+import {topicById} from './data/topics'
 
 let BATCH = 5
 
@@ -9,11 +10,11 @@ def english e
 def grammar g
 	g.gr.length ? g.gr : ''
 
-# Stage 1 - Learning mode.
+# Topics - Learning mode.
 # Reviews a batch of 5 new words, then tests recall in both directions.
 # Words answered wrongly come back around until every word is recalled.
-# A completed batch moves from "in-progress" into the "learned" store,
-# and a new batch of 5 words follows, repeating the process.
+# A completed batch moves from the topic's "in-progress" store into its
+# "learned" store, and a new batch of 5 words follows, repeating the process.
 
 tag learn-page
 	phase = 'loading'    # loading | review | quiz
@@ -23,25 +24,30 @@ tag learn-page
 	question = null      # {entry, prompt, options, correct, pick, was-right}
 	attempts = 0
 	misses = 0
+	topic = ''           # topic id, passed in when the page is opened
+
+	get topic-label
+		let t = topicById(self.topic)
+		t ? t.label : 'Topic'
 
 	def mount
 		await self.setup!
 
 	def setup
-		let stored-ids = await loadProgress(keyInProgress)
-		let learned-ids = await loadProgress(keyLearned)
+		let stored-ids = await loadProgress(keyInProgress(self.topic))
+		let learned-ids = await loadProgress(keyLearned(self.topic))
 		# resume an unfinished batch, otherwise pick 5 unseen words
-		let ids = stored-ids.length ? stored-ids : toIds(pickUnseen(BATCH, learned-ids))
+		let ids = stored-ids.length ? stored-ids : toIds(pickUnseen(self.topic, BATCH, learned-ids))
 		self.batch = self.entries-for(ids)
 		if !stored-ids.length
-			await saveProgress(keyInProgress, toIds(self.batch))
+			await saveProgress(keyInProgress(self.topic), toIds(self.batch))
 		self.phase = 'review'
 		imba.commit!
 
 	def entries-for ids
 		let entries = []
 		for id in ids
-			let w = word(id)
+			let w = word(self.topic, id)
 			if w
 				entries.push(w)
 		entries
@@ -63,7 +69,7 @@ tag learn-page
 		let entry = self.queue[0]
 		if self.round == 'maori-en'
 			let options = [english(entry)]
-			for w in distractors(entry, 3)
+			for w in distractors(self.topic, entry, 3)
 				options.push(english(w))
 			self.question = {
 				entry: entry, 
@@ -75,11 +81,11 @@ tag learn-page
 			}
 		else
 			let options = [entry.mi]
-			for w in distractors(entry, 3)
+			for w in distractors(self.topic, entry, 3)
 				options.push(w.mi)
 			self.question = {
 				entry: entry, 
-				prompt: "How do you say “{english(entry)}” ({grammar(entry)}) in te reo Māori?", 
+				prompt: "What does “{english(entry)}” ({grammar(entry)}) mean?", 
 				options: shuffled(options), 
 				correct: entry.mi, 
 				pick: null, 
@@ -117,22 +123,22 @@ tag learn-page
 	def complete-batch
 		# guard against repeated "Continue" clicks while saving
 		self.phase = 'review'
-		let learned = await loadProgress(keyLearned)
+		let learned = await loadProgress(keyLearned(self.topic))
 		for w in self.batch
 			if learned.indexOf(w.id) == -1
 				learned.push(w.id)
-		await saveProgress(keyLearned, learned)
-		await saveProgress(keyInProgress, [])
+		await saveProgress(keyLearned(self.topic), learned)
+		await saveProgress(keyInProgress(self.topic), [])
 		# 5 new words are presented and the process repeats
-		let unseen-ids = toIds(pickUnseen(BATCH, learned))
-		await saveProgress(keyInProgress, unseen-ids)
+		let unseen-ids = toIds(pickUnseen(self.topic, BATCH, learned))
+		await saveProgress(keyInProgress(self.topic), unseen-ids)
 		self.batch = self.entries-for(unseen-ids)
 		imba.commit!
 
 	<self>
 		<div.page-head>
 			<button.back @click=self.emit('close')> "Back"
-			<h1> "Stage 1 · Learn words"
+			<h1> "{self.topic-label} · Learn words"
 		if self.phase == 'loading'
 			<div.tracker> "Loading progress…"
 		elif self.phase == 'review'
@@ -148,7 +154,7 @@ tag learn-page
 				<div.row>
 					<button.next-btn @click=self.start-quiz('maori-en')> "Test me"
 			else
-				<div.tracker> "Kua oti! You have learned every word in the dictionary."
+				<div.tracker> "Kua oti! You have learned every word in this topic."
 		elif self.phase == 'quiz'
 			<div.tracker>
 				"{self.round == 'maori-en' ? 'Word → English' : 'English → Word'} · {self.queue.length} to go · {self.misses} retries"

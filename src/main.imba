@@ -1,6 +1,7 @@
 import {learnedStats} from './data/dictionary'
 import {loadProgress, resetAll, keyInProgress, keyLearned} from './data/store'
 import {loadSetting, saveSetting, keyTheme} from './data/store'
+import {TOPICS, TOPIC_NOUNS, topicById} from './data/topics'
 
 import './mcq'
 import './stage1-learn'
@@ -89,34 +90,40 @@ let startTheme = (loadSetting(keyTheme) == 'dark') ? 'dark' : 'light'
 set-theme(startTheme)
 
 # ---- landing page ----
-# Introduction, progress stats and stage selection.
+# Introduction, per-topic progress stats and topic selection.
 
 tag landing-page
 	loaded = no
 	theme = 'light'      # light | dark (prop, owned by app)
-	inprogress-ids = []
-	learned-ids = []
-	stats = {count: 0, total: 0, percent: 0}
+	learned = {}         # topic id -> learned ids
+	inprogress = {}      # topic id -> in-progress ids
 
 	def mount
 		await self.refresh!
 
 	def refresh
-		let inProgress = await loadProgress(keyInProgress)
-		let learned = await loadProgress(keyLearned)
-		self.inprogress-ids = inProgress
-		self.learned-ids = learned
-		self.stats = learnedStats(learned)
+		for t in TOPICS
+			self.learned[t.id] = await loadProgress(keyLearned(t.id))
+			self.inprogress[t.id] = await loadProgress(keyInProgress(t.id))
 		self.loaded = yes
 		imba.commit!
 
+	def learned-for t
+		self.learned[t.id] or []
+
+	def inprogress-for t
+		self.inprogress[t.id] or []
+
+	def stats-for t
+		learnedStats(t, self.learned-for(t))
+
 	def reset-all
-		unless global.confirm('Reset all progress? This clears learned and in-progress words.')
+		unless global.confirm('Reset all progress? This clears learned and in-progress words for every topic.')
 			return
 		await resetAll!
-		self.learned-ids = []
-		self.inprogress-ids = []
-		self.stats = learnedStats([])
+		for t in TOPICS
+			self.learned[t.id] = []
+			self.inprogress[t.id] = []
 		imba.commit!
 
 	def toggle-theme
@@ -128,28 +135,21 @@ tag landing-page
 				"Warning! Debug mode: On"
 		<div.hero>
 			<h1> "Learn Māori"
-			<p.lead> "Learn te reo Māori, one word at a time. Pick a stage below - your progress is saved automatically on this device."
-		<div.stats>
-			<div>
-				<span.label> "Learned"
-				<span.value> "{self.stats.percent}%"
-			<div>
-				<span.label> "Words"
-				<span.value> "{self.stats.count} / {self.stats.total}"
-			<div>
-				<span.label> "In progress now"
-				<span.value> "{self.inprogress-ids.length}"
-		<div.stage-card.card>
-			<h2> "Stage 1 · Single words"
-			<p> "Review new words, then test recall from word to English and back."
-			<div.row>
-				<button.primary @click=(self.emit('learn'))> "Learn new words"
-				<button.mi-red-ochre-btn
-					.disabled=(self.loaded and !self.learned-ids.length)
-					@click=(self.emit('recall'))>
-					"Recall learned words ({self.learned-ids.length})"
+			<p.lead> "Learn te reo Māori, one word at a time. Pick a topic below - your progress is saved automatically on this device."
+		for t in TOPICS
+			<div.stage-card.card key=t.id>
+				<h2> t.label
+				<p> "Review new words, then test recall from word to English and back."
+				<div.tracker>
+					"Learned {self.stats-for(t).count} / {self.stats-for(t).total} ({self.stats-for(t).percent}%) · {self.inprogress-for(t).length} in progress"
+				<div.row>
+					<button.primary @click=(self.emit('learn', t.id))> "Learn new words"
+					<button.mi-red-ochre-btn
+						.disabled=(self.loaded and !self.learned-for(t).length)
+						@click=(self.emit('recall', t.id))>
+						"Recall learned words ({self.learned-for(t).length})"
 		<div.card.locked>
-			<h2> "Stage 2"
+			<h2> "More topics"
 			<p> "To be announced."
 		<hr.hr>
 		<div.footer>
@@ -166,6 +166,7 @@ tag landing-page
 tag app
 	view = 'landing'    # landing | learn | recall
 	theme = startTheme  # light | dark, default light
+	topic = TOPIC_NOUNS.id  # topic id for the learn/recall views
 
 	def toggle-theme
 		self.theme = self.theme == 'light' ? 'dark' : 'light'
@@ -173,21 +174,25 @@ tag app
 		saveSetting(keyTheme, self.theme)
 
 	def mount
-		# deep links: #learn or #recall land directly in stage 1
+		# deep links: #learn/<topic> or #recall/<topic> land directly in a topic
 		self.sync-hash!
 		global.addEventListener('hashchange', do self.sync-hash!)
 
 	def sync-hash
-		let hash = self.location-hash
-		if hash == 'learn'
-			unless self.view == 'learn'
+		let parts = self.location-hash.split('/')
+		let view = parts[0]
+		let topic = topicById(parts[1]) ? parts[1] : TOPIC_NOUNS.id
+		if view == 'learn'
+			unless self.view == 'learn' and self.topic == topic
+				self.topic = topic
 				self.view = 'learn'
 				imba.commit!
-		elif hash == 'recall'
-			unless self.view == 'recall'
+		elif view == 'recall'
+			unless self.view == 'recall' and self.topic == topic
+				self.topic = topic
 				self.view = 'recall'
 				imba.commit!
-		elif hash == ''
+		elif view == ''
 			unless self.view == 'landing'
 				self.view = 'landing'
 				imba.commit!
@@ -195,10 +200,12 @@ tag app
 	get location-hash
 		(global.location.hash or '').replace('#', '')
 
-	def show-learn
+	def show-learn topic
+		self.topic = topic
 		self.view = 'learn'
 
-	def show-recall
+	def show-recall topic
+		self.topic = topic
 		self.view = 'recall'
 
 	def show-landing
@@ -207,10 +214,13 @@ tag app
 	<self>
 		<div.app-shell>
 			if self.view == 'landing'
-				<landing-page theme=self.theme @toggle-theme=(do self.toggle-theme!) @learn=(do self.show-learn!) @recall=(do self.show-recall!)>
+				<landing-page theme=self.theme
+					@toggle-theme=(do self.toggle-theme!)
+					@learn=(do(e) self.show-learn(e.detail))
+					@recall=(do(e) self.show-recall(e.detail))>
 			elif self.view == 'learn'
-				<learn-page @close=(do self.show-landing!)>
+				<learn-page topic=self.topic @close=(do self.show-landing!)>
 			else
-				<recall-page @close=(do self.show-landing!)>
+				<recall-page topic=self.topic @close=(do self.show-landing!)>
 
 imba.mount <app>

@@ -1,0 +1,261 @@
+{"mi": "nui", "gr": "adj", "en": ["big"]}
+{"mi": "kore", "gr": "adj", "en": ["without (not having)"]}
+{"mi": "pai", "gr": "adj", "en": ["good", "excellent", "suitable", "nice", "pleasant"]}
+{"mi": "kino", "gr": "adj", "en": ["bad", "gory"]}
+{"mi": "hōu", "gr": "adj", "en": ["new (recently made or created)"]}
+{"mi": "roa", "gr": "adj", "en": ["long", "tall", "slow"]}
+{"mi": "noa", "gr": "adj", "en": ["common, ordinary"]}
+{"mi": "rawa", "gr": "adj", "en": ["many, numerous"]}
+{"mi": "tapu", "gr": "adj", "en": ["holy, sacred, consecrated", "restricted, prohibited, forbidden"]}
+{"mi": "hē", "gr": "adj", "en": ["wrong"]}
+{"mi": "makariri", "gr": "adj", "en": ["cold"]}
+{"mi": "mahana", "gr": "adj", "en": ["warm (of temperature)", "cordial (of atmosphere)"]}
+{"mi": "reka", "gr": "adj", "en": ["nice, pleasant", "sweet (of taste)", "tasty"]}
+{"mi": "rongonui", "gr": "adj", "en": ["famous; well-known; renowned"]}
+{"mi": "rangatira", "gr": "adj", "en": ["chiefly", "highborn", "high-ranking"]}
+{"mi": "mārama", "gr": "adj", "en": ["lucid, clear, bright", "transparent"]}
+{"mi": "whero", "gr": "adj", "en": ["red", "bright, shining"]}
+{"mi": "kākāriki", "gr": "adj", "en": ["green"]}
+{"mi": "mangu", "gr": "adj", "en": ["black"]}
+{"mi": "parauri", "gr": "adj", "en": ["dark (of skin colour)"]}
+{"mi": "hira", "gr": "adj", "en": ["great", "significant, important", "widespread", "eminent", "of consequence", "notable", "momentous"]}
+{"mi": "hirahira", "gr": "adj", "en": ["great", "significant", "eminent", "of consequence"]}
+{"mi": "whakahirahira", "gr": "adj", "en": ["great", "magnificent", "wonderful", "inspiring"]}
+{"mi": "māmā", "gr": "adj", "en": ["light, of little weight", "nimble, of low effort", "easy, simple, not difficult", "cheap, affordable (of price)"]}
+{"mi": "taimaha", "gr": "adj", "en": ["heavy", "expensive, costly, pricey", "harsh, severe, burdening", "unwell"]}
+{"mi": "mataku", "gr": "adj", "en": ["afraid"]}
+{"mi": "whakamā", "gr": "adj", "en": ["ashamed, shy, bashful, embarrassed"]}
+{"mi": "waimarie", "gr": "adj", "en": ["lucky", "fortuitous"]}
+{"mi": "atawhai", "gr": "adj", "en": ["kind, generous"]}
+{"mi": "pono", "gr": "adj", "en": ["true, valid, honest, genuine, sincere"]}
+{"mi": "marino", "gr": "adj", "en": ["calm"]}
+{"mi": "mārie", "gr": "adj", "en": ["peaceful"]}
+{"mi": "tahito", "gr": "adj", "en": ["ancient"]}
+{"mi": "toa", "gr": "adj", "en": ["brave, courageous."]}
+{"mi": "pōhara", "gr": "adj", "en": ["poor; impoverished; destitute"]}
+{"mi": "mōmona", "gr": "adj", "en": ["fatty", "fat, plump", "fertile, rich"]}
+{"mi": "mākona", "gr": "adj", "en": ["satisfied, content"]}
+{"mi": "anuanu", "gr": "adj", "en": ["cold", "offensive, disgusting"]}
+{"mi": "mamao", "gr": "adj", "en": ["far, distant, remote"]}
+{"mi": "pātata", "gr": "adj", "en": ["neighbouring"]}
+{"mi": "āio", "gr": "adj", "en": ["calm", "peaceful"]}
+{"mi": "haumaru", "gr": "adj", "en": ["safe"]}
+{"mi": "piro", "gr": "adj", "en": ["rotten, putrid", "smelly", "disgusting", "offensive", "extinguished, put out", "defeated, beaten (in games)"]}
+{"mi": "pirau", "gr": "adj", "en": ["rotten"]}
+{"mi": "matua", "gr": "adj", "en": ["adult, grown up", "main, chief, important"]}
+{"mi": "rawe", "gr": "adj", "en": ["tight", "suitable, appropriate, becoming", "clever", "excellent"]}
+{"mi": "tea", "gr": "adj", "en": ["white", "light-coloured", "clear, transparent"]}
+{"mi": "oti", "gr": "adj", "en": ["finished", "completed"]}
+{"mi": "māori", "gr": "adj", "en": ["normal, usual, natural, common, ordinary", "native, indigenous, fresh (of water), belonging to Aotearoa/New Zealand, clear, intelligible", "freely, without restraint, without ceremony, without object, unannounced"]}
+{"mi": "tōrangapū", "gr": "adj", "en": ["political"]}
+{"mi": "whaiaro", "gr": "adj", "en": ["self-", "personal"]}
+{"mi": "hangarau", "gr": "adj", "en": ["technological"]}
+{"mi": "mātanga", "gr": "adj", "en": ["sophisticated, experienced"]}
+{"mi": "atamai", "gr": "adj", "en": ["nimble", "intelligent, smart, quickwitted, of sharp mind"]}
+{"mi": "wehi", "gr": "adj", "en": ["terrific, awful"]}
+{"mi": "whakamataku", "gr": "adj", "en": ["frightening"]}
+{"mi": "maitai", "gr": "adj", "en": ["good, beautiful, agreeable", "foreign"]}
+{"mi": "pūkākā", "gr": "adj", "en": ["volatile, fiery, hotheaded"]}
+{"mi": "koi", "gr": "adj", "en": ["sharp"]}
+{"mi": "riki", "gr": "adj", "en": ["small, little", "few"]}
+{"mi": "uaua", "gr": "adj", "en": ["strenuous; pertinacious"]}
+{"mi": "rata", "gr": "adj", "en": ["tame", "quiet"]}
+{"mi": "kakā", "gr": "adj", "en": ["red or glowing hot, inflamed", "smarting", "spicy, pepper hot"]}
+{"mi": "mura", "gr": "adj", "en": ["brilliant or bright in colour"]}
+{"mi": "raki", "gr": "adj", "en": ["dry"]}
+{"mi": "hina", "gr": "adj", "en": ["pale", "grey-haired"]}
+{"mi": "tino", "gr": "adj", "en": ["main, principal", "most, more (intensifier)"]}
+{"mi": "nanu", "gr": "adj", "en": ["mixed, jumbled", "confusing", "incoherent, inarticulate, unintelligible", "contaminated"]}
+{"mi": "heu", "gr": "adj", "en": ["overgrown"]}
+{"mi": "whano", "gr": "adj", "en": ["impending, imminent"]}
+{"mi": "tapa", "gr": "adj", "en": ["split"]}
+{"mi": "hiko", "gr": "adj", "en": ["random, irregular", "electric; electrical; electronic"]}
+{"mi": "horo", "gr": "adj", "en": ["fast, quick, swift"]}
+{"mi": "pōhēhē", "gr": "adj", "en": ["duped, mistaken, confused, misguided", "unsuspecting"]}
+{"mi": "tore", "gr": "adj", "en": ["of keen or sharp eyesight"]}
+{"mi": "pona", "gr": "adj", "en": ["portable, compact"]}
+{"mi": "rū", "gr": "adj", "en": ["seismic, quake"]}
+{"mi": "aitu", "gr": "adj", "en": ["sorrowful", "woeful"]}
+{"mi": "rore", "gr": "adj", "en": ["deceitful"]}
+{"mi": "kawa", "gr": "adj", "en": ["sour"]}
+{"mi": "roki", "gr": "adj", "en": ["calm, tranquil", "settled"]}
+{"mi": "nohopuku", "gr": "adj", "en": ["fasting", "silent"]}
+{"mi": "pī", "gr": "adj", "en": ["sodden"]}
+{"mi": "ware", "gr": "adj", "en": ["distracted", "careless", "ignorant", "viscous, gummy"]}
+{"mi": "whiwhi", "gr": "adj", "en": ["entangled, knotted", "complex, complicated"]}
+{"mi": "auahi", "gr": "adj", "en": ["smoky"]}
+{"mi": "pota", "gr": "adj", "en": ["broken, snapped, chipped into pieces", "few, little"]}
+{"mi": "ioio", "gr": "adj", "en": ["stiff (of legs, muscles after activity)", "not friable", "obstinate"]}
+{"mi": "kato", "gr": "adj", "en": ["flowing (of the tide)", "flooding (of the tide)"]}
+{"mi": "rehu", "gr": "adj", "en": ["misty"]}
+{"mi": "taurekareka", "gr": "adj", "en": ["dastardly", "shameful, dishonorable", "low", "base"]}
+{"mi": "matira", "gr": "adj", "en": ["lookout"]}
+{"mi": "kohu", "gr": "adj", "en": ["concave, warped, cupped", "bent"]}
+{"mi": "mauī", "gr": "adj", "en": ["left (the west side of the body when one is facing north)"]}
+{"mi": "whakamōtī", "gr": "adj", "en": ["destructive, devastating, damaging"]}
+{"mi": "tepe", "gr": "adj", "en": ["clumpy, clotted (of milk)"]}
+{"mi": "tini", "gr": "adj", "en": ["numerous, plenty"]}
+{"mi": "ehu", "gr": "adj", "en": ["turbid"]}
+{"mi": "hāro", "gr": "adj", "en": ["smooth", "calm (of sea)", "low (of tides)"]}
+{"mi": "rato", "gr": "adj", "en": ["spread, distributed", "available"]}
+{"mi": "āwhio", "gr": "adj", "en": ["circuitous, roundabout"]}
+{"mi": "mangeo", "gr": "adj", "en": ["itchy, smarting", "acrid"]}
+{"mi": "one", "gr": "adj", "en": ["granular, granulated"]}
+{"mi": "punua", "gr": "adj", "en": ["small."]}
+{"mi": "matomato", "gr": "adj", "en": ["lush, verdant"]}
+{"mi": "aukati", "gr": "adj", "en": ["exclusive, discriminatory"]}
+{"mi": "autaia", "gr": "adj", "en": ["wondrous, uncanny, extraordinary"]}
+{"mi": "wahangū", "gr": "adj", "en": ["quiet, still", "mute, dumb (unable to speak)", "reserved"]}
+{"mi": "kune", "gr": "adj", "en": ["plump, round"]}
+{"mi": "marangai", "gr": "adj", "en": ["north", "north wind", "northerly"]}
+{"mi": "ngāwhā", "gr": "adj", "en": ["geothermal"]}
+{"mi": "huatau", "gr": "adj", "en": ["elegant, graceful"]}
+{"mi": "ukauka", "gr": "adj", "en": ["prolonged, preserved, long-lasting", "sluggish, slow"]}
+{"mi": "hako", "gr": "adj", "en": ["ugly"]}
+{"mi": "piko", "gr": "adj", "en": ["bent, curved"]}
+{"mi": "roha", "gr": "adj", "en": ["expansive"]}
+{"mi": "rongo", "gr": "adj", "en": ["perceivable, physical"]}
+{"mi": "uta", "gr": "adj", "en": ["inland (from a coastal perspective)", "ashore"]}
+{"mi": "mōhio", "gr": "adj", "en": ["knowledgable, intelligent, clever, bright", "wise", "skillful", "on one's guard, vigilant", "suspicious"]}
+{"mi": "karetao", "gr": "adj", "en": ["robotic, tokenistic, insincere"]}
+{"mi": "ani", "gr": "adj", "en": ["echoing, resounding (i.e. bounces sound waves)"]}
+{"mi": "koru", "gr": "adj", "en": ["coiled, looped"]}
+{"mi": "turi", "gr": "adj", "en": ["deaf (not hearing)"]}
+{"mi": "namu", "gr": "adj", "en": ["blue-green, grue"]}
+{"mi": "pēpē", "gr": "adj", "en": ["mashed, pulped"]}
+{"mi": "tupua", "gr": "adj", "en": ["strange"]}
+{"mi": "aweke", "gr": "adj", "en": ["perverse", "trivial", "frivolous, idle"]}
+{"mi": "kāoa", "gr": "adj", "en": ["coral"]}
+{"mi": "puehu", "gr": "adj", "en": ["dusty", "mealy, floury"]}
+{"mi": "hau", "gr": "adj", "en": ["famous"]}
+{"mi": "kongakonga", "gr": "adj", "en": ["insignificant"]}
+{"mi": "whānako", "gr": "adj", "en": ["thieving"]}
+{"mi": "whaikaha", "gr": "adj", "en": ["having strength", "concentrated", "disabled"]}
+{"mi": "motumotu", "gr": "adj", "en": ["separated", "discrete"]}
+{"mi": "tāhuhu", "gr": "adj", "en": ["eldest", "chief"]}
+{"mi": "anahe", "gr": "adj", "en": ["alone, only"]}
+{"mi": "poro", "gr": "adj", "en": ["broken off"]}
+{"mi": "taikoa", "gr": "adj", "en": ["Of or relating to the established Chinese New Zealand communities of New Zealand, especially their locally developed identity, history, culture, and heritage.", "Of or relating to longstanding Cantonese-descended New Zealand families."]}
+{"mi": "renga", "gr": "adj", "en": ["yellow"]}
+{"mi": "hauku", "gr": "adj", "en": ["damp"]}
+{"mi": "peara", "gr": "adj", "en": ["pearly"]}
+{"mi": "mākutu", "gr": "adj", "en": ["magical (relating to magic)", "supernatural (not of the usual)"]}
+{"mi": "uraura", "gr": "adj", "en": ["reddened, flushed"]}
+{"mi": "hape", "gr": "adj", "en": ["club-footed, having clubfoot i.e. a foot that twists inward", "deformed, crooked", "distorted, unrelated"]}
+{"mi": "kopa", "gr": "adj", "en": ["bent, folded", "crippled, lame"]}
+{"mi": "korukoru", "gr": "adj", "en": ["sagging, droopy (of skin)"]}
+{"mi": "porotaka", "gr": "adj", "en": ["spherical"]}
+{"mi": "pakari", "gr": "adj", "en": ["matured, ripe, aged", "solid, hard, firm"]}
+{"mi": "konene", "gr": "adj", "en": ["wandering, nomadic"]}
+{"mi": "mahaki", "gr": "adj", "en": ["sick, ill, invalid"]}
+{"mi": "kaokao", "gr": "adj", "en": ["sideways"]}
+{"mi": "uka", "gr": "adj", "en": ["hard", "firm, solid"]}
+{"mi": "mako", "gr": "adj", "en": ["to be peeled", "stripped off"]}
+{"mi": "pohe", "gr": "adj", "en": ["blind", "stupid, dull"]}
+{"mi": "ārohirohi", "gr": "adj", "en": ["shimmering, glistening"]}
+{"mi": "hakirara", "gr": "adj", "en": ["sloppy"]}
+{"mi": "piropiro", "gr": "adj", "en": ["putrid, stinking", "calm, still (of water)"]}
+{"mi": "hanihani", "gr": "adj", "en": ["disparaging, derogatory, contemptuous, insulting, scornful"]}
+{"mi": "kakara", "gr": "adj", "en": ["aromatic, fragrant, sweet-smelling"]}
+{"mi": "hauhau", "gr": "adj", "en": ["windy"]}
+{"mi": "hapori", "gr": "adj", "en": ["social"]}
+{"mi": "tūhāhā", "gr": "adj", "en": ["unique, isolated"]}
+{"mi": "heihei", "gr": "adj", "en": ["to be related to a chicken"]}
+{"mi": "kororā", "gr": "adj", "en": ["bluish grey; blue-grey"]}
+{"mi": "aronui", "gr": "adj", "en": ["suitable"]}
+{"mi": "awhitu", "gr": "adj", "en": ["vigilant"]}
+{"mi": "hiainu", "gr": "adj", "en": ["thirsty"]}
+{"mi": "hākaro", "gr": "adj", "en": ["hollowed"]}
+{"mi": "pūkaka", "gr": "adj", "en": ["direct (straight, constant, without interruption)"]}
+{"mi": "poke", "gr": "adj", "en": ["grimy"]}
+{"mi": "mara", "gr": "adj", "en": ["preserved esp. by prolonged steeping under running water until softened"]}
+{"mi": "uri", "gr": "adj", "en": ["dark, deep (of colour)"]}
+{"mi": "hewa", "gr": "adj", "en": ["mistaken"]}
+{"mi": "kehu", "gr": "adj", "en": ["reddish"]}
+{"mi": "hauā", "gr": "adj", "en": ["disabled"]}
+{"mi": "whatutoto", "gr": "adj", "en": ["advanced"]}
+{"mi": "āwhiowhio", "gr": "adj", "en": ["swung or whirled around in circles", "circuitous, going around in circles"]}
+{"mi": "pounamu", "gr": "adj", "en": ["dark green"]}
+{"mi": "aumoana", "gr": "adj", "en": ["oceanic"]}
+{"mi": "haukaha", "gr": "adj", "en": ["very windy"]}
+{"mi": "ariari", "gr": "adj", "en": ["clear, visible", "gleaming", "undisturbed", "bare, stripped (of trees etc)"]}
+{"mi": "āhuru", "gr": "adj", "en": ["snug, cozy, comfortable", "warm"]}
+{"mi": "anipā", "gr": "adj", "en": ["anxious, uneasy", "solicitous"]}
+{"mi": "āniwa", "gr": "adj", "en": ["bright", "reckless"]}
+{"mi": "pikopiko", "gr": "adj", "en": ["winding, meandering, crooked", "tender, young", "unripe"]}
+{"mi": "haumākū", "gr": "adj", "en": ["moist"]}
+{"mi": "marutau", "gr": "adj", "en": ["safe"]}
+{"mi": "roaka", "gr": "adj", "en": ["abundant"]}
+{"mi": "urupū", "gr": "adj", "en": ["diligent"]}
+{"mi": "anake", "gr": "adj", "en": ["alone, only"]}
+{"mi": "hapui", "gr": "adj", "en": ["engaged to be married"]}
+{"mi": "whāngai", "gr": "adj", "en": ["foster, fostered, adopted, adoptive"]}
+{"mi": "hūngoingoi", "gr": "adj", "en": ["wimpy, cowardly, spineless, faint-hearted, uncourageous", "weak, frail, slow"]}
+{"mi": "tamahine", "gr": "adj", "en": ["girlish"]}
+{"mi": "hakahaka", "gr": "adj", "en": ["low", "squat"]}
+{"mi": "hākoakoa", "gr": "adj", "en": ["happy"]}
+{"mi": "mūhore", "gr": "adj", "en": ["futile, pointless", "unproductive"]}
+{"mi": "pupuru", "gr": "adj", "en": ["pulpy", "almost liquid/solid, curdled"]}
+{"mi": "hēmanawa", "gr": "adj", "en": ["breathless; stressed"]}
+{"mi": "tupu", "gr": "adj", "en": ["real, own, ancestral"]}
+{"mi": "hangahanga", "gr": "adj", "en": ["frivolous, trivial"]}
+{"mi": "ngā", "gr": "adj", "en": ["satisfied"]}
+{"mi": "rehurehu", "gr": "adj", "en": ["obscure"]}
+{"mi": "maramara", "gr": "adj", "en": ["miscellaneous"]}
+{"mi": "harawene", "gr": "adj", "en": ["envious, jealous"]}
+{"mi": "hemorere", "gr": "adj", "en": ["sudden"]}
+{"mi": "hinahina", "gr": "adj", "en": ["grey-haired"]}
+{"mi": "kikokiko", "gr": "adj", "en": ["malevolent, malicious"]}
+{"mi": "harehare", "gr": "adj", "en": ["offensive, rude, affronting, objectionable"]}
+{"mi": "taitoa", "gr": "adj", "en": ["manly"]}
+{"mi": "hahake", "gr": "adj", "en": ["naked, unbecoming"]}
+{"mi": "peopeo", "gr": "adj", "en": ["slippery"]}
+{"mi": "pākaha", "gr": "adj", "en": ["strict, severe"]}
+{"mi": "hāhore", "gr": "adj", "en": ["bare, simple"]}
+{"mi": "hakoko", "gr": "adj", "en": ["bent, concave"]}
+{"mi": "hāpoko", "gr": "adj", "en": ["swampy, boggy"]}
+{"mi": "heahea", "gr": "adj", "en": ["crazy, stupid, inane"]}
+{"mi": "piapia", "gr": "adj", "en": ["viscid; glairy"]}
+{"mi": "apiapi", "gr": "adj", "en": ["crowded together"]}
+{"mi": "kaitangata", "gr": "adj", "en": ["cannibalistic", "man-eating"]}
+{"mi": "kahurangi", "gr": "adj", "en": ["blue", "precious"]}
+{"mi": "whakararo", "gr": "adj", "en": ["bottom; lower", "northern, northerly"]}
+{"mi": "taikaha", "gr": "adj", "en": ["strict, severe", "violent"]}
+{"mi": "maki", "gr": "adj", "en": ["sick, ill, invalid"]}
+{"mi": "ruru", "gr": "adj", "en": ["sheltered"]}
+{"mi": "tote", "gr": "adj", "en": ["salted"]}
+{"mi": "ahuwhenua", "gr": "adj", "en": ["industrious, hard-working"]}
+{"mi": "aniroro", "gr": "adj", "en": ["giddy, dizzy"]}
+{"mi": "haratau", "gr": "adj", "en": ["suitable, fit"]}
+{"mi": "hauangi", "gr": "adj", "en": ["cool, airy"]}
+{"mi": "hauarea", "gr": "adj", "en": ["insignificant"]}
+{"mi": "haututū", "gr": "adj", "en": ["insubordinate; naughty, noncompliant"]}
+{"mi": "moe", "gr": "adj", "en": ["dormant"]}
+{"mi": "ngāwhāriki", "gr": "adj", "en": ["geothermal"]}
+{"mi": "nihoniho", "gr": "adj", "en": ["toothed, serrated", "quarrelsome, cantankerous"]}
+{"mi": "pongipongi", "gr": "adj", "en": ["dim, of low light"]}
+{"mi": "mōrearea", "gr": "adj", "en": ["dangerous"]}
+{"mi": "pakakina", "gr": "adj", "en": ["glowing"]}
+{"mi": "hanganoa", "gr": "adj", "en": ["insignificant, inconsequential"]}
+{"mi": "harapuku", "gr": "adj", "en": ["puzzled"]}
+{"mi": "hātakēhi", "gr": "adj", "en": ["comical"]}
+{"mi": "haurangi", "gr": "adj", "en": ["drunk"]}
+{"mi": "muhumuhu", "gr": "adj", "en": ["discontented (experiencing discontent, dissatisfaction)"]}
+{"mi": "potapota", "gr": "adj", "en": ["broken, fragmented"]}
+{"mi": "mata", "gr": "adj", "en": ["raw (uncooked)"]}
+{"mi": "whakaririka", "gr": "adj", "en": ["impassive"]}
+{"mi": "rangimaarie", "gr": "adj", "en": ["peaceful, quiet, tranquil"]}
+{"mi": "ārikarika", "gr": "adj", "en": ["restrained"]}
+{"mi": "rangitahi", "gr": "adj", "en": ["momentary, ephemeral, transient, short-lived, brief"]}
+{"mi": "mea", "gr": "adj", "en": ["red, reddish"]}
+{"mi": "tua", "gr": "adj", "en": ["further, beyond"]}
+{"mi": "kurī", "gr": "adj", "en": ["without purpose, unwarranted, pointless"]}
+{"mi": "hapū", "gr": "adj", "en": ["pregnant"]}
+{"mi": "kura", "gr": "adj", "en": ["red"]}
+{"mi": "puta noa", "gr": "adj", "en": ["unlimited"]}
+{"mi": "Wīwī", "gr": "adj", "en": ["French (of, from or relating to France)"]}
+{"mi": "pūtea", "gr": "adj", "en": ["financial"]}
+{"mi": "hoou", "gr": "adj", "en": ["obsolete spelling of hōu"]}
+{"mi": "kai a te kurī", "gr": "adj", "en": ["damn, vile"]}
+{"mi": "Harare", "gr": "adj", "en": ["bleary-eyed"]}
+{"mi": "kāore i te ngākau nui", "gr": "adj", "en": ["discontented"]}
