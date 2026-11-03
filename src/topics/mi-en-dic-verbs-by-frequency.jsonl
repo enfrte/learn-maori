@@ -1,6 +1,5 @@
 {"mi": "haere", "gr": "verb", "en": ["go", "come"]}
-{"mi": "kī", "gr": "verb", "en": ["to say, speak, express, utter, call, mention, tell, designate"]}
-{"mi": "kī", "gr": "verb", "en": ["to lock", "to be locked"]}
+{"mi": "kī", "gr": "verb", "en": ["to say, speak, express, utter, call, mention, tell, designate", "to lock", "to be locked"]}
 {"mi": "kite", "gr": "verb", "en": ["to see", "to find, to perceive", "to discover", "to recognize, to detect"]}
 {"mi": "mahi", "gr": "verb", "en": ["to work, do, perform, make, accomplish, practise, raise (money)"]}
 {"mi": "noho", "gr": "verb", "en": ["to sit", "to reside, dwell", "to reign", "to be still, to remain in one place"]}
@@ -12,8 +11,7 @@
 {"mi": "tiro", "gr": "verb", "en": ["to observe, to view", "to inspect"]}
 {"mi": "tuku", "gr": "verb", "en": ["to slacken, to let go", "to release", "to permit, allow", "to give up", "to present, to offer", "to send", "to post"]}
 {"mi": "hanga", "gr": "verb", "en": ["to make; to create", "to build"]}
-{"mi": "whai", "gr": "verb", "en": ["to follow, chase, pursue", "to look for, search", "to proceed to a following action"]}
-{"mi": "whai", "gr": "verb", "en": ["to possess, to have"]}
+{"mi": "whai", "gr": "verb", "en": ["to follow, chase, pursue", "to look for, search", "to proceed to a following action", "to possess, to have"]}
 {"mi": "tū", "gr": "verb", "en": ["to stand", "to erect", "to establish, to convene", "to remain"]}
 {"mi": "tangi", "gr": "verb", "en": ["to cry (to weep)", "to sing, to make a sound"]}
 {"mi": "kai", "gr": "verb", "en": ["to eat (to consume food)"]}
@@ -24,8 +22,7 @@
 {"mi": "tīmata", "gr": "verb", "en": ["to begin, to start, kick off, commence"]}
 {"mi": "mutu", "gr": "verb", "en": ["to cut, to chop", "to amputate", "to cease, to complete, to end, to finish"]}
 {"mi": "wehe", "gr": "verb", "en": ["to separate"]}
-{"mi": "tiki", "gr": "verb", "en": ["to fetch, to get"]}
-{"mi": "tiki", "gr": "verb", "en": ["to fail"]}
+{"mi": "tiki", "gr": "verb", "en": ["to fetch, to get", "to fail"]}
 {"mi": "kawe", "gr": "verb", "en": ["to carry, to bring, to bear", "to fetch", "to convey (of meaning etc.)", "to conduct (heat, energy etc.)", "to induce, to influence", "to persevere, to persist"]}
 {"mi": "hoko", "gr": "verb", "en": ["to barter, exchange, trade"]}
 {"mi": "utu", "gr": "verb", "en": ["to pay", "to reply; to answer"]}
@@ -33,56 +30,45 @@
 {"mi": "hiahia", "gr": "verb", "en": ["to desire, wish, want, crave", "to need"]}
 {"mi": "pīrangi", "gr": "verb", "en": ["to crave, want, desire", "to need", "to like"]}
 {"mi": "ako", "gr": "verb", "en": ["to learn, to study"]}
-{"mi": "tuhi", "gr": "verb", "en": ["to point at"]}
-{"mi": "tuhi", "gr": "verb", "en": ["to draw", "to write"]}
-{"mi": "pānui", "gr": "verb", "en": ["announce, notify, advertise, publish, proclaim"]}
-{"mi": "pānui", "gr": "verb", "en": ["read, speak aloud, narrate, recite"]}
+{"mi": "tuhi", "gr": "verb", "en": ["to point at", "to draw", "to write"]}
+{"mi": "pānui", "gr": "verb", "en": ["announce, notify, advertise, publish, proclaim", "read, speak aloud, narrate, recite"]}
 {"mi": "whakamahi", "gr": "verb", "en": ["to employ, use, utilise, put to work, operate, put to use"]}
 {"mi": "whakahaere", "gr": "verb", "en": ["to organise", "to conduct, lead, operate, execute, direct, manage, control, administer, institute, implement, perform"]}
 {"mi": "whakahoki", "gr": "verb", "en": ["to turn back, to make something return", "to give back", "to answer"]}
 {"mi": "whakaatu", "gr": "verb", "en": ["to show, reveal, display, exhibit", "to announce, disclose", "to notify", "to point out", "to perform"]}
 {"mi": "whakaora", "gr": "verb", "en": ["to revive, to resuscitate", "to save, to rescue", "to heal, to cure"]}
 {"mi": "whakanui", "gr": "verb", "en": ["to enlarge, to magnify", "to celebrate, to honour"]}
-{"mi": "whakaari", "gr": "verb", "en": ["to expose, to display", "to act, to perform"]}
-{"mi": "whakaari", "gr": "verb", "en": ["to nominate, to propose"]}
+{"mi": "whakaari", "gr": "verb", "en": ["to expose, to display", "to act, to perform", "to nominate, to propose"]}
 {"mi": "whakaahua", "gr": "verb", "en": ["to transform", "to take form", "to form", "to fashion", "to photograph", "to portray", "to film", "to delineate", "to photocopy"]}
 {"mi": "kōrero", "gr": "verb", "en": ["To speak, talk, address", "To read"]}
 {"mi": "patu", "gr": "verb", "en": ["to strike, to beat, to kill"]}
 {"mi": "eke", "gr": "verb", "en": ["to climb, to ascend, to rise", "to mount, to ride on", "to embark", "to surf", "to skate, to skateboard", "to raft", "to place something on", "to achieve, to attain"]}
 {"mi": "heke", "gr": "verb", "en": ["to descend, to fall", "to migrate", "to ebb", "to drip", "to surf", "to raft"]}
-{"mi": "piki", "gr": "verb", "en": ["to climb, to scale"]}
-{"mi": "piki", "gr": "verb", "en": ["to support, to assist"]}
+{"mi": "piki", "gr": "verb", "en": ["to climb, to scale", "to support, to assist"]}
 {"mi": "rere", "gr": "verb", "en": ["to fly", "to flee, escape", "to flow", "to leap", "to rush", "to run", "to race", "to descend, get down", "to sail", "to rise, set (of stars)"]}
 {"mi": "huri", "gr": "verb", "en": ["to turn round, to revolve", "to grind, to mill", "to change", "to overflow, to overwhelm"]}
-{"mi": "whiti", "gr": "verb", "en": ["to be alarmed"]}
-{"mi": "whiti", "gr": "verb", "en": ["to exchange, transfer, swap", "to cross over to reach the other side"]}
-{"mi": "whiti", "gr": "verb", "en": ["to shine (of the sun)"]}
-{"mi": "whiti", "gr": "verb", "en": ["to be fit"]}
+{"mi": "whiti", "gr": "verb", "en": ["to be alarmed", "to exchange, transfer, swap", "to cross over to reach the other side", "to shine (of the sun)", "to be fit"]}
 {"mi": "tiaki", "gr": "verb", "en": ["to guard or keep", "to protect, to save"]}
 {"mi": "manaaki", "gr": "verb", "en": ["to support, take care of, look out for"]}
 {"mi": "mihi", "gr": "verb", "en": ["to lament for, to grieve", "to welcome, to greet, to acknowledge"]}
 {"mi": "pātai", "gr": "verb", "en": ["to ask, to question"]}
 {"mi": "hui", "gr": "verb", "en": ["to gather, congregate, assemble, meet"]}
 {"mi": "whānau", "gr": "verb", "en": ["to give birth", "to be born"]}
-{"mi": "tau", "gr": "verb", "en": ["to settle"]}
-{"mi": "tau", "gr": "verb", "en": ["to know"]}
+{"mi": "tau", "gr": "verb", "en": ["to settle", "to know"]}
 {"mi": "kōwhiri", "gr": "verb", "en": ["to pick, to choose, to select"]}
-{"mi": "whiriwhiri", "gr": "verb", "en": ["to negotiate"]}
-{"mi": "whiriwhiri", "gr": "verb", "en": ["to weave, to plait"]}
+{"mi": "whiriwhiri", "gr": "verb", "en": ["to negotiate", "to weave, to plait"]}
 {"mi": "waiata", "gr": "verb", "en": ["to sing"]}
 {"mi": "ārahi", "gr": "verb", "en": ["to lead", "to escort", "to herald (as the appearance of a particular star signals the beginning of a particular month)"]}
 {"mi": "whakarongo", "gr": "verb", "en": ["to hear, to listen", "to taste", "to obey"]}
 {"mi": "tāpiri", "gr": "verb", "en": ["to add on, to append"]}
-{"mi": "whakawhiti", "gr": "verb", "en": ["to transfer, to convey", "to switch, to swap, to exchange"]}
-{"mi": "whakawhiti", "gr": "verb", "en": ["causative of whiti (“shine”)"]}
+{"mi": "whakawhiti", "gr": "verb", "en": ["to transfer, to convey", "to switch, to swap, to exchange", "causative of whiti (“shine”)"]}
 {"mi": "tūtaki", "gr": "verb", "en": ["to join together", "to meet", "to shut (of a enclosure), to block, to bolt"]}
 {"mi": "mātaki", "gr": "verb", "en": ["to watch", "to observe, to survey", "to inspect, to examine"]}
 {"mi": "hopu", "gr": "verb", "en": ["to seize, catch, snatch", "to record (make an audio or video recording of)", "to detect"]}
 {"mi": "puta", "gr": "verb", "en": ["to come out or come forth from some location", "to emerge, to appear into sight", "to rise (of celestial bodies)", "to pass through and out", "to graduate", "to run off; to escape", "to be born (of man)"]}
 {"mi": "uru", "gr": "verb", "en": ["to enter, go in", "to possess", "to enlist, enrol, join, be included"]}
 {"mi": "tomo", "gr": "verb", "en": ["to enter"]}
-{"mi": "whiu", "gr": "verb", "en": ["toss, throw, fling", "drive (animals, etc), herd", "present", "penalise, punish, lash, whip, chastise, flog"]}
-{"mi": "whiu", "gr": "verb", "en": ["be satisfied (with food)"]}
+{"mi": "whiu", "gr": "verb", "en": ["toss, throw, fling", "drive (animals, etc), herd", "present", "penalise, punish, lash, whip, chastise, flog", "be satisfied (with food)"]}
 {"mi": "hoe", "gr": "verb", "en": ["to row, to paddle", "to push away with one's hand", "to refuse, to reject"]}
 {"mi": "kauhoe", "gr": "verb", "en": ["to swim"]}
 {"mi": "oma", "gr": "verb", "en": ["run, race, flee, escape, move quickly, run away"]}
@@ -97,51 +83,36 @@
 {"mi": "riri", "gr": "verb", "en": ["to be angry, to rage", "to attack"]}
 {"mi": "makariri", "gr": "verb", "en": ["cold"]}
 {"mi": "wera", "gr": "verb", "en": ["to burn", "to be burnt; to be hot"]}
-{"mi": "kino", "gr": "verb", "en": ["to dislike, to hate"]}
-{"mi": "kino", "gr": "verb", "en": ["evil, bad", "naughty", "ugly", "untidy", "spoiled, damaged", "defective, faulty"]}
+{"mi": "kino", "gr": "verb", "en": ["to dislike, to hate", "evil, bad", "naughty", "ugly", "untidy", "spoiled, damaged", "defective, faulty"]}
 {"mi": "kaha", "gr": "verb", "en": ["to be strong, be courageous"]}
 {"mi": "whakamā", "gr": "verb", "en": ["be ashamed, shy, bashful, embarrassed"]}
 {"mi": "wāhi", "gr": "verb", "en": ["to break", "to divide", "to disclose"]}
 {"mi": "ara", "gr": "verb", "en": ["to rise up, awake, arise, revive"]}
 {"mi": "rite", "gr": "verb", "en": ["to resemble; to be like, similar, alike"]}
-{"mi": "tārewa", "gr": "verb", "en": ["to suspend, to hang"]}
-{"mi": "tārewa", "gr": "verb", "en": ["hanging, dangling", "unresolved, unsettled", "deferred, delayed"]}
+{"mi": "tārewa", "gr": "verb", "en": ["to suspend, to hang", "hanging, dangling", "unresolved, unsettled", "deferred, delayed"]}
 {"mi": "au", "gr": "verb", "en": ["to howl, bark (of a dog)"]}
-{"mi": "ahu", "gr": "verb", "en": ["to care for, to foster", "to face or move in a certain direction"]}
-{"mi": "ahu", "gr": "verb", "en": ["to heap up"]}
-{"mi": "pere", "gr": "verb", "en": ["to flick, to yank"]}
-{"mi": "pere", "gr": "verb", "en": ["to ring (a bell), to toll"]}
+{"mi": "ahu", "gr": "verb", "en": ["to care for, to foster", "to face or move in a certain direction", "to heap up"]}
+{"mi": "pere", "gr": "verb", "en": ["to flick, to yank", "to ring (a bell), to toll"]}
 {"mi": "uta", "gr": "verb", "en": ["to load on, put on (passengers or cargo on vehicles)", "to contribute"]}
 {"mi": "taki", "gr": "verb", "en": ["to tow with a line", "to entice", "to challenge", "to give a speech", "to lead", "to recite", "to rise", "to stick in"]}
 {"mi": "hau", "gr": "verb", "en": ["to be heard", "to spread news", "to exceed"]}
-{"mi": "tari", "gr": "verb", "en": ["to ensnare"]}
-{"mi": "tari", "gr": "verb", "en": ["to bring"]}
+{"mi": "tari", "gr": "verb", "en": ["to ensnare", "to bring"]}
 {"mi": "poro", "gr": "verb", "en": ["to break, to cut off", "to amputate, to behead", "to shorten, to abbreviate", "to finish"]}
-{"mi": "poi", "gr": "verb", "en": ["to make into balls, to knead"]}
-{"mi": "poi", "gr": "verb", "en": ["to toss up", "to swing or twirl"]}
-{"mi": "kopa", "gr": "verb", "en": ["to fly away", "to pass by, to disappear"]}
-{"mi": "kopa", "gr": "verb", "en": ["to be bent or folded"]}
-{"mi": "kopa", "gr": "verb", "en": ["to be crippled, lame"]}
-{"mi": "āhua", "gr": "verb", "en": ["to appear", "to apprehend in the mind; to come to knowledge or proof; to be obvious or manifest; to look like", "to be pregnant, to expect a child"]}
-{"mi": "āhua", "gr": "verb", "en": ["to form", "to make"]}
-{"mi": "pū", "gr": "verb", "en": ["to bundle", "to lay in a heap, to heap"]}
-{"mi": "pū", "gr": "verb", "en": ["to blow", "to shoot (of a firearm)"]}
+{"mi": "poi", "gr": "verb", "en": ["to make into balls, to knead", "to toss up", "to swing or twirl"]}
+{"mi": "kopa", "gr": "verb", "en": ["to fly away", "to pass by, to disappear", "to be bent or folded", "to be crippled, lame"]}
+{"mi": "āhua", "gr": "verb", "en": ["to appear", "to apprehend in the mind; to come to knowledge or proof; to be obvious or manifest; to look like", "to be pregnant, to expect a child", "to form", "to make"]}
+{"mi": "pū", "gr": "verb", "en": ["to bundle", "to lay in a heap, to heap", "to blow", "to shoot (of a firearm)"]}
 {"mi": "tāke", "gr": "verb", "en": ["to tax something or someone"]}
 {"mi": "toro", "gr": "verb", "en": ["to stretch out, to extend", "to creep, to crawl", "to visit, to call on", "to scout out, to reconnoitre, to probe", "to forage"]}
-{"mi": "tara", "gr": "verb", "en": ["to shine rays, to irradiate", "to disturb, to ruffle"]}
-{"mi": "tara", "gr": "verb", "en": ["to gossip"]}
+{"mi": "tara", "gr": "verb", "en": ["to shine rays, to irradiate", "to disturb, to ruffle", "to gossip"]}
 {"mi": "aro", "gr": "verb", "en": ["to turn toward something or someone", "to desire", "to incline towards something, to favour"]}
 {"mi": "apa", "gr": "verb", "en": ["to heap; layer; stack"]}
 {"mi": "whāngai", "gr": "verb", "en": ["to feed, nourish, bring up, foster, adopt, raise, nurture, rear"]}
 {"mi": "take", "gr": "verb", "en": ["to originate, derive"]}
 {"mi": "motu", "gr": "verb", "en": ["to sever, cut, cut off, set free, separate", "to be separated, moved to a distance - especially in the phrase motu ki te ara", "to be set free, escape", "to be cut, severed"]}
-{"mi": "auau", "gr": "verb", "en": ["to bark"]}
-{"mi": "auau", "gr": "verb", "en": ["to be frequent, recurring"]}
-{"mi": "tatau", "gr": "verb", "en": ["to squeeze or wring out liquid"]}
-{"mi": "tatau", "gr": "verb", "en": ["to count, to tally"]}
-{"mi": "tatau", "gr": "verb", "en": ["to draw, to slide", "to shut a door"]}
-{"mi": "pā", "gr": "verb", "en": ["to block up"]}
-{"mi": "pā", "gr": "verb", "en": ["to touch, strike, hit (as by a stone), tag, affect", "to reach", "to be connected with, relate to, pertaining to, regarding", "to be heard, reach one's ears, hold personal communication with", "to blow (as the wind)", "to participate, act together, act in concert, join in (an undertaking)", "to have sex"]}
+{"mi": "auau", "gr": "verb", "en": ["to bark", "to be frequent, recurring"]}
+{"mi": "tatau", "gr": "verb", "en": ["to squeeze or wring out liquid", "to count, to tally", "to draw, to slide", "to shut a door"]}
+{"mi": "pā", "gr": "verb", "en": ["to block up", "to touch, strike, hit (as by a stone), tag, affect", "to reach", "to be connected with, relate to, pertaining to, regarding", "to be heard, reach one's ears, hold personal communication with", "to blow (as the wind)", "to participate, act together, act in concert, join in (an undertaking)", "to have sex"]}
 {"mi": "tupu", "gr": "verb", "en": ["to grow, to increase"]}
 {"mi": "tia", "gr": "verb", "en": ["to steer"]}
 {"mi": "kini", "gr": "verb", "en": ["to pinch, to nip (with fingers, claws etc)", "to pinch off"]}
@@ -154,35 +125,28 @@
 {"mi": "tote", "gr": "verb", "en": ["to salt, add salt"]}
 {"mi": "hā", "gr": "verb", "en": ["to breathe"]}
 {"mi": "pani", "gr": "verb", "en": ["to smear, to spread across", "to daub", "to paint", "to apply (of medicine)", "to frost (of cakes)"]}
-{"mi": "kau", "gr": "verb", "en": ["tree; wood", "stick"]}
-{"mi": "kau", "gr": "verb", "en": ["to swim", "to wade"]}
+{"mi": "kau", "gr": "verb", "en": ["tree; wood", "stick", "to swim", "to wade"]}
 {"mi": "pahū", "gr": "verb", "en": ["to burst, to explode"]}
 {"mi": "pohane", "gr": "verb", "en": ["to desire earnestly", "to moon, expose the buttocks", "to practice sodomy"]}
-{"mi": "tina", "gr": "verb", "en": ["be firm, hard, steadfast", "be constipated"]}
-{"mi": "tina", "gr": "verb", "en": ["have lunch"]}
-{"mi": "kuku", "gr": "verb", "en": ["to nip, to pinch", "to hold (of one's breath)", "to clench (of one's fist)", "to shut (of one's eyes)", "to draw together and close an opening of something"]}
+{"mi": "tina", "gr": "verb", "en": ["be firm, hard, steadfast", "be constipated", "have lunch"]}
+{"mi": "kuku", "gr": "verb", "en": ["to nip, to pinch", "to hold (of one's breath)", "to clench (of one's fist)", "to shut (of one's eyes)", "to draw together and close an opening of something", "to grate, to scrape – usually part of compound verbs, otherwise an alternative form of kukū"]}
 {"mi": "piro", "gr": "verb", "en": ["to rot", "to disgust"]}
 {"mi": "nanu", "gr": "verb", "en": ["to express disastifaction, to mumble or murmur"]}
 {"mi": "hira", "gr": "verb", "en": ["to be great, important, widespread, of consequence", "to be numerous, abundant, plentiful", "to be large, big"]}
 {"mi": "ārai", "gr": "verb", "en": ["to prevent; to forbid; to prohibit; to obstruct; to hinder", "to shield; to block out; to screen", "to insulate"]}
-{"mi": "heu", "gr": "verb", "en": ["to separate, to pull apart or asunder", "to clear, to remove"]}
-{"mi": "heu", "gr": "verb", "en": ["to shave"]}
+{"mi": "heu", "gr": "verb", "en": ["to separate, to pull apart or asunder", "to clear, to remove", "to shave"]}
 {"mi": "hua", "gr": "verb", "en": ["to bear fruit, be abundant, accrue", "to flower, bloom, blossom"]}
 {"mi": "pare", "gr": "verb", "en": ["to ward off, to fend"]}
 {"mi": "hoa", "gr": "verb", "en": ["to lay out; to plan; to arrange"]}
 {"mi": "haina", "gr": "verb", "en": ["to sign"]}
-{"mi": "whano", "gr": "verb", "en": ["to proceed, to go towards", "to lead or verge towards something"]}
-{"mi": "whano", "gr": "verb", "en": ["to act, to do", "to behave"]}
-{"mi": "tapa", "gr": "verb", "en": ["to cut, to chop", "to reap, to harvest (of crops like wheat)"]}
-{"mi": "tapa", "gr": "verb", "en": ["to call or name someone", "to command", "to recite, to incantate"]}
-{"mi": "hiko", "gr": "verb", "en": ["to flash"]}
-{"mi": "hiko", "gr": "verb", "en": ["to stimulate", "to grab; to grasp"]}
+{"mi": "whano", "gr": "verb", "en": ["to proceed, to go towards", "to lead or verge towards something", "to act, to do", "to behave"]}
+{"mi": "tapa", "gr": "verb", "en": ["to cut, to chop", "to reap, to harvest (of crops like wheat)", "to call or name someone", "to command", "to recite, to incantate"]}
+{"mi": "hiko", "gr": "verb", "en": ["to flash", "to stimulate", "to grab; to grasp"]}
 {"mi": "uaua", "gr": "verb", "en": ["difficult; hard; demanding"]}
 {"mi": "hirahira", "gr": "verb", "en": ["to be great, important, significant, eminent"]}
 {"mi": "atawhai", "gr": "verb", "en": ["to show kindness to"]}
 {"mi": "horo", "gr": "verb", "en": ["to run", "to flee, to escape"]}
-{"mi": "kā", "gr": "verb", "en": ["to burn", "to be alight"]}
-{"mi": "kā", "gr": "verb", "en": ["to screech"]}
+{"mi": "kā", "gr": "verb", "en": ["to burn", "to be alight", "to screech"]}
 {"mi": "pōhēhē", "gr": "verb", "en": ["to misunderstand", "to be bewildered"]}
 {"mi": "wāwā", "gr": "verb", "en": ["to be scattered"]}
 {"mi": "taunga", "gr": "verb", "en": ["to become familiar with, used to, accustomed."]}
@@ -194,18 +158,15 @@
 {"mi": "kōkō", "gr": "verb", "en": ["to unearth, to dig up, to excavate", "to thrust", "to pout the lips out of displeasure", "to tattoo esp. of the moko with special chisel tools (uhi)"]}
 {"mi": "puku", "gr": "verb", "en": ["to swell", "to dilate"]}
 {"mi": "rū", "gr": "verb", "en": ["to shake, to agitate, to quiver", "to scatter, to sow"]}
-{"mi": "waea", "gr": "verb", "en": ["to be weary"]}
-{"mi": "waea", "gr": "verb", "en": ["to telephone, ring", "to send a telegram, wire"]}
+{"mi": "waea", "gr": "verb", "en": ["to be weary", "to telephone, ring", "to send a telegram, wire"]}
 {"mi": "popo", "gr": "verb", "en": ["to be rotten, decayed, worm-eaten, decomposed"]}
 {"mi": "māpere", "gr": "verb", "en": ["to ballot", "to conscript"]}
 {"mi": "āpuru", "gr": "verb", "en": ["to suppress, shut up, crowd together, overwhelm."]}
 {"mi": "toa", "gr": "verb", "en": ["to win"]}
-{"mi": "hae", "gr": "verb", "en": ["to tear, to scratch, to lacerate", "to inflict pain"]}
-{"mi": "hae", "gr": "verb", "en": ["to envy"]}
+{"mi": "hae", "gr": "verb", "en": ["to tear, to scratch, to lacerate", "to inflict pain", "to envy"]}
 {"mi": "rore", "gr": "verb", "en": ["to trap, to ensnare", "to entangle, to glide", "to deceive"]}
 {"mi": "ura", "gr": "verb", "en": ["to glow, to be glowing"]}
-{"mi": "hou", "gr": "verb", "en": ["to bind or lash together"]}
-{"mi": "hou", "gr": "verb", "en": ["to move or force downwards", "to strike down, to peck etc"]}
+{"mi": "hou", "gr": "verb", "en": ["to bind or lash together", "to move or force downwards", "to strike down, to peck etc"]}
 {"mi": "tātari", "gr": "verb", "en": ["to strain, filter, sift", "to measure out", "to analyze"]}
 {"mi": "wae", "gr": "verb", "en": ["to divide", "to separate", "to clear away"]}
 {"mi": "hara", "gr": "verb", "en": ["to be in violation of a tapu", "to transgress", "to commit a sin", "to violate the law", "to offend"]}
@@ -214,27 +175,21 @@
 {"mi": "ua", "gr": "verb", "en": ["to rain"]}
 {"mi": "raka", "gr": "verb", "en": ["to step on something"]}
 {"mi": "roki", "gr": "verb", "en": ["to secure, to keep intact", "to store, to contain", "to preserve", "to make calm, to make safe"]}
-{"mi": "nohopuku", "gr": "verb", "en": ["to fast"]}
-{"mi": "nohopuku", "gr": "verb", "en": ["to be silent"]}
+{"mi": "nohopuku", "gr": "verb", "en": ["to fast", "to be silent"]}
 {"mi": "pī", "gr": "verb", "en": ["to ignore, to slight, to neglect"]}
 {"mi": "rāhui", "gr": "verb", "en": ["be reserved, be restricted"]}
 {"mi": "toko", "gr": "verb", "en": ["to prop up", "to push away", "to separate, divorce"]}
 {"mi": "tika", "gr": "verb", "en": ["straight, direct", "correct, true, lawful, proper"]}
 {"mi": "nama", "gr": "verb", "en": ["to owe, to be in debt", "to borrow, to obtain on credit", "to lend, to give credit"]}
-{"mi": "whiwhi", "gr": "verb", "en": ["to wind round, to fasten", "to wrap around", "to encircle"]}
-{"mi": "whiwhi", "gr": "verb", "en": ["to acquire, to possess"]}
+{"mi": "whiwhi", "gr": "verb", "en": ["to wind round, to fasten", "to wrap around", "to encircle", "to acquire, to possess"]}
 {"mi": "auahi", "gr": "verb", "en": ["to be smoky"]}
-{"mi": "oro", "gr": "verb", "en": ["to resound, to echo"]}
-{"mi": "oro", "gr": "verb", "en": ["to sharpen, to grind"]}
-{"mi": "unu", "gr": "verb", "en": ["pull out, withdraw, draw out, extract", "to pull off, put off, take off (clothes, etc.)", "to exempt, discharge, exclude", "to surrender"]}
-{"mi": "unu", "gr": "verb", "en": ["to drink"]}
+{"mi": "oro", "gr": "verb", "en": ["to resound, to echo", "to sharpen, to grind"]}
+{"mi": "unu", "gr": "verb", "en": ["pull out, withdraw, draw out, extract", "to pull off, put off, take off (clothes, etc.)", "to exempt, discharge, exclude", "to surrender", "to drink"]}
 {"mi": "mura", "gr": "verb", "en": ["to burn (of firewood), to blaze", "to glow", "to blush, to redden"]}
 {"mi": "pota", "gr": "verb", "en": ["to break, to snap"]}
 {"mi": "hū", "gr": "verb", "en": ["to make a loud noise", "to bubble up (of water)", "to hiss", "to call (out to), signal, cooey"]}
-{"mi": "tohi", "gr": "verb", "en": ["to cut or split something off, especially with a blade", "to chisel in a similar manner", "to separate", "to divide"]}
-{"mi": "tohi", "gr": "verb", "en": ["to boil using such a vessel"]}
-{"mi": "whao", "gr": "verb", "en": ["to chisel out"]}
-{"mi": "whao", "gr": "verb", "en": ["to go into; to enter", "to put into; to fill"]}
+{"mi": "tohi", "gr": "verb", "en": ["to cut or split something off, especially with a blade", "to chisel in a similar manner", "to separate", "to divide", "to boil using such a vessel"]}
+{"mi": "whao", "gr": "verb", "en": ["to chisel out", "to go into; to enter", "to put into; to fill"]}
 {"mi": "ioio", "gr": "verb", "en": ["to shred"]}
 {"mi": "utauta", "gr": "verb", "en": ["to load things"]}
 {"mi": "kapu", "gr": "verb", "en": ["to ladle, to scoop up"]}
@@ -243,18 +198,14 @@
 {"mi": "pepe", "gr": "verb", "en": ["to flutter", "to frisk, to frolic", "to stumble, hesitate or stutter (in speech, reciting etc)"]}
 {"mi": "punga", "gr": "verb", "en": ["to anchor", "to secure", "to sink, to fall"]}
 {"mi": "anga", "gr": "verb", "en": ["to face", "to set about, to begin"]}
-{"mi": "rī", "gr": "verb", "en": ["to bind", "to insure"]}
-{"mi": "rī", "gr": "verb", "en": ["to block, to screen off", "to protect"]}
+{"mi": "rī", "gr": "verb", "en": ["to bind", "to insure", "to block, to screen off", "to protect"]}
 {"mi": "uira", "gr": "verb", "en": ["to flash, to gleam"]}
 {"mi": "tahe", "gr": "verb", "en": ["to flow, to exude", "to drip", "to menstruate", "to drop", "to miscarry"]}
 {"mi": "taurekareka", "gr": "verb", "en": ["to be enslaved"]}
-{"mi": "tō", "gr": "verb", "en": ["to pull", "to open or shut", "to haul, i.e. to move something heavy by pulling along a surface", "to hold down and move something with a cursor across an interface"]}
-{"mi": "tō", "gr": "verb", "en": ["to be calm, peaceful, tranquil", "to set (of an astronomical body)"]}
-{"mi": "tō", "gr": "verb", "en": ["to vibrate, tingle"]}
+{"mi": "tō", "gr": "verb", "en": ["to pull", "to open or shut", "to haul, i.e. to move something heavy by pulling along a surface", "to hold down and move something with a cursor across an interface", "to be calm, peaceful, tranquil", "to set (of an astronomical body)", "to vibrate, tingle"]}
 {"mi": "pata", "gr": "verb", "en": ["to drip", "to splatter"]}
 {"mi": "matira", "gr": "verb", "en": ["To fish (with a rod)"]}
-{"mi": "amo", "gr": "verb", "en": ["to charge, to attack"]}
-{"mi": "amo", "gr": "verb", "en": ["to carry something on the shoulder (on a litter, etc)", "to present (of an offering)"]}
+{"mi": "amo", "gr": "verb", "en": ["to charge, to attack", "to carry something on the shoulder (on a litter, etc)", "to present (of an offering)"]}
 {"mi": "kohu", "gr": "verb", "en": ["to cook in a hollow receptacle i.e. pot in an earth pit (hangi)", "an oven"]}
 {"mi": "puru", "gr": "verb", "en": ["to plug, to fill or stuff in, to cram"]}
 {"mi": "teka", "gr": "verb", "en": ["to shoot with bow and arrow", "to drive something forward, to urge, to impel"]}
@@ -266,12 +217,9 @@
 {"mi": "ranga", "gr": "verb", "en": ["to raise up from the ground", "to uproot, to pull from the roots", "to set in motion, to transport"]}
 {"mi": "pāho", "gr": "verb", "en": ["to spread (of speech)", "(of electronic signals) to be transmitted far, to air, to be broadcast"]}
 {"mi": "maka", "gr": "verb", "en": ["throw, fling, cast, pass (with the hands)", "place, put, put in"]}
-{"mi": "hari", "gr": "verb", "en": ["to dance"]}
-{"mi": "hari", "gr": "verb", "en": ["to carry"]}
+{"mi": "hari", "gr": "verb", "en": ["to dance", "to carry"]}
 {"mi": "whero", "gr": "verb", "en": ["to redden"]}
-{"mi": "kati", "gr": "verb", "en": ["to bite, to nip"]}
-{"mi": "kati", "gr": "verb", "en": ["to close, shut", "to block up, to obstruct"]}
-{"mi": "kati", "gr": "verb", "en": ["to be closed"]}
+{"mi": "kati", "gr": "verb", "en": ["to bite, to nip", "to close, shut", "to block up, to obstruct", "to be closed"]}
 {"mi": "wehi", "gr": "verb", "en": ["to be terrible", "to be afraid, fearful"]}
 {"mi": "whakamataku", "gr": "verb", "en": ["to terrify, to scare, to frighten"]}
 {"mi": "kukū", "gr": "verb", "en": ["to grate, to scrape", "to make a grating sound"]}
@@ -279,8 +227,7 @@
 {"mi": "hinga", "gr": "verb", "en": ["to fall, to tumble", "to slant, to tilt", "to lose"]}
 {"mi": "whenu", "gr": "verb", "en": ["to spin, to twist"]}
 {"mi": "ane", "gr": "verb", "en": ["to decay, to destroy"]}
-{"mi": "hura", "gr": "verb", "en": ["to put or raise a hand up", "to twitch, to shrug"]}
-{"mi": "hura", "gr": "verb", "en": ["to open a lid or cover", "to uncover, to expose", "to discover", "to break (of dawn)", "to swell or rise"]}
+{"mi": "hura", "gr": "verb", "en": ["to put or raise a hand up", "to twitch, to shrug", "to open a lid or cover", "to uncover, to expose", "to discover", "to break (of dawn)", "to swell or rise"]}
 {"mi": "nuku", "gr": "verb", "en": ["to move, to shift", "to extend", "to indent"]}
 {"mi": "uwhi", "gr": "verb", "en": ["to spread over, to cover"]}
 {"mi": "turaki", "gr": "verb", "en": ["to push over", "to oppose", "to overthrow"]}
@@ -310,8 +257,7 @@
 {"mi": "toitū", "gr": "verb", "en": ["to be undisturbed, untouched", "to be permanent", "to be entire", "to be sustainable"]}
 {"mi": "taka", "gr": "verb", "en": ["to turn or wind round, to pivot", "to encircle", "to range, to roam", "to fall off"]}
 {"mi": "runa", "gr": "verb", "en": ["to tie up, to draw together", "to secure", "to keep close, to gather", "to assemble"]}
-{"mi": "koutu", "gr": "verb", "en": ["to project", "to stand out, to be conspicuous"]}
-{"mi": "koutu", "gr": "verb", "en": ["to dip into"]}
+{"mi": "koutu", "gr": "verb", "en": ["to project", "to stand out, to be conspicuous", "to dip into"]}
 {"mi": "āwhio", "gr": "verb", "en": ["to go in circles or in a roundabout way, to snake", "to swirl"]}
 {"mi": "piupiu", "gr": "verb", "en": ["to swing or sway to-and-fro, to oscillate"]}
 {"mi": "mangeo", "gr": "verb", "en": ["to itch, to irritate"]}
@@ -319,12 +265,10 @@
 {"mi": "rekareka", "gr": "verb", "en": ["to be pleasant, enjoyable, fun", "to be happy, rapt, overjoyed, delighted"]}
 {"mi": "koko", "gr": "verb", "en": ["to ladle, to scoop up", "to shovel"]}
 {"mi": "tiri", "gr": "verb", "en": ["to cast, to scatter", "to throw or place one by one, to stack in a row", "to plant", "to share"]}
-{"mi": "hoka", "gr": "verb", "en": ["to soar, fly", "to lift; to hold aloft"]}
-{"mi": "hoka", "gr": "verb", "en": ["to pierce", "to point or project sharply upwards", "to taper to a sharp point"]}
+{"mi": "hoka", "gr": "verb", "en": ["to soar, fly", "to lift; to hold aloft", "to pierce", "to point or project sharply upwards", "to taper to a sharp point"]}
 {"mi": "rongoā", "gr": "verb", "en": ["to treat; to apply medicines", "to preserve"]}
 {"mi": "mahara", "gr": "verb", "en": ["to think about", "to recollect, to remember"]}
-{"mi": "whiri", "gr": "verb", "en": ["to twist", "to weave", "to spin", "to curl or fold one's hands"]}
-{"mi": "whiri", "gr": "verb", "en": ["to choose, to select, to elect", "to pick", "to decide"]}
+{"mi": "whiri", "gr": "verb", "en": ["to twist", "to weave", "to spin", "to curl or fold one's hands", "to choose, to select, to elect", "to pick", "to decide"]}
 {"mi": "mātau", "gr": "verb", "en": ["to know, to understand"]}
 {"mi": "upoko", "gr": "verb", "en": ["to meet and discuss", "to consider or deliberate"]}
 {"mi": "pōkai", "gr": "verb", "en": ["to wind something in a ball or coil", "to roll up, to wrap up", "to travel", "to surround"]}
@@ -336,8 +280,7 @@
 {"mi": "aukati", "gr": "verb", "en": ["to bar, restrict, prohibit, block", "to discriminate"]}
 {"mi": "wahangū", "gr": "verb", "en": ["to be silent, to be quiet", "to be mute", "to be reserved"]}
 {"mi": "rahi", "gr": "verb", "en": ["to be big, many, plentiful, numerous", "big, large"]}
-{"mi": "tipi", "gr": "verb", "en": ["to slice, to cut into slices", "to pare off, to plane, to smoothen wood"]}
-{"mi": "tipi", "gr": "verb", "en": ["to skim or glide along the surface", "to move quickly or smooothly"]}
+{"mi": "tipi", "gr": "verb", "en": ["to slice, to cut into slices", "to pare off, to plane, to smoothen wood", "to skim or glide along the surface", "to move quickly or smooothly"]}
 {"mi": "aru", "gr": "verb", "en": ["to chase", "to follow, pursue"]}
 {"mi": "taha", "gr": "verb", "en": ["to pass by"]}
 {"mi": "tui", "gr": "verb", "en": ["to thread, to string together", "to pierce with a needle", "to sew"]}
@@ -355,8 +298,7 @@
 {"mi": "hahu", "gr": "verb", "en": ["to disinter", "to exhume"]}
 {"mi": "ngāwhā", "gr": "verb", "en": ["to burst open, to split", "to bloom"]}
 {"mi": "huatau", "gr": "verb", "en": ["to comment", "to realize"]}
-{"mi": "heuheu", "gr": "verb", "en": ["to clear away, to remove", "to disperse"]}
-{"mi": "heuheu", "gr": "verb", "en": ["shave"]}
+{"mi": "heuheu", "gr": "verb", "en": ["to clear away, to remove", "to disperse", "shave"]}
 {"mi": "pōhara", "gr": "verb", "en": ["to be poor, impoverished, destitute"]}
 {"mi": "ukauka", "gr": "verb", "en": ["to support, to sustain"]}
 {"mi": "whakapakaru", "gr": "verb", "en": ["to break, smash, rupture, shatter.", "to break"]}
@@ -389,16 +331,14 @@
 {"mi": "marino", "gr": "verb", "en": ["to be calm or still (usually of the sea)"]}
 {"mi": "tahito", "gr": "verb", "en": ["to be old, ancient, out of date"]}
 {"mi": "hepara", "gr": "verb", "en": ["to shepherd"]}
-{"mi": "kōwhiti", "gr": "verb", "en": ["to select, to choose", "to pull out, pull off"]}
-{"mi": "kōwhiti", "gr": "verb", "en": ["to appear"]}
+{"mi": "kōwhiti", "gr": "verb", "en": ["to select, to choose", "to pull out, pull off", "to appear"]}
 {"mi": "moto", "gr": "verb", "en": ["to strike with the fist, to punch, to box"]}
 {"mi": "toto", "gr": "verb", "en": ["to bleed"]}
 {"mi": "puna", "gr": "verb", "en": ["to well up; to flow"]}
 {"mi": "tutū", "gr": "verb", "en": ["to be mischievous, disobedient, mutinous, rebellious, undisciplined, or disruptive."]}
 {"mi": "heru", "gr": "verb", "en": ["to comb"]}
 {"mi": "rona", "gr": "verb", "en": ["to bind, to tie together, to confine or tie down with cord"]}
-{"mi": "nānā", "gr": "verb", "en": ["to tend carefully, to look after"]}
-{"mi": "nānā", "gr": "verb", "en": ["to indulge, pamper"]}
+{"mi": "nānā", "gr": "verb", "en": ["to tend carefully, to look after", "to indulge, pamper"]}
 {"mi": "kipa", "gr": "verb", "en": ["to spur (on)"]}
 {"mi": "pewa", "gr": "verb", "en": ["to arch (of eyebrows)"]}
 {"mi": "ranu", "gr": "verb", "en": ["to mix"]}
@@ -581,10 +521,8 @@
 {"mi": "karikari", "gr": "verb", "en": ["to strip off (of bark etc.)"]}
 {"mi": "toretore", "gr": "verb", "en": ["to cut or split into strips, to shred"]}
 {"mi": "tāmahana", "gr": "verb", "en": ["to warm up, to reheat, to recook"]}
-{"mi": "whakatārewa", "gr": "verb", "en": ["to suspend, to dangle", "to defer, to postpone, to adjourn"]}
-{"mi": "whakatārewa", "gr": "verb", "en": ["hanging, suspension"]}
-{"mi": "whakaira", "gr": "verb", "en": ["glisten, glitter"]}
-{"mi": "whakaira", "gr": "verb", "en": ["conceive, become pregnant"]}
+{"mi": "whakatārewa", "gr": "verb", "en": ["to suspend, to dangle", "to defer, to postpone, to adjourn", "hanging, suspension"]}
+{"mi": "whakaira", "gr": "verb", "en": ["glisten, glitter", "conceive, become pregnant"]}
 {"mi": "takitoru", "gr": "verb", "en": ["to triple"]}
 {"mi": "waru", "gr": "verb", "en": ["to scrape", "to grate", "to shave (of hair)", "to peel"]}
 {"mi": "tuitui", "gr": "verb", "en": ["to sew"]}
@@ -610,7 +548,6 @@
 {"mi": "hāmeme", "gr": "verb", "en": ["to mutter, to grumble"]}
 {"mi": "pākati", "gr": "verb", "en": ["to block, obstruct"]}
 {"mi": "toiere", "gr": "verb", "en": ["to sing"]}
-{"mi": "kuku", "gr": "verb", "en": ["to grate, to scrape – usually part of compound verbs, otherwise an alternative form of kukū"]}
 {"mi": "pāhekeheke", "gr": "verb", "en": ["slippery", "unstable, uncertain", "striped"]}
 {"mi": "tangiweto", "gr": "verb", "en": ["to fret", "to cry"]}
 {"mi": "haukoti", "gr": "verb", "en": ["intercept", "abort"]}
@@ -618,8 +555,7 @@
 {"mi": "ai", "gr": "verb", "en": ["to copulate"]}
 {"mi": "whakarākei", "gr": "verb", "en": ["garnish, embellish", "decorate, adorn"]}
 {"mi": "parakuihi", "gr": "verb", "en": ["to have breakfast"]}
-{"mi": "whakaauau", "gr": "verb", "en": ["to smoke"]}
-{"mi": "whakaauau", "gr": "verb", "en": ["to modulate"]}
+{"mi": "whakaauau", "gr": "verb", "en": ["to smoke", "to modulate"]}
 {"mi": "hekerangi", "gr": "verb", "en": ["to parachute"]}
 {"mi": "kihirua", "gr": "verb", "en": ["to change one's mind"]}
 {"mi": "takiuru", "gr": "verb", "en": ["to log in"]}
@@ -683,8 +619,7 @@
 {"mi": "taurumarumaki", "gr": "verb", "en": ["to duck someone else into the water"]}
 {"mi": "haere rā", "gr": "verb", "en": ["go, depart"]}
 {"mi": "haere mai", "gr": "verb", "en": ["come"]}
-{"mi": "pēhea", "gr": "verb", "en": ["how?; of what sort?; in what way?"]}
-{"mi": "pēhea", "gr": "verb", "en": ["what way?; in which direction?"]}
+{"mi": "pēhea", "gr": "verb", "en": ["how?; of what sort?; in what way?", "what way?; in which direction?"]}
 {"mi": "kainga", "gr": "verb", "en": ["To be consumed; passive form of kai"]}
 {"mi": "ahiahi", "gr": "verb", "en": ["to become evening"]}
 {"mi": "whakataurekareka", "gr": "verb", "en": ["To treat with contempt."]}

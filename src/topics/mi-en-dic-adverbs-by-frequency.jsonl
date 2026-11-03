@@ -1,9 +1,11 @@
+{"mi": "puku", "gr": "adv", "en": ["very"]}
+{"mi": "rawa", "gr": "adv", "en": ["very, really, too"]}
 {"mi": "atu", "gr": "adv", "en": ["away"]}
+{"mi": "hoki", "gr": "adv", "en": ["also; too."]}
+{"mi": "anō", "gr": "adv", "en": ["again"]}
 {"mi": "mai", "gr": "adv", "en": ["hither", "to, from", "since"]}
 {"mi": "tonu", "gr": "adv", "en": ["still, yet", "nonetheless, all the same", "very, exceedingly", "indeed, in fact", "on the contrary", "immediately, promptly", "quite, fairly", "almost, just about, virtually"]}
-{"mi": "hoki", "gr": "adv", "en": ["also; too."]}
-{"mi": "rawa", "gr": "adv", "en": ["very, really, too"]}
-{"mi": "anō", "gr": "adv", "en": ["again"]}
+{"mi": "hemorere", "gr": "adv", "en": ["suddenly"]}
 {"mi": "āta", "gr": "adv", "en": ["slowly, carefully"]}
 {"mi": "mutu", "gr": "adv", "en": ["only, exclusively, nothing more, that's it"]}
 {"mi": "tahi", "gr": "adv", "en": ["together, as one, in unison", "simultaneously", "altogether"]}
@@ -12,20 +14,18 @@
 {"mi": "runga", "gr": "adv", "en": ["upwards, up"]}
 {"mi": "tua", "gr": "adv", "en": ["this side, here"]}
 {"mi": "āhua", "gr": "adv", "en": ["somewhat", "approximately"]}
-{"mi": "auau", "gr": "adv", "en": ["frequently, again and again"]}
 {"mi": "āianei", "gr": "adv", "en": ["today, soon, now"]}
+{"mi": "auau", "gr": "adv", "en": ["frequently, again and again"]}
 {"mi": "ākuanei", "gr": "adv", "en": ["presently, shortly, soon"]}
 {"mi": "ia rā", "gr": "adv", "en": ["As frequently as every day; daily."]}
-{"mi": "ia wiki", "gr": "adv", "en": ["As frequently as every week; weekly.", "ia rā", "ia marama", "ia tau"]}
+{"mi": "ia wiki", "gr": "adv", "en": ["As frequently as every week; weekly."]}
 {"mi": "ia marama", "gr": "adv", "en": ["As frequently as every month; monthly."]}
-{"mi": "ia tau", "gr": "adv", "en": ["As frequently as every year; yearly, annually.", "ia rā", "ia marama", "ia wiki"]}
-{"mi": "puku", "gr": "adv", "en": ["very"]}
+{"mi": "ia tau", "gr": "adv", "en": ["As frequently as every year; yearly, annually."]}
 {"mi": "puru", "gr": "adv", "en": ["absolutely, extremely, stuffed"]}
 {"mi": "taki", "gr": "adv", "en": ["one by one to completion, each and every"]}
 {"mi": "mauī", "gr": "adv", "en": ["on the left side"]}
 {"mi": "āwhio", "gr": "adv", "en": ["around, round"]}
 {"mi": "whakararo", "gr": "adv", "en": ["downwards"]}
-{"mi": "whakamauī", "gr": "adv", "en": ["towards the left"]}
 {"mi": "rārā", "gr": "adv", "en": ["over there, there, yonder"]}
-{"mi": "hemorere", "gr": "adv", "en": ["suddenly"]}
+{"mi": "whakamauī", "gr": "adv", "en": ["towards the left"]}
 {"mi": "hakirara", "gr": "adv", "en": ["slovenly"]}

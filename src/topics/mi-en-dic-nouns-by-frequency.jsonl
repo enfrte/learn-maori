@@ -4,9 +4,7 @@
 {"mi": "whenua", "gr": "noun", "en": ["land", "country", "state", "ground", "placenta, afterbirth"]}
 {"mi": "mahi", "gr": "noun", "en": ["work, job, employment, trade (work), practice, occupation, activity, exercise, operation, function", "abundance, lots of, many, heaps of"]}
 {"mi": "kōrero", "gr": "noun", "en": ["A story.", "A conversation.", "A discussion."]}
-{"mi": "ao", "gr": "noun", "en": ["daytime"]}
-{"mi": "ao", "gr": "noun", "en": ["world"]}
-{"mi": "ao", "gr": "noun", "en": ["cloud"]}
+{"mi": "ao", "gr": "noun", "en": ["daytime", "world", "cloud"]}
 {"mi": "wai", "gr": "noun", "en": ["water (clear liquid H₂O)", "liquid", "juice of plants from fruits etc.", "beverage from such liquids"]}
 {"mi": "tāne", "gr": "noun", "en": ["man (adult male human)"]}
 {"mi": "wahine", "gr": "noun", "en": ["woman"]}
@@ -15,18 +13,14 @@
 {"mi": "whānau", "gr": "noun", "en": ["an extended family; a group of family members"]}
 {"mi": "reo", "gr": "noun", "en": ["voice", "speech, utterance", "language"]}
 {"mi": "iwi", "gr": "noun", "en": ["bone", "strength", "extended kinship group, tribe, nation, people, nationality, race (often refers to a large group of people descended from a common ancestor and associated with a distinct territory)"]}
-{"mi": "kura", "gr": "noun", "en": ["school, an educational institution providing primary and secondary education."]}
-{"mi": "kura", "gr": "noun", "en": ["liquid container, tank"]}
+{"mi": "kura", "gr": "noun", "en": ["school, an educational institution providing primary and secondary education.", "liquid container, tank"]}
 {"mi": "marae", "gr": "noun", "en": ["The courtyard of a wharenui or meeting-house and the buildings around it."]}
 {"mi": "ingoa", "gr": "noun", "en": ["name"]}
-{"mi": "rangi", "gr": "noun", "en": ["sky, heaven", "weather", "tune, air, melody"]}
-{"mi": "rangi", "gr": "noun", "en": ["daytime, day, period of brightness from morning to afternoon"]}
-{"mi": "tau", "gr": "noun", "en": ["year (time it takes for the Earth to complete one revolution of the Sun)", "year (time it takes for any planetary body to make one revolution around another body)", "year (a period between set dates that mark a year)", "year (scheduled part of a calendar year spent in a specific activity)", "year (Julian year)", "year (level or grade at school or college)"]}
-{"mi": "tau", "gr": "noun", "en": ["knowledge"]}
+{"mi": "rangi", "gr": "noun", "en": ["sky, heaven", "weather", "tune, air, melody", "daytime, day, period of brightness from morning to afternoon"]}
+{"mi": "tau", "gr": "noun", "en": ["year (time it takes for the Earth to complete one revolution of the Sun)", "year (time it takes for any planetary body to make one revolution around another body)", "year (a period between set dates that mark a year)", "year (scheduled part of a calendar year spent in a specific activity)", "year (Julian year)", "year (level or grade at school or college)", "knowledge"]}
 {"mi": "pō", "gr": "noun", "en": ["night", "day, time cycle of 24 hours"]}
 {"mi": "ahi", "gr": "noun", "en": ["fire (oxidation reaction)"]}
-{"mi": "mea", "gr": "noun", "en": ["thing", "a so-and-so (something, someone, or a place the speaker does not know)"]}
-{"mi": "mea", "gr": "noun", "en": ["mayor"]}
+{"mi": "mea", "gr": "noun", "en": ["thing", "a so-and-so (something, someone, or a place the speaker does not know)", "mayor"]}
 {"mi": "kai", "gr": "noun", "en": ["food"]}
 {"mi": "pukapuka", "gr": "noun", "en": ["Brachyglottis repanda, shrub with soft leaves with white undersides.", "book"]}
 {"mi": "kupu", "gr": "noun", "en": ["word, vocabulary", "saying, talk", "message, statement", "utterance", "lyric", "culm (of grass, bamboo)"]}
@@ -37,16 +31,14 @@
 {"mi": "upoko", "gr": "noun", "en": ["head", "paragraph", "heading", "chapter", "headline"]}
 {"mi": "kanohi", "gr": "noun", "en": ["face", "view, sight, vision", "eye, eyeball"]}
 {"mi": "mata", "gr": "noun", "en": ["eye (organ of sight)", "edge, point, tip", "face", "surface", "headland", "mesh (of a net)"]}
-{"mi": "waewae", "gr": "noun", "en": ["foot", "leg", "footprint", "footstep"]}
-{"mi": "waewae", "gr": "noun", "en": ["New Zealand rough skate (Zearaja nasuta)"]}
+{"mi": "waewae", "gr": "noun", "en": ["foot", "leg", "footprint", "footstep", "New Zealand rough skate (Zearaja nasuta)"]}
 {"mi": "tinana", "gr": "noun", "en": ["body"]}
 {"mi": "ngākau", "gr": "noun", "en": ["heart, mind, soul", "intestines, bowels"]}
 {"mi": "manawa", "gr": "noun", "en": ["belly, stomach", "heart (of a person)", "heart (seat of affections)", "breath", "mind", "spirit"]}
 {"mi": "wairua", "gr": "noun", "en": ["a soul or spirit of a person", "attitude, quintessence, mood, essence", "bonfire moss (Funaria hygrometrica)"]}
 {"mi": "mauri", "gr": "noun", "en": ["life", "life force or principle; metaphorical soul; source of life", "heart, seat of emotions"]}
 {"mi": "mana", "gr": "noun", "en": ["power; mana"]}
-{"mi": "tapu", "gr": "noun", "en": ["taboo, restriction (as a spiritual or supernatural condition)"]}
-{"mi": "tapu", "gr": "noun", "en": ["mark or indentation left on a surface"]}
+{"mi": "tapu", "gr": "noun", "en": ["taboo, restriction (as a spiritual or supernatural condition)", "mark or indentation left on a surface"]}
 {"mi": "tikanga", "gr": "noun", "en": ["custom, convention, correct manner of doing things", "traditional lore and protocols", "reason, purpose", "meaning"]}
 {"mi": "kawa", "gr": "noun", "en": ["a ceremony to remove tapu from a new house or canoe", "karakia (“ritual chants”) and customs for the opening of new houses, canoes and other events", "marae protocol - customs of the marae and wharenui, particularly those related to formal activities such as pōhiri, speeches and mihimihi", "acid", "bitterness", "kava, plant brought by ancestors from the South Pacific, Piper methysticum."]}
 {"mi": "whakapapa", "gr": "noun", "en": ["layering, the act of layering", "Genealogy, genealogical table, descent, lineage."]}
@@ -74,8 +66,7 @@
 {"mi": "taonga", "gr": "noun", "en": ["treasure", "property"]}
 {"mi": "rākau", "gr": "noun", "en": ["A weapon; a club or bat.", "A tree, stick, spar, or mast.", "Wood or timber."]}
 {"mi": "manu", "gr": "noun", "en": ["bird (animal)", "kite", "a designated territory for muttonbirding.", "a person held in high esteem"]}
-{"mi": "ika", "gr": "noun", "en": ["fish, marine animal, aquatic animal - any creature that swims in fresh or salt water including marine mammals such as whales", "slain warrior, victim", "prized possession"]}
-{"mi": "ika", "gr": "noun", "en": ["cluster, band, troop, group, company, heap"]}
+{"mi": "ika", "gr": "noun", "en": ["fish, marine animal, aquatic animal - any creature that swims in fresh or salt water including marine mammals such as whales", "slain warrior, victim", "prized possession", "cluster, band, troop, group, company, heap"]}
 {"mi": "kurī", "gr": "noun", "en": ["dog", "horse"]}
 {"mi": "ngeru", "gr": "noun", "en": ["cat (Felis silvestris catus)"]}
 {"mi": "poaka", "gr": "noun", "en": ["pig", "pork"]}
@@ -88,27 +79,21 @@
 {"mi": "motu", "gr": "noun", "en": ["cut, wound", "island", "clump of trees", "ship", "land", "country, nation"]}
 {"mi": "roto", "gr": "noun", "en": ["interior", "lake"]}
 {"mi": "marama", "gr": "noun", "en": ["moon", "month"]}
-{"mi": "ata", "gr": "noun", "en": ["form, shape, image", "reflection", "shadow"]}
-{"mi": "ata", "gr": "noun", "en": ["morning"]}
+{"mi": "ata", "gr": "noun", "en": ["form, shape, image", "reflection", "shadow", "morning"]}
 {"mi": "ahiahi", "gr": "noun", "en": ["evening (time of day)", "afternoon"]}
 {"mi": "awatea", "gr": "noun", "en": ["daylight"]}
-{"mi": "wiki", "gr": "noun", "en": ["week"]}
-{"mi": "wiki", "gr": "noun", "en": ["wick; fuse"]}
+{"mi": "wiki", "gr": "noun", "en": ["week", "wick; fuse"]}
 {"mi": "tīmatanga", "gr": "noun", "en": ["beginning, introduction, start, commencement"]}
 {"mi": "mutunga", "gr": "noun", "en": ["end; finish; conclusion"]}
 {"mi": "takiwā", "gr": "noun", "en": ["territory, area, region", "time, period, season", "space", "setting"]}
 {"mi": "tāone", "gr": "noun", "en": ["town, city, urban area"]}
-{"mi": "kāinga", "gr": "noun", "en": ["The burning (of a fire)."]}
-{"mi": "kāinga", "gr": "noun", "en": ["A place of residence or habitation.", "A country.", "A home."]}
-{"mi": "pā", "gr": "noun", "en": ["fortified place", "fortified village", "screen or blockade"]}
-{"mi": "pā", "gr": "noun", "en": ["clump, group or flock", "contact (netball, etc.)"]}
+{"mi": "kāinga", "gr": "noun", "en": ["The burning (of a fire).", "A place of residence or habitation.", "A country.", "A home."]}
+{"mi": "pā", "gr": "noun", "en": ["fortified place", "fortified village", "screen or blockade", "clump, group or flock", "contact (netball, etc.)"]}
 {"mi": "waka", "gr": "noun", "en": ["particular large canoes sometimes equipped with sails as continuous across Southeast Asia to Polynesia", "boat, canoe", "vehicle or any mode of transport", "spirit medium"]}
 {"mi": "ara", "gr": "noun", "en": ["path (a trail for the use of, or worn by, pedestrians)", "path (a course taken)", "path (a metaphorical course)", "path (a method or direction of proceeding)", "road (a way for travel)", "road (a path in life)", "street (paved part of road in a village or a town)", "track (beaten path)", "track (course; way)", "track (path or course laid out for a race or exercise)", "track (permanent way; the rails)", "way (wide path)"]}
-{"mi": "tiriti", "gr": "noun", "en": ["street"]}
-{"mi": "tiriti", "gr": "noun", "en": ["treaty"]}
+{"mi": "tiriti", "gr": "noun", "en": ["street", "treaty"]}
 {"mi": "hōtēra", "gr": "noun", "en": ["hotel"]}
-{"mi": "toa", "gr": "noun", "en": ["a warrior.", "bravery, courage", "a male."]}
-{"mi": "toa", "gr": "noun", "en": ["a store or shop."]}
+{"mi": "toa", "gr": "noun", "en": ["a warrior.", "bravery, courage", "a male.", "a store or shop."]}
 {"mi": "moni", "gr": "noun", "en": ["money, cash"]}
 {"mi": "pūtea", "gr": "noun", "en": ["a special basket woven from leaves of harakeke (Phormium tenax) to hold belongings like clothing", "savings", "fund", "finance"]}
 {"mi": "utu", "gr": "noun", "en": ["pay; payment; salary", "revenge; payback"]}
@@ -132,19 +117,15 @@
 {"mi": "rererangi", "gr": "noun", "en": ["airplane, aeroplane, aircraft"]}
 {"mi": "whetū", "gr": "noun", "en": ["star (luminous celestial body)"]}
 {"mi": "hau", "gr": "noun", "en": ["essence", "ceremonial offering of food to an atua", "a present given in return for another gift", "wind, breeze, breath", "air", "excess", "external angle, corner, obtuse angle"]}
-{"mi": "ua", "gr": "noun", "en": ["rain (condensed water from a cloud)"]}
-{"mi": "ua", "gr": "noun", "en": ["vein (blood vessel)"]}
+{"mi": "ua", "gr": "noun", "en": ["rain (condensed water from a cloud)", "vein (blood vessel)"]}
 {"mi": "taru", "gr": "noun", "en": ["weed, grass; small vegetation"]}
 {"mi": "pua", "gr": "noun", "en": ["flower"]}
 {"mi": "rau", "gr": "noun", "en": ["leaf", "sheet of paper", "page of a book"]}
 {"mi": "kahu", "gr": "noun", "en": ["cloak, cape", "garment, clothing", "covering, surface"]}
-{"mi": "parāoa", "gr": "noun", "en": ["sperm whale (Physeter macrocephalus)", "whale", "whalebone", "weapon made of whalebone"]}
-{"mi": "parāoa", "gr": "noun", "en": ["flour", "bread"]}
+{"mi": "parāoa", "gr": "noun", "en": ["sperm whale (Physeter macrocephalus)", "whale", "whalebone", "weapon made of whalebone", "flour", "bread"]}
 {"mi": "miraka", "gr": "noun", "en": ["milk"]}
-{"mi": "huka", "gr": "noun", "en": ["sugar"]}
-{"mi": "huka", "gr": "noun", "en": ["snow, foam, froth, any white form of precipitation"]}
-{"mi": "tī", "gr": "noun", "en": ["Cordyline australis"]}
-{"mi": "tī", "gr": "noun", "en": ["tea (drink)"]}
+{"mi": "huka", "gr": "noun", "en": ["sugar", "snow, foam, froth, any white form of precipitation"]}
+{"mi": "tī", "gr": "noun", "en": ["Cordyline australis", "tea (drink)"]}
 {"mi": "kawhe", "gr": "noun", "en": ["coffee"]}
 {"mi": "pia", "gr": "noun", "en": ["beer"]}
 {"mi": "waipiro", "gr": "noun", "en": ["alcohol, liquor"]}
@@ -173,8 +154,7 @@
 {"mi": "haka", "gr": "noun", "en": ["A war dance; a haka."]}
 {"mi": "hui", "gr": "noun", "en": ["gathering, meeting, assembly, seminar, conference"]}
 {"mi": "pōwhiri", "gr": "noun", "en": ["welcoming, a welcome", "invitation"]}
-{"mi": "hākari", "gr": "noun", "en": ["platform to display or spread food for a feast", "feast, banquet, any huge meal for a special occasion", "gift"]}
-{"mi": "hākari", "gr": "noun", "en": ["fish roe", "fine dosinia"]}
+{"mi": "hākari", "gr": "noun", "en": ["platform to display or spread food for a feast", "feast, banquet, any huge meal for a special occasion", "gift", "fish roe", "fine dosinia"]}
 {"mi": "tangihanga", "gr": "noun", "en": ["funeral"]}
 {"mi": "whanaungatanga", "gr": "noun", "en": ["close relationship"]}
 {"mi": "manaakitanga", "gr": "noun", "en": ["Showing kindness, generosity, respect to others."]}
@@ -190,8 +170,7 @@
 {"mi": "rūma", "gr": "noun", "en": ["room (of a building)"]}
 {"mi": "tēpu", "gr": "noun", "en": ["table"]}
 {"mi": "pouaka", "gr": "noun", "en": ["box (cuboid space; container)", "Poa triodioides, a grass that grows on coastal dunes."]}
-{"mi": "pēke", "gr": "noun", "en": ["bank"]}
-{"mi": "pēke", "gr": "noun", "en": ["bag, sack"]}
+{"mi": "pēke", "gr": "noun", "en": ["bank", "bag, sack"]}
 {"mi": "kete", "gr": "noun", "en": ["basket"]}
 {"mi": "pōro", "gr": "noun", "en": ["ball"]}
 {"mi": "whutupōro", "gr": "noun", "en": ["rugby"]}
@@ -210,44 +189,35 @@
 {"mi": "kākā", "gr": "noun", "en": ["a parrot (especially the kaka)", "kaka (Nestor meridionalis)"]}
 {"mi": "kea", "gr": "noun", "en": ["snot", "the kea (Nestor notabilis)"]}
 {"mi": "tuatara", "gr": "noun", "en": ["tuatara"]}
-{"mi": "kōura", "gr": "noun", "en": ["crayfish; lobster"]}
-{"mi": "kōura", "gr": "noun", "en": ["gold"]}
+{"mi": "kōura", "gr": "noun", "en": ["crayfish; lobster", "gold"]}
 {"mi": "tuna", "gr": "noun", "en": ["eel of various species, including longfin eels (Anguilla dieffenbachii) and shortfin eels (Anguilla australis)"]}
 {"mi": "tāmure", "gr": "noun", "en": ["Australasian snapper, New Zealand snapper, silver seabream (Pagrus auratus, syn. Chrysophrys auratus), a silvery pinkish to golden fish with numerous bright blue spots over upper sides."]}
 {"mi": "pāua", "gr": "noun", "en": ["Any of the three species of large edible sea snails, marine gastropod molluscs of the family Haliotidae (sole genus Haliotis), known in the United States and Australia as abalone, and in the United Kingdom as ormer shells."]}
 {"mi": "kina", "gr": "noun", "en": ["sea urchin"]}
-{"mi": "kuku", "gr": "noun", "en": ["any type of mussel"]}
-{"mi": "kuku", "gr": "noun", "en": ["pincers, tweezers, any tool or item that nips or pinches", "finger or toe nail, alternative form of matikuku", "attraction"]}
+{"mi": "kuku", "gr": "noun", "en": ["any type of mussel", "pincers, tweezers, any tool or item that nips or pinches", "finger or toe nail, alternative form of matikuku", "attraction"]}
 {"mi": "pipi", "gr": "noun", "en": ["The edible saltwater clam Paphies australis, of the family Mesodesmatidae, endemic to New Zealand."]}
 {"mi": "tio", "gr": "noun", "en": ["ice", "rock oyster (Saccostrea spp.)", "rough tree fern (Alsophila australis)"]}
-{"mi": "tatau", "gr": "noun", "en": ["number, tally", "count, score"]}
-{"mi": "tatau", "gr": "noun", "en": ["door"]}
+{"mi": "tatau", "gr": "noun", "en": ["number, tally", "count, score", "door"]}
 {"mi": "tatauranga", "gr": "noun", "en": ["statistics (mathematical science)"]}
-{"mi": "mano", "gr": "noun", "en": ["multitude, host (of a very large amount)"]}
-{"mi": "mano", "gr": "noun", "en": ["interior, heart, core"]}
-{"mi": "mano", "gr": "noun", "en": ["creed"]}
+{"mi": "mano", "gr": "noun", "en": ["multitude, host (of a very large amount)", "interior, heart, core", "creed"]}
 {"mi": "whakataukī", "gr": "noun", "en": ["proverb", "aphorism"]}
 {"mi": "pepeha", "gr": "noun", "en": ["an introductory speech detailing one's ancestry", "proverb; motto; slogan"]}
 {"mi": "pūtaiao", "gr": "noun", "en": ["science"]}
 {"mi": "pāngarau", "gr": "noun", "en": ["mathematics"]}
-{"mi": "toi", "gr": "noun", "en": ["tip, point", "finger"]}
-{"mi": "toi", "gr": "noun", "en": ["knowledge, art"]}
+{"mi": "toi", "gr": "noun", "en": ["tip, point", "finger", "knowledge, art"]}
 {"mi": "ātaahua", "gr": "noun", "en": ["beauty"]}
 {"mi": "ture", "gr": "noun", "en": ["law"]}
 {"mi": "kāwanatanga", "gr": "noun", "en": ["Government."]}
 {"mi": "pāremata", "gr": "noun", "en": ["parliament"]}
 {"mi": "tōrangapū", "gr": "noun", "en": ["politics"]}
 {"mi": "rōpū", "gr": "noun", "en": ["An organized group of people; group, party, organisation, committee, company, gang, association, entourage, etc.", "category"]}
-{"mi": "kapa", "gr": "noun", "en": ["team, group", "row, line"]}
-{"mi": "kapa", "gr": "noun", "en": ["copper"]}
+{"mi": "kapa", "gr": "noun", "en": ["team, group", "row, line", "copper"]}
 {"mi": "pikitia", "gr": "noun", "en": ["picture, image"]}
 {"mi": "kainga", "gr": "noun", "en": ["The refuse of a meal."]}
 {"mi": "whakaahua", "gr": "noun", "en": ["photograph, picture, shot", "image", "photocopy", "illustration", "design"]}
 {"mi": "īmēra", "gr": "noun", "en": ["email, electronic mail"]}
 {"mi": "tamahine", "gr": "noun", "en": ["girl, female child", "daughter"]}
-{"mi": "hoa", "gr": "noun", "en": ["friend, companion, mate, partner, spouse, ally"]}
-{"mi": "hoa", "gr": "noun", "en": ["pitch (of a roof)"]}
-{"mi": "hoa", "gr": "noun", "en": ["charm, spell, enchantment"]}
+{"mi": "hoa", "gr": "noun", "en": ["friend, companion, mate, partner, spouse, ally", "pitch (of a roof)", "charm, spell, enchantment"]}
 {"mi": "whanaunga", "gr": "noun", "en": ["familial relative"]}
 {"mi": "tangata whenua", "gr": "noun", "en": ["indigenous people", "hosts"]}
 {"mi": "kapa haka", "gr": "noun", "en": ["Māori performing arts group."]}
@@ -260,72 +230,38 @@
 {"mi": "papa tapeke", "gr": "noun", "en": ["scoreboard"]}
 {"mi": "mate huka", "gr": "noun", "en": ["diabetes"]}
 {"mi": "whare herehere", "gr": "noun", "en": ["prison"]}
-{"mi": "whiti", "gr": "noun", "en": ["shock, alarm, fright"]}
-{"mi": "whiti", "gr": "noun", "en": ["crossbeam, crossbar"]}
-{"mi": "whiti", "gr": "noun", "en": ["shining"]}
-{"mi": "whiti", "gr": "noun", "en": ["verse, stanza, paragraph, clause"]}
-{"mi": "whiti", "gr": "noun", "en": ["wheat"]}
-{"mi": "whiti", "gr": "noun", "en": ["fitness"]}
-{"mi": "au", "gr": "noun", "en": ["current (water)", "whirlpool; rapid", "wake (of a canoe, etc.)", "sea; ocean"]}
-{"mi": "au", "gr": "noun", "en": ["gall; gall bladder"]}
-{"mi": "au", "gr": "noun", "en": ["smoke", "cloud", "mist; fog"]}
+{"mi": "whiti", "gr": "noun", "en": ["shock, alarm, fright", "crossbeam, crossbar", "shining", "verse, stanza, paragraph, clause", "wheat", "fitness"]}
+{"mi": "au", "gr": "noun", "en": ["current (water)", "whirlpool; rapid", "wake (of a canoe, etc.)", "sea; ocean", "gall; gall bladder", "smoke", "cloud", "mist; fog"]}
 {"mi": "ahu", "gr": "noun", "en": ["mound"]}
-{"mi": "pere", "gr": "noun", "en": ["karapapa (Alseuosmia macrophylla)", "Alseuosmia banksii var. linariifolia"]}
-{"mi": "pere", "gr": "noun", "en": ["dart", "arrow", "an adze-shaped wooden hoe", "vector"]}
-{"mi": "pere", "gr": "noun", "en": ["riddle"]}
-{"mi": "pere", "gr": "noun", "en": ["bell"]}
-{"mi": "uta", "gr": "noun", "en": ["interior (the inside regions of a country or island)", "land (from a sea or water perspective)", "the shore"]}
-{"mi": "uta", "gr": "noun", "en": ["load", "contribution", "freight, cargo", "import; export"]}
+{"mi": "pere", "gr": "noun", "en": ["karapapa (Alseuosmia macrophylla)", "Alseuosmia banksii var. linariifolia", "dart", "arrow", "an adze-shaped wooden hoe", "vector", "riddle", "bell"]}
+{"mi": "uta", "gr": "noun", "en": ["interior (the inside regions of a country or island)", "land (from a sea or water perspective)", "the shore", "load", "contribution", "freight, cargo", "import; export"]}
 {"mi": "taki", "gr": "noun", "en": ["a kākā snare", "beat"]}
-{"mi": "tari", "gr": "noun", "en": ["plaiting of several strands"]}
-{"mi": "tari", "gr": "noun", "en": ["noose (for catching birds)"]}
-{"mi": "tari", "gr": "noun", "en": ["study, office (room)", "office, department (agency)"]}
-{"mi": "poro", "gr": "noun", "en": ["butt or end of a rod, stick etc", "block, slab (from cutting elongated object)"]}
-{"mi": "poro", "gr": "noun", "en": ["anything with a rounded or curvy surface", "ball"]}
-{"mi": "poro", "gr": "noun", "en": ["any kind of Solanum plant"]}
+{"mi": "tari", "gr": "noun", "en": ["plaiting of several strands", "noose (for catching birds)", "study, office (room)", "office, department (agency)", "to wait, alternative form of tatari"]}
+{"mi": "poro", "gr": "noun", "en": ["butt or end of a rod, stick etc", "block, slab (from cutting elongated object)", "anything with a rounded or curvy surface", "ball", "any kind of Solanum plant"]}
 {"mi": "poi", "gr": "noun", "en": ["lump of dirt, clump of hair etc", "ball, sphere", "poi (tethered weights used in a poi performance)", "a poi performance or the accompanying music"]}
-{"mi": "kopa", "gr": "noun", "en": ["space in front of a house", "floor space and corner on the left on entering a wharenui – normally the place where the local people of the marae sit or sleep"]}
-{"mi": "kopa", "gr": "noun", "en": ["bend, fold", "any flappable item e.g. wallets, satchels"]}
-{"mi": "kopa", "gr": "noun", "en": ["cripple, disability"]}
-{"mi": "pū", "gr": "noun", "en": ["bunch, bundle", "heap, stack", "tribe", "origin, source", "base, foundation"]}
-{"mi": "pū", "gr": "noun", "en": ["reed, tube, pipe", "any elongated wind musical instrument", "gun, firearm, musket"]}
+{"mi": "kopa", "gr": "noun", "en": ["space in front of a house", "floor space and corner on the left on entering a wharenui – normally the place where the local people of the marae sit or sleep", "bend, fold", "any flappable item e.g. wallets, satchels", "cripple, disability"]}
+{"mi": "pū", "gr": "noun", "en": ["bunch, bundle", "heap, stack", "tribe", "origin, source", "base, foundation", "reed, tube, pipe", "any elongated wind musical instrument", "gun, firearm, musket"]}
 {"mi": "tāke", "gr": "noun", "en": ["tax, a sum paid to the government for monetary transactions"]}
-{"mi": "toro", "gr": "noun", "en": ["extension", "scout", "probe"]}
-{"mi": "toro", "gr": "noun", "en": ["toro (Myrsine salicina, a small native New Zealand tree."]}
-{"mi": "tara", "gr": "noun", "en": ["thorn of a plant", "tooth of a comb, tine of a fork", "spine of a fish, barb of a stingray", "skewer", "peak of a mountain"]}
-{"mi": "tara", "gr": "noun", "en": ["gossip", "scandal"]}
+{"mi": "toro", "gr": "noun", "en": ["extension", "scout", "probe", "toro (Myrsine salicina, a small native New Zealand tree."]}
+{"mi": "tara", "gr": "noun", "en": ["thorn of a plant", "tooth of a comb, tine of a fork", "spine of a fish, barb of a stingray", "skewer", "peak of a mountain", "gossip", "scandal"]}
 {"mi": "aro", "gr": "noun", "en": ["front (facing side)", "front (weather)", "desire", "inclination", "heart, seat of feelings"]}
-{"mi": "apa", "gr": "noun", "en": ["layer; level"]}
-{"mi": "apa", "gr": "noun", "en": ["servant; slave"]}
-{"mi": "apa", "gr": "noun", "en": ["spiritual beings; ancestral spirits"]}
+{"mi": "apa", "gr": "noun", "en": ["layer; level", "servant; slave", "spiritual beings; ancestral spirits"]}
 {"mi": "whāngai", "gr": "noun", "en": ["foster child, adopted child"]}
-{"mi": "wīwī", "gr": "noun", "en": ["sea rush, clubrush"]}
-{"mi": "wīwī", "gr": "noun", "en": ["somewhere; hither and thither"]}
-{"mi": "auau", "gr": "noun", "en": ["bark (of a dog)"]}
-{"mi": "auau", "gr": "noun", "en": ["frequency, rate"]}
+{"mi": "wīwī", "gr": "noun", "en": ["sea rush, clubrush", "somewhere; hither and thither"]}
+{"mi": "auau", "gr": "noun", "en": ["bark (of a dog)", "frequency, rate"]}
 {"mi": "tupu", "gr": "noun", "en": ["seedling, shoot, bud"]}
-{"mi": "uru", "gr": "noun", "en": ["head (in the singular)", "chief, leader", "top, upper end", "point (of a weapon, etc.)", "hair (of the head, in the plural)"]}
-{"mi": "uru", "gr": "noun", "en": ["west"]}
-{"mi": "tia", "gr": "noun", "en": ["abdomen, stomach", "umbilical cord"]}
-{"mi": "tia", "gr": "noun", "en": ["deer"]}
-{"mi": "tia", "gr": "noun", "en": ["steering"]}
-{"mi": "kini", "gr": "noun", "en": ["pinch (amount)"]}
-{"mi": "kini", "gr": "noun", "en": ["guinea (a coin)"]}
-{"mi": "whai", "gr": "noun", "en": ["stingray", "skate (fish of family Rajidae)"]}
-{"mi": "whai", "gr": "noun", "en": ["pursuit"]}
-{"mi": "ngaro", "gr": "noun", "en": ["blowfly, in connection with mākutu the fly represented the life or spirit of the person involved.", "houseflies of various species, any plump winged insect"]}
-{"mi": "ngaro", "gr": "noun", "en": ["roller (for moving a canoe, etc)"]}
+{"mi": "uru", "gr": "noun", "en": ["head (in the singular)", "chief, leader", "top, upper end", "point (of a weapon, etc.)", "hair (of the head, in the plural)", "west"]}
+{"mi": "tia", "gr": "noun", "en": ["abdomen, stomach", "umbilical cord", "deer", "steering"]}
+{"mi": "kini", "gr": "noun", "en": ["pinch (amount)", "guinea (a coin)"]}
+{"mi": "whai", "gr": "noun", "en": ["stingray", "skate (fish of family Rajidae)", "pursuit"]}
+{"mi": "ngaro", "gr": "noun", "en": ["blowfly, in connection with mākutu the fly represented the life or spirit of the person involved.", "houseflies of various species, any plump winged insect", "roller (for moving a canoe, etc)"]}
 {"mi": "piki", "gr": "noun", "en": ["fig tree", "fig"]}
 {"mi": "niu", "gr": "noun", "en": ["coconut"]}
 {"mi": "tukutuku", "gr": "noun", "en": ["ornamental lattice-work", "grid"]}
-{"mi": "kēkē", "gr": "noun", "en": ["armpit"]}
-{"mi": "kēkē", "gr": "noun", "en": ["quack (of a duck)"]}
-{"mi": "kēkē", "gr": "noun", "en": ["distant, divergent"]}
+{"mi": "kēkē", "gr": "noun", "en": ["armpit", "quack (of a duck)", "distant, divergent"]}
 {"mi": "kino", "gr": "noun", "en": ["harm", "hate"]}
-{"mi": "maki", "gr": "noun", "en": ["sick person", "sore (injured, infected, inflamed, or diseased patch of skin)"]}
-{"mi": "maki", "gr": "noun", "en": ["ape", "monkey"]}
-{"mi": "ruru", "gr": "noun", "en": ["morepork (Ninox novaeseelandiae)"]}
-{"mi": "ruru", "gr": "noun", "en": ["shelter", "shade"]}
+{"mi": "maki", "gr": "noun", "en": ["sick person", "sore (injured, infected, inflamed, or diseased patch of skin)", "ape", "monkey"]}
+{"mi": "ruru", "gr": "noun", "en": ["morepork (Ninox novaeseelandiae)", "shelter", "shade"]}
 {"mi": "tote", "gr": "noun", "en": ["salt"]}
 {"mi": "māori", "gr": "noun", "en": ["aboriginal inhabitant, indigenous person, native (especially of the Pacific islands)"]}
 {"mi": "hā", "gr": "noun", "en": ["breath, breathing, essence, taste.", "sound, tone, tenor, timbre, intonation."]}
@@ -333,35 +269,25 @@
 {"mi": "puta", "gr": "noun", "en": ["anus", "vagina", "foramen"]}
 {"mi": "pani", "gr": "noun", "en": ["paint", "polish"]}
 {"mi": "ngāi", "gr": "noun", "en": ["Group marker used in certain nouns."]}
-{"mi": "pahū", "gr": "noun", "en": ["drum (slotted or skinned)"]}
-{"mi": "pahū", "gr": "noun", "en": ["boom, bang", "explosion", "bomb"]}
+{"mi": "pahū", "gr": "noun", "en": ["drum (slotted or skinned)", "boom, bang", "explosion", "bomb"]}
 {"mi": "pohane", "gr": "noun", "en": ["sexual attraction", "love, affection, desire, lust"]}
-{"mi": "kaha", "gr": "noun", "en": ["strength, power, energy"]}
-{"mi": "kaha", "gr": "noun", "en": ["rope, noose"]}
-{"mi": "kaha", "gr": "noun", "en": ["hill ridge", "lineage"]}
-{"mi": "tina", "gr": "noun", "en": ["constipation"]}
-{"mi": "tina", "gr": "noun", "en": ["lunch, dinner (midday meal)"]}
+{"mi": "kaha", "gr": "noun", "en": ["strength, power, energy", "rope, noose", "hill ridge", "lineage"]}
+{"mi": "tina", "gr": "noun", "en": ["constipation", "lunch, dinner (midday meal)"]}
 {"mi": "piro", "gr": "noun", "en": ["rot", "intestines"]}
 {"mi": "nanu", "gr": "noun", "en": ["discontent, dissatisfaction"]}
 {"mi": "moe", "gr": "noun", "en": ["sleep", "dream"]}
 {"mi": "hira", "gr": "noun", "en": ["multitude", "importance, significance", "abundance, plentifulness, profusion"]}
 {"mi": "tangi", "gr": "noun", "en": ["weeping, mourning, lament", "sound", "pitch", "intonation"]}
 {"mi": "ārai", "gr": "noun", "en": ["obstacle; barricade", "screen (physical divider)", "insulator", "barrier", "veil; curtain", "apron"]}
-{"mi": "heu", "gr": "noun", "en": ["razor"]}
-{"mi": "heu", "gr": "noun", "en": ["scrub, undergrowth"]}
-{"mi": "kī", "gr": "noun", "en": ["saying, word"]}
-{"mi": "kī", "gr": "noun", "en": ["to be full"]}
-{"mi": "kī", "gr": "noun", "en": ["key"]}
-{"mi": "pare", "gr": "noun", "en": ["headband, wreath"]}
-{"mi": "pare", "gr": "noun", "en": ["defence, protection"]}
+{"mi": "heu", "gr": "noun", "en": ["razor", "scrub, undergrowth"]}
+{"mi": "kī", "gr": "noun", "en": ["saying, word", "to be full", "key"]}
+{"mi": "pare", "gr": "noun", "en": ["headband, wreath", "defence, protection"]}
 {"mi": "whiu", "gr": "noun", "en": ["penalty, sentence, punishment", "hitting, wielding, knocking, driving"]}
-{"mi": "whano", "gr": "noun", "en": ["lead of a road"]}
-{"mi": "whano", "gr": "noun", "en": ["action, behaviour"]}
+{"mi": "whano", "gr": "noun", "en": ["lead of a road", "action, behaviour"]}
 {"mi": "pae", "gr": "noun", "en": ["shelf", "horizon", "perch", "mountain range", "area, region", "circumference", "gum (oral)"]}
 {"mi": "tapa", "gr": "noun", "en": ["rim, edge, boundary", "labia"]}
 {"mi": "hiko", "gr": "noun", "en": ["flash, twinkle", "lightning", "electricity"]}
-{"mi": "uaua", "gr": "noun", "en": ["blood vessel", "vein; artery", "sinew; tendon", "muscle", "difficulty; dilemma; problem; trouble"]}
-{"mi": "uaua", "gr": "noun", "en": ["firmness, resolution"]}
+{"mi": "uaua", "gr": "noun", "en": ["blood vessel", "vein; artery", "sinew; tendon", "muscle", "difficulty; dilemma; problem; trouble", "firmness, resolution"]}
 {"mi": "whakahaere", "gr": "noun", "en": ["operation", "organization", "control", "administration"]}
 {"mi": "hirahira", "gr": "noun", "en": ["standing", "importance, significance", "eminence"]}
 {"mi": "atawhai", "gr": "noun", "en": ["kindness, generosity"]}
@@ -372,60 +298,42 @@
 {"mi": "wāwā", "gr": "noun", "en": ["somewhere; hither and thither"]}
 {"mi": "taunga", "gr": "noun", "en": ["anchorage, resting place, landing", "fishing ground", "coordinate", "position"]}
 {"mi": "whana", "gr": "noun", "en": ["archery bow", "jerking, recoiling, springing back", "revolt, rebellion, mutiny, uprising, riot, insurrection", "kick"]}
-{"mi": "ira", "gr": "noun", "en": ["dot, freckle, speck, mole", "particle", "shine, glimmer"]}
-{"mi": "ira", "gr": "noun", "en": ["life principle, gene."]}
+{"mi": "ira", "gr": "noun", "en": ["dot, freckle, speck, mole", "particle", "shine, glimmer", "life principle, gene."]}
 {"mi": "heke", "gr": "noun", "en": ["descent", "rafting, rafter", "surfing"]}
-{"mi": "tore", "gr": "noun", "en": ["strip, shred (of cloth etc)", "stripe", "narrow light beam passing through a slit"]}
-{"mi": "tore", "gr": "noun", "en": ["vagina, vulva"]}
-{"mi": "oka", "gr": "noun", "en": ["awl, tool used to bore holes in wood or leather", "a kind of dagger"]}
-{"mi": "oka", "gr": "noun", "en": ["rafter, esp. that supports the roof of kumara storehouses"]}
-{"mi": "oka", "gr": "noun", "en": ["yam"]}
-{"mi": "pona", "gr": "noun", "en": ["node or knot of grass stalks etc", "joint of a limb (legs, arms)", "knuckle"]}
-{"mi": "pona", "gr": "noun", "en": ["knot (of a rope)", "sachet, parcel"]}
-{"mi": "ōi", "gr": "noun", "en": ["shout"]}
-{"mi": "ōi", "gr": "noun", "en": ["grey-faced petrel", "sooty shearwater", "short-tailed shearwater"]}
-{"mi": "ōi", "gr": "noun", "en": ["muck", "quicksand"]}
+{"mi": "tore", "gr": "noun", "en": ["strip, shred (of cloth etc)", "stripe", "narrow light beam passing through a slit", "vagina, vulva"]}
+{"mi": "oka", "gr": "noun", "en": ["awl, tool used to bore holes in wood or leather", "a kind of dagger", "rafter, esp. that supports the roof of kumara storehouses", "yam"]}
+{"mi": "pona", "gr": "noun", "en": ["node or knot of grass stalks etc", "joint of a limb (legs, arms)", "knuckle", "knot (of a rope)", "sachet, parcel"]}
+{"mi": "ōi", "gr": "noun", "en": ["shout", "grey-faced petrel", "sooty shearwater", "short-tailed shearwater", "muck", "quicksand"]}
 {"mi": "kōkō", "gr": "noun", "en": ["tui"]}
 {"mi": "mutu", "gr": "noun", "en": ["bird trap or snare consisting of a stick with a long perpendicular arm which birds would perch on"]}
 {"mi": "rū", "gr": "noun", "en": ["shake, agitation", "earthquake, tremor"]}
 {"mi": "pīrangi", "gr": "noun", "en": ["desire, wish", "aspiration, hope"]}
 {"mi": "popo", "gr": "noun", "en": ["anything rotten, something decayed", "rottenness, decay"]}
 {"mi": "aitu", "gr": "noun", "en": ["atua of disaster and death", "demons", "sickness", "calamity, misery", "grief, sorrow", "woe"]}
-{"mi": "māpere", "gr": "noun", "en": ["razor sedge (Gahnia setifolia)"]}
-{"mi": "māpere", "gr": "noun", "en": ["middle digit"]}
-{"mi": "māpere", "gr": "noun", "en": ["marble", "ballot"]}
-{"mi": "māpere", "gr": "noun", "en": ["mulberry"]}
-{"mi": "hae", "gr": "noun", "en": ["scratch, tear, laceration"]}
-{"mi": "hae", "gr": "noun", "en": ["envy, jealousy", "dislike"]}
-{"mi": "rore", "gr": "noun", "en": ["trap, snare"]}
-{"mi": "rore", "gr": "noun", "en": ["rainbow"]}
+{"mi": "māpere", "gr": "noun", "en": ["razor sedge (Gahnia setifolia)", "middle digit", "marble", "ballot", "mulberry"]}
+{"mi": "hae", "gr": "noun", "en": ["scratch, tear, laceration", "envy, jealousy", "dislike"]}
+{"mi": "rore", "gr": "noun", "en": ["trap, snare", "rainbow"]}
 {"mi": "ura", "gr": "noun", "en": ["krill (small marine crustacean)", "whalefeed, Munida gregaria", "shrimp (decapod crustacean)"]}
 {"mi": "ngahuru", "gr": "noun", "en": ["autumn"]}
-{"mi": "tiaki", "gr": "noun", "en": ["jack (playing card)"]}
-{"mi": "tiaki", "gr": "noun", "en": ["cheque"]}
-{"mi": "kawe", "gr": "noun", "en": ["handle (of a basket etc.), strap (of a bag, backpack)"]}
-{"mi": "kawe", "gr": "noun", "en": ["tentacle", "spiral moko pattern on one's facial cheeks"]}
+{"mi": "tiaki", "gr": "noun", "en": ["jack (playing card)", "cheque"]}
+{"mi": "kawe", "gr": "noun", "en": ["handle (of a basket etc.), strap (of a bag, backpack)", "tentacle", "spiral moko pattern on one's facial cheeks"]}
 {"mi": "tātari", "gr": "noun", "en": ["filter, strainer, sieve, colander", "analysis"]}
 {"mi": "whakaatu", "gr": "noun", "en": ["notification"]}
 {"mi": "tū", "gr": "noun", "en": ["stance, position"]}
 {"mi": "wae", "gr": "noun", "en": ["leg", "foot"]}
 {"mi": "hara", "gr": "noun", "en": ["sin", "foul", "crime, offence, transgression, wrongdoing", "gaffe", "infringement", "fault", "problem"]}
 {"mi": "eka", "gr": "noun", "en": ["acre"]}
-{"mi": "kaka", "gr": "noun", "en": ["fibre (in general)", "cloth, clothes, garment", "strand of hair"]}
-{"mi": "kaka", "gr": "noun", "en": ["stalk", "lineage", "nose bridge", "hill ridge"]}
+{"mi": "kaka", "gr": "noun", "en": ["fibre (in general)", "cloth, clothes, garment", "strand of hair", "stalk", "lineage", "nose bridge", "hill ridge"]}
 {"mi": "whakaari", "gr": "noun", "en": ["drama, play, program", "acting, performance"]}
-{"mi": "raka", "gr": "noun", "en": ["step, walk, trek"]}
-{"mi": "raka", "gr": "noun", "en": ["lock"]}
+{"mi": "raka", "gr": "noun", "en": ["step, walk, trek", "lock"]}
 {"mi": "roki", "gr": "noun", "en": ["any enclosed area", "store"]}
-{"mi": "nohopuku", "gr": "noun", "en": ["fasting (abstention of eating for religious purposes)"]}
-{"mi": "nohopuku", "gr": "noun", "en": ["silence"]}
+{"mi": "nohopuku", "gr": "noun", "en": ["fasting (abstention of eating for religious purposes)", "silence"]}
 {"mi": "kō", "gr": "noun", "en": ["digging stick (also used as a weapon)"]}
 {"mi": "horoi", "gr": "noun", "en": ["washing", "soap"]}
 {"mi": "eke", "gr": "noun", "en": ["embarking, boarding", "surfing", "rafting, rafter"]}
 {"mi": "tua", "gr": "noun", "en": ["back, rear of the body"]}
-{"mi": "pī", "gr": "noun", "en": ["snub"]}
-{"mi": "pī", "gr": "noun", "en": ["bee"]}
-{"mi": "rāhui", "gr": "noun", "en": ["bundle", "flock, herd, mob, swarm, cluster"]}
+{"mi": "pī", "gr": "noun", "en": ["snub", "bee"]}
+{"mi": "rāhui", "gr": "noun", "en": ["bundle", "flock, herd, mob, swarm, cluster", "restriction of access to a place (as a form of taboo)"]}
 {"mi": "ware", "gr": "noun", "en": ["excretion, exudation", "saliva", "spume, foam of seawater"]}
 {"mi": "toko", "gr": "noun", "en": ["pole", "sprit of a canoe's sail", "beam or ray of light"]}
 {"mi": "raro", "gr": "noun", "en": ["the underworld", "bottom", "north"]}
@@ -451,25 +359,20 @@
 {"mi": "rehu", "gr": "noun", "en": ["dust", "mist", "spray"]}
 {"mi": "punga", "gr": "noun", "en": ["coral", "any silicate or calcite material", "anchor"]}
 {"mi": "anga", "gr": "noun", "en": ["shell, husk", "structure, framework"]}
-{"mi": "hunga", "gr": "noun", "en": ["people", "slave"]}
-{"mi": "hunga", "gr": "noun", "en": ["down, fine feathers", "grind, rub fine", "decayed, putrid", "light-coloured"]}
+{"mi": "hunga", "gr": "noun", "en": ["people", "slave", "down, fine feathers", "grind, rub fine", "decayed, putrid", "light-coloured"]}
 {"mi": "uira", "gr": "noun", "en": ["lightning", "electricity", "glow"]}
 {"mi": "tuku", "gr": "noun", "en": ["offering", "presentation, submission"]}
 {"mi": "tahe", "gr": "noun", "en": ["any exudate", "sap", "menses, menstruation i.e. natural monthly uterine discharge among women", "miscarriage, abortion"]}
 {"mi": "inanga", "gr": "noun", "en": ["A fish, the jollytail (Galaxias maculatus).", "The grass tree, a shrub in the genus Dracophyllum.", "bamboo", "white greenstone"]}
 {"mi": "nīko", "gr": "noun", "en": ["cabbage", "celery pine"]}
 {"mi": "taurekareka", "gr": "noun", "en": ["slave or prisoner of war", "scoundrel, idiot, rascal", "rogue"]}
-{"mi": "pata", "gr": "noun", "en": ["drop, drip"]}
-{"mi": "pata", "gr": "noun", "en": ["seed", "granule"]}
+{"mi": "pata", "gr": "noun", "en": ["drop, drip", "seed", "granule"]}
 {"mi": "matira", "gr": "noun", "en": ["fishing rod", "lookout"]}
 {"mi": "amo", "gr": "noun", "en": ["litter, bier, stretcher", "front support of a marae's bargeboard (hihi, mahihi or maihi)"]}
 {"mi": "kohu", "gr": "noun", "en": ["fog"]}
 {"mi": "puru", "gr": "noun", "en": ["plug", "caulk", "coconut husk"]}
-{"mi": "teka", "gr": "noun", "en": ["rung or step of a ladder", "horizontal footrest or tread on a digging stick to step on and push further into the ground"]}
-{"mi": "teka", "gr": "noun", "en": ["dart"]}
-{"mi": "tahua", "gr": "noun", "en": ["field, enclosure, courtyard", "square, plaza", "expanse"]}
-{"mi": "tahua", "gr": "noun", "en": ["heap", "menu", "fund, budget"]}
-{"mi": "tahua", "gr": "noun", "en": ["stencil"]}
+{"mi": "teka", "gr": "noun", "en": ["rung or step of a ladder", "horizontal footrest or tread on a digging stick to step on and push further into the ground", "dart"]}
+{"mi": "tahua", "gr": "noun", "en": ["field, enclosure, courtyard", "square, plaza", "expanse", "heap", "menu", "fund, budget", "stencil"]}
 {"mi": "patu", "gr": "noun", "en": ["beating, assault, killing", "weapon, club"]}
 {"mi": "pou", "gr": "noun", "en": ["post, stake, pillar", "column", "support", "stalwart"]}
 {"mi": "mina", "gr": "noun", "en": ["desire; wish", "aspiration", "longing", "appetite"]}
@@ -478,12 +381,10 @@
 {"mi": "ranga", "gr": "noun", "en": ["group, team, company of people", "school of fish"]}
 {"mi": "pāho", "gr": "noun", "en": ["broadcast"]}
 {"mi": "kiko", "gr": "noun", "en": ["meat of any animal", "flesh of fruit", "kernel of a seed or nut", "body, substance"]}
-{"mi": "maka", "gr": "noun", "en": ["fish hook"]}
-{"mi": "maka", "gr": "noun", "en": ["mug"]}
+{"mi": "maka", "gr": "noun", "en": ["fish hook", "mug"]}
 {"mi": "hina", "gr": "noun", "en": ["grey hair"]}
 {"mi": "whero", "gr": "noun", "en": ["red (orangish or brownish)", "yellow", "gold (element and metal)"]}
-{"mi": "neke", "gr": "noun", "en": ["roller for a waka"]}
-{"mi": "neke", "gr": "noun", "en": ["snake"]}
+{"mi": "neke", "gr": "noun", "en": ["roller for a waka", "snake"]}
 {"mi": "wehi", "gr": "noun", "en": ["dread, fear"]}
 {"mi": "whakamataku", "gr": "noun", "en": ["fright, fear"]}
 {"mi": "ākau", "gr": "noun", "en": ["reef", "coast (of seas), bank (of rivers)"]}
@@ -499,24 +400,19 @@
 {"mi": "whakamōtī", "gr": "noun", "en": ["destruction, damage, devastation, desolation."]}
 {"mi": "tiki", "gr": "noun", "en": ["figurine, carved figure"]}
 {"mi": "hē", "gr": "noun", "en": ["fault"]}
-{"mi": "kuru", "gr": "noun", "en": ["breadfruit"]}
-{"mi": "kuru", "gr": "noun", "en": ["mallet; fragment; hammer-head stone"]}
+{"mi": "kuru", "gr": "noun", "en": ["breadfruit", "mallet; fragment; hammer-head stone"]}
 {"mi": "tepe", "gr": "noun", "en": ["clot"]}
-{"mi": "pūpū", "gr": "noun", "en": ["bunch, bundle"]}
-{"mi": "pūpū", "gr": "noun", "en": ["snail"]}
-{"mi": "haki", "gr": "noun", "en": ["flag"]}
-{"mi": "haki", "gr": "noun", "en": ["mountain holly (Olearia ilicifolia)"]}
+{"mi": "pūpū", "gr": "noun", "en": ["bunch, bundle", "snail"]}
+{"mi": "haki", "gr": "noun", "en": ["flag", "mountain holly (Olearia ilicifolia)"]}
 {"mi": "tini", "gr": "noun", "en": ["multitude, host, a very large amount"]}
-{"mi": "whio", "gr": "noun", "en": ["whistle"]}
-{"mi": "whio", "gr": "noun", "en": ["blue duck"]}
+{"mi": "whio", "gr": "noun", "en": ["whistle", "blue duck"]}
 {"mi": "kākāriki", "gr": "noun", "en": ["a New Zealand parakeet of genus Cyanoramphus", "green, colour of said parakeet", "a green species of gecko", "cantaloupe"]}
 {"mi": "ehu", "gr": "noun", "en": ["muddy water"]}
 {"mi": "iro", "gr": "noun", "en": ["maggot"]}
 {"mi": "maha", "gr": "noun", "en": ["abundance, bounty, majority"]}
 {"mi": "whakangaro", "gr": "noun", "en": ["destruction, obliteration, ruin, annihilation, devastation."]}
 {"mi": "whakamahi", "gr": "noun", "en": ["use"]}
-{"mi": "tūnga", "gr": "noun", "en": ["wound"]}
-{"mi": "tūnga", "gr": "noun", "en": ["position", "rank"]}
+{"mi": "tūnga", "gr": "noun", "en": ["wound", "position", "rank"]}
 {"mi": "kīngi", "gr": "noun", "en": ["king (monarch)", "king"]}
 {"mi": "hīkoi", "gr": "noun", "en": ["step", "march", "hike, trek, tramp", "journey, trip"]}
 {"mi": "paki", "gr": "noun", "en": ["print", "story, tale, yarn"]}
@@ -528,11 +424,9 @@
 {"mi": "ripi", "gr": "noun", "en": ["special tool with long, oval blade used to pry out pāua from rocks", "a type of chisel to carve long grooves on wood", "discus, flat plate thrown as sport", "stone skipping, ducks and drakes"]}
 {"mi": "urupatu", "gr": "noun", "en": ["annihilation, destruction, sacking."]}
 {"mi": "koutu", "gr": "noun", "en": ["promontory, point (of land)"]}
-{"mi": "piupiu", "gr": "noun", "en": ["A grass skirt with long strands or fringes that sway and produce sound while the wearer dances."]}
-{"mi": "piupiu", "gr": "noun", "en": ["Lomaria discolor", "Pneumanopteris pennigera", "Parablechnum procerum", "Parablechnum novae-zelandiae"]}
+{"mi": "piupiu", "gr": "noun", "en": ["A grass skirt with long strands or fringes that sway and produce sound while the wearer dances.", "Lomaria discolor", "Pneumanopteris pennigera", "Parablechnum procerum", "Parablechnum novae-zelandiae"]}
 {"mi": "mangeo", "gr": "noun", "en": ["itch, irritation, smart", "acridity", "annoyance, frustration"]}
-{"mi": "piriti", "gr": "noun", "en": ["priest"]}
-{"mi": "piriti", "gr": "noun", "en": ["bridge"]}
+{"mi": "piriti", "gr": "noun", "en": ["priest", "bridge"]}
 {"mi": "hōkaka", "gr": "noun", "en": ["desire, wish"]}
 {"mi": "rekareka", "gr": "noun", "en": ["sweetness", "attractiveness", "enjoyment, pleasure", "orgasm"]}
 {"mi": "pākehā", "gr": "noun", "en": ["New Zealander of European descent", "New Zealander of non-Māori descent", "foreigner, alien"]}
@@ -549,8 +443,7 @@
 {"mi": "pito", "gr": "noun", "en": ["navel", "end, extremity", "pole"]}
 {"mi": "kano", "gr": "noun", "en": ["seed, bean, grain, ovule", "sort, kind", "color, pigment, hue"]}
 {"mi": "matomato", "gr": "noun", "en": ["lushness"]}
-{"mi": "maina", "gr": "noun", "en": ["mine (explosive device)"]}
-{"mi": "maina", "gr": "noun", "en": ["myna (Acridotheres tristis)"]}
+{"mi": "maina", "gr": "noun", "en": ["mine (explosive device)", "myna (Acridotheres tristis)"]}
 {"mi": "aranga", "gr": "noun", "en": ["arising", "resurrection"]}
 {"mi": "aukati", "gr": "noun", "en": ["barrier, boundary, roadblock", "discrimination"]}
 {"mi": "autaia", "gr": "noun", "en": ["bloke, fellow, guy, chap", "contraption", "wonder"]}
@@ -568,8 +461,7 @@
 {"mi": "wiri", "gr": "noun", "en": ["gimlet, auger, drill, screwdriver, anything for boring holes", "trembling of the hands in Maori singing to indicate the interface between the mind and the body (the wiri represents the shimmering of the ocean water, the heat waves rising from the ground, the wind rustling the tree leaves)"]}
 {"mi": "kope", "gr": "noun", "en": ["anything that wraps", "any kind of absorbent, sanitary pad", "certain types of moss traditionally used as pads or diapers"]}
 {"mi": "hopu", "gr": "noun", "en": ["seizing, catching, snatching"]}
-{"mi": "pāpaka", "gr": "noun", "en": ["paddle crab, Ovalipes catharus", "crabs in general"]}
-{"mi": "pāpaka", "gr": "noun", "en": ["scab, eczema"]}
+{"mi": "pāpaka", "gr": "noun", "en": ["paddle crab, Ovalipes catharus", "crabs in general", "scab, eczema"]}
 {"mi": "āio", "gr": "noun", "en": ["calm, halcyon", "peace"]}
 {"mi": "tāpiri", "gr": "noun", "en": ["sticking plaster", "sticky tape"]}
 {"mi": "kōpere", "gr": "noun", "en": ["a sling used to launch darts", "bow (weapon for shooting arrows or rod for playing string instruments)", "arrow", "arch", "rainbow", "sprint"]}
@@ -592,17 +484,13 @@
 {"mi": "wera", "gr": "noun", "en": ["heat"]}
 {"mi": "koi", "gr": "noun", "en": ["point", "spike"]}
 {"mi": "ato", "gr": "noun", "en": ["thatch, roof"]}
-{"mi": "rama", "gr": "noun", "en": ["torch", "light"]}
-{"mi": "rama", "gr": "noun", "en": ["rum"]}
-{"mi": "peka", "gr": "noun", "en": ["bat (the flying mammal)"]}
-{"mi": "peka", "gr": "noun", "en": ["branch (of a tree, river)", "a piece of firewood"]}
+{"mi": "rama", "gr": "noun", "en": ["torch", "light", "rum"]}
+{"mi": "peka", "gr": "noun", "en": ["bat (the flying mammal)", "branch (of a tree, river)", "a piece of firewood"]}
 {"mi": "hama", "gr": "noun", "en": ["hammer", "malleus (hammer ear bone)"]}
 {"mi": "hako", "gr": "noun", "en": ["monkey", "clown"]}
-{"mi": "poti", "gr": "noun", "en": ["cat (Felis silvestris catus)"]}
-{"mi": "poti", "gr": "noun", "en": ["angle", "corner"]}
+{"mi": "poti", "gr": "noun", "en": ["cat (Felis silvestris catus)", "angle", "corner"]}
 {"mi": "rara", "gr": "noun", "en": ["rib"]}
-{"mi": "kohe", "gr": "noun", "en": ["synonym of kohekohe", "bamboo"]}
-{"mi": "kohe", "gr": "noun", "en": ["Passiflora tetrandra, a kind of passionfruit endemic to New Zealand."]}
+{"mi": "kohe", "gr": "noun", "en": ["synonym of kohekohe", "bamboo", "Passiflora tetrandra, a kind of passionfruit endemic to New Zealand."]}
 {"mi": "piko", "gr": "noun", "en": ["bend, curve", "corner"]}
 {"mi": "tōhi", "gr": "noun", "en": ["toast (bread)", "toast (salutation)"]}
 {"mi": "hīoi", "gr": "noun", "en": ["New Zealand mint (Mentha cunninghamii)", "New Zealand pipit (Anthus novaeseelandiae)"]}
@@ -613,8 +501,7 @@
 {"mi": "kāwana", "gr": "noun", "en": ["A governor."]}
 {"mi": "manako", "gr": "noun", "en": ["desire, wish, want", "longing, yearning", "anxiety"]}
 {"mi": "kapiti", "gr": "noun", "en": ["cleft, crevice", "gorge, pass of a mountain", "slot (for receiving cards, coins etc)"]}
-{"mi": "karapu", "gr": "noun", "en": ["glove (item of clothing)"]}
-{"mi": "karapu", "gr": "noun", "en": ["club (association)"]}
+{"mi": "karapu", "gr": "noun", "en": ["glove (item of clothing)", "club (association)"]}
 {"mi": "okaoka", "gr": "noun", "en": ["vaccine"]}
 {"mi": "kotahi", "gr": "noun", "en": ["unit"]}
 {"mi": "mangō", "gr": "noun", "en": ["shark"]}
@@ -633,39 +520,28 @@
 {"mi": "āngi", "gr": "noun", "en": ["air"]}
 {"mi": "marino", "gr": "noun", "en": ["fine weather, tranquility"]}
 {"mi": "tahito", "gr": "noun", "en": ["age, antiquity"]}
-{"mi": "pākete", "gr": "noun", "en": ["pocket"]}
-{"mi": "pākete", "gr": "noun", "en": ["packet"]}
-{"mi": "pākete", "gr": "noun", "en": ["bucket"]}
-{"mi": "hepara", "gr": "noun", "en": ["shepherd; herdsman"]}
-{"mi": "hepara", "gr": "noun", "en": ["zebra"]}
-{"mi": "urunga", "gr": "noun", "en": ["pillow"]}
-{"mi": "urunga", "gr": "noun", "en": ["entrance (act of entering)"]}
-{"mi": "urunga", "gr": "noun", "en": ["rudder"]}
+{"mi": "pākete", "gr": "noun", "en": ["pocket", "packet", "bucket"]}
+{"mi": "hepara", "gr": "noun", "en": ["shepherd; herdsman", "zebra"]}
+{"mi": "urunga", "gr": "noun", "en": ["pillow", "entrance (act of entering)", "rudder"]}
 {"mi": "kōwhiti", "gr": "noun", "en": ["ulna", "cross stich"]}
 {"mi": "tupuna", "gr": "noun", "en": ["A grandparent, or any ancestor more remote than one's parents."]}
 {"mi": "karetao", "gr": "noun", "en": ["puppet", "robot"]}
-{"mi": "pera", "gr": "noun", "en": ["blubber"]}
-{"mi": "pera", "gr": "noun", "en": ["pillow"]}
-{"mi": "toke", "gr": "noun", "en": ["cold"]}
-{"mi": "toke", "gr": "noun", "en": ["worm"]}
+{"mi": "pera", "gr": "noun", "en": ["blubber", "pillow"]}
+{"mi": "toke", "gr": "noun", "en": ["cold", "worm"]}
 {"mi": "nana", "gr": "noun", "en": ["eyebrow"]}
 {"mi": "aka", "gr": "noun", "en": ["root (of plant)"]}
 {"mi": "koru", "gr": "noun", "en": ["coil, loop"]}
 {"mi": "moto", "gr": "noun", "en": ["hit or blow with the fist, punch"]}
 {"mi": "toto", "gr": "noun", "en": ["blood"]}
-{"mi": "rae", "gr": "noun", "en": ["forehead (part of face above eyebrows)"]}
-{"mi": "rae", "gr": "noun", "en": ["promontory, headland"]}
+{"mi": "rae", "gr": "noun", "en": ["forehead (part of face above eyebrows)", "promontory, headland"]}
 {"mi": "turi", "gr": "noun", "en": ["knee"]}
-{"mi": "uhi", "gr": "noun", "en": ["yam (Dioscorea)"]}
-{"mi": "uhi", "gr": "noun", "en": ["a chisel-like tool used to puncture Maori tattoos (moko)"]}
-{"mi": "moko", "gr": "noun", "en": ["Polynesian tattoo"]}
-{"mi": "moko", "gr": "noun", "en": ["lizard, gecko"]}
+{"mi": "uhi", "gr": "noun", "en": ["yam (Dioscorea)", "a chisel-like tool used to puncture Maori tattoos (moko)"]}
+{"mi": "moko", "gr": "noun", "en": ["Polynesian tattoo", "lizard, gecko"]}
 {"mi": "namu", "gr": "noun", "en": ["sandfly of the genus Austrosimulium."]}
 {"mi": "puna", "gr": "noun", "en": ["spring of water; well; pool"]}
 {"mi": "tutū", "gr": "noun", "en": ["disobedience, offending; hooligan"]}
 {"mi": "pono", "gr": "noun", "en": ["truth, non-fiction, validity"]}
-{"mi": "papi", "gr": "noun", "en": ["poppy"]}
-{"mi": "papi", "gr": "noun", "en": ["puppy"]}
+{"mi": "papi", "gr": "noun", "en": ["poppy", "puppy"]}
 {"mi": "heru", "gr": "noun", "en": ["comb"]}
 {"mi": "rona", "gr": "noun", "en": ["a binder (for holding papers together)"]}
 {"mi": "kipa", "gr": "noun", "en": ["spur (horse prod attached to heel)"]}
@@ -675,8 +551,7 @@
 {"mi": "turu", "gr": "noun", "en": ["post, pole, pillar"]}
 {"mi": "āta", "gr": "noun", "en": ["altar (Christian)"]}
 {"mi": "ripo", "gr": "noun", "en": ["whirlpool, eddy, curl"]}
-{"mi": "miha", "gr": "noun", "en": ["a whale calf"]}
-{"mi": "miha", "gr": "noun", "en": ["young bracken fronds"]}
+{"mi": "miha", "gr": "noun", "en": ["a whale calf", "young bracken fronds"]}
 {"mi": "tupua", "gr": "noun", "en": ["demon", "foreigner", "strange being"]}
 {"mi": "inoi", "gr": "noun", "en": ["a prayer"]}
 {"mi": "rārā", "gr": "noun", "en": ["small branch, twig"]}
@@ -684,9 +559,7 @@
 {"mi": "ātea", "gr": "noun", "en": ["space"]}
 {"mi": "kāoa", "gr": "noun", "en": ["coral"]}
 {"mi": "puehu", "gr": "noun", "en": ["pollen", "dust"]}
-{"mi": "nohi", "gr": "noun", "en": ["face"]}
-{"mi": "nohi", "gr": "noun", "en": ["Luzuriaga parviflora, a kind of perennial plant found in North Island."]}
-{"mi": "tari", "gr": "noun", "en": ["to wait, alternative form of tatari"]}
+{"mi": "nohi", "gr": "noun", "en": ["face", "Luzuriaga parviflora, a kind of perennial plant found in North Island."]}
 {"mi": "paheke", "gr": "noun", "en": ["failure, decline", "trickle, leak, discharge", "cloud ear (Auricularia polytricha)"]}
 {"mi": "rango", "gr": "noun", "en": ["fly (insect)", "blowfly"]}
 {"mi": "kiore", "gr": "noun", "en": ["rat", "mouse (input device)"]}
@@ -732,20 +605,16 @@
 {"mi": "waimarie", "gr": "noun", "en": ["good fortune", "luck"]}
 {"mi": "matikuku", "gr": "noun", "en": ["nail (of the fingers and toes)", "hoof", "claw, talon (of birds etc)"]}
 {"mi": "whakanui", "gr": "noun", "en": ["celebration"]}
-{"mi": "tō", "gr": "noun", "en": ["plant stem/stalk – especially of non-woody monocots such as raupō (Typha orientalis), maize etc.", "finger", "sugar cane"]}
-{"mi": "tō", "gr": "noun", "en": ["stove"]}
-{"mi": "tō", "gr": "noun", "en": ["dragging", "portage"]}
+{"mi": "tō", "gr": "noun", "en": ["plant stem/stalk – especially of non-woody monocots such as raupō (Typha orientalis), maize etc.", "finger", "sugar cane", "stove", "dragging", "portage"]}
 {"mi": "taikoa", "gr": "noun", "en": ["A New Zealander belonging to the established Chinese New Zealand communities of New Zealand.", "A New Zealander of longstanding Cantonese descent, especially one belonging to a locally rooted family whose history in New Zealand extends across generations."]}
 {"mi": "hongi", "gr": "noun", "en": ["The Maori greeting of touching noses."]}
 {"mi": "akiri", "gr": "noun", "en": ["rejection, disposal, discarding"]}
-{"mi": "koura", "gr": "noun", "en": ["gold"]}
-{"mi": "koura", "gr": "noun", "en": ["koura (freshwater crayfish of the genus Paranephrops, endemic to New Zealand)"]}
+{"mi": "koura", "gr": "noun", "en": ["gold", "koura (freshwater crayfish of the genus Paranephrops, endemic to New Zealand)"]}
 {"mi": "renga", "gr": "noun", "en": ["turmeric"]}
 {"mi": "katoa", "gr": "noun", "en": ["everything, everybody"]}
 {"mi": "hauku", "gr": "noun", "en": ["dew"]}
 {"mi": "peara", "gr": "noun", "en": ["pearl"]}
-{"mi": "akeake", "gr": "noun", "en": ["broadleaf hopbush (Dodonaea viscosa)", "mountain akeake (Shawia avicenniifolia syn. Olearia avicenniaefolia)", "Chatham Island akeake (Olearia traversiorum)"]}
-{"mi": "akeake", "gr": "noun", "en": ["infertile land"]}
+{"mi": "akeake", "gr": "noun", "en": ["broadleaf hopbush (Dodonaea viscosa)", "mountain akeake (Shawia avicenniifolia syn. Olearia avicenniaefolia)", "Chatham Island akeake (Olearia traversiorum)", "infertile land"]}
 {"mi": "mākutu", "gr": "noun", "en": ["sorcery (magical power)", "curse (supernatural detriment)"]}
 {"mi": "pīata", "gr": "noun", "en": ["brightness, shine, gloss finish"]}
 {"mi": "pakini", "gr": "noun", "en": ["nick (small cut in a surface)", "apostrophe (the character ’)"]}
@@ -780,26 +649,20 @@
 {"mi": "mātā", "gr": "noun", "en": ["heap, layer", "Carex secta", "longfin perch, pink maomao"]}
 {"mi": "āraimate", "gr": "noun", "en": ["immunity"]}
 {"mi": "kāeo", "gr": "noun", "en": ["Cook's turban (Cookia sulcata)", "dark rock shell", "any member of the species Hyridella menziesi of bivalve molluscs"]}
-{"mi": "kapekape", "gr": "noun", "en": ["stirfry"]}
-{"mi": "kapekape", "gr": "noun", "en": ["northwest", "northwest wind"]}
-{"mi": "korukoru", "gr": "noun", "en": ["wrinkle", "nook, cavity"]}
-{"mi": "korukoru", "gr": "noun", "en": ["turkey"]}
+{"mi": "kapekape", "gr": "noun", "en": ["stirfry", "northwest", "northwest wind"]}
+{"mi": "korukoru", "gr": "noun", "en": ["wrinkle", "nook, cavity", "turkey"]}
 {"mi": "hangarau", "gr": "noun", "en": ["trickery, deception", "technology"]}
-{"mi": "porotaka", "gr": "noun", "en": ["globe; spherical model of Earth", "sphere"]}
-{"mi": "porotaka", "gr": "noun", "en": ["spinning top"]}
+{"mi": "porotaka", "gr": "noun", "en": ["globe; spherical model of Earth", "sphere", "spinning top"]}
 {"mi": "rārangi", "gr": "noun", "en": ["list", "line, row, queue", "clause, section"]}
 {"mi": "konene", "gr": "noun", "en": ["wanderer, wayfarer, drifter", "refugee, displaced person"]}
-{"mi": "karaka", "gr": "noun", "en": ["karaka (Corynocarpus laevigatus)", "orange"]}
-{"mi": "karaka", "gr": "noun", "en": ["clock"]}
+{"mi": "karaka", "gr": "noun", "en": ["karaka (Corynocarpus laevigatus)", "orange", "clock"]}
 {"mi": "tārere", "gr": "noun", "en": ["swing, hanging seat", "pendulum"]}
 {"mi": "mahaki", "gr": "noun", "en": ["sickness", "disease"]}
 {"mi": "anuanu", "gr": "noun", "en": ["aversion"]}
-{"mi": "kakano", "gr": "noun", "en": ["texture, grain (of wood)", "variety"]}
-{"mi": "kakano", "gr": "noun", "en": ["berry"]}
+{"mi": "kakano", "gr": "noun", "en": ["texture, grain (of wood)", "variety", "berry"]}
 {"mi": "kaokao", "gr": "noun", "en": ["side, flank (of the body, hills and mountains, canoes, etc.)", "ribs"]}
 {"mi": "huahua", "gr": "noun", "en": ["water vessel used for boiling in such a method"]}
-{"mi": "karāhe", "gr": "noun", "en": ["glass", "mirror"]}
-{"mi": "karāhe", "gr": "noun", "en": ["class"]}
+{"mi": "karāhe", "gr": "noun", "en": ["glass", "mirror", "class"]}
 {"mi": "herehere", "gr": "noun", "en": ["prisoner"]}
 {"mi": "mirumiru", "gr": "noun", "en": ["bubble"]}
 {"mi": "tauranga", "gr": "noun", "en": ["anchorage"]}
@@ -848,17 +711,14 @@
 {"mi": "hauhau", "gr": "noun", "en": ["whip"]}
 {"mi": "hapori", "gr": "noun", "en": ["community"]}
 {"mi": "keakea", "gr": "noun", "en": ["quack (of a duck)"]}
-{"mi": "mētara", "gr": "noun", "en": ["metal"]}
-{"mi": "mētara", "gr": "noun", "en": ["medal"]}
+{"mi": "mētara", "gr": "noun", "en": ["metal", "medal"]}
 {"mi": "tūhāhā", "gr": "noun", "en": ["individuality"]}
 {"mi": "kokomo", "gr": "noun", "en": ["shirt"]}
-{"mi": "pūrere", "gr": "noun", "en": ["ornamental feathers lining the sides (gunwales, near its strakes) of a waka"]}
-{"mi": "pūrere", "gr": "noun", "en": ["appliance, device"]}
+{"mi": "pūrere", "gr": "noun", "en": ["ornamental feathers lining the sides (gunwales, near its strakes) of a waka", "appliance, device"]}
 {"mi": "heihei", "gr": "noun", "en": ["chicken"]}
 {"mi": "tāhono", "gr": "noun", "en": ["interface"]}
 {"mi": "kororā", "gr": "noun", "en": ["little penguin; blue penguin (Eudyptula minor)"]}
-{"mi": "kāmera", "gr": "noun", "en": ["camera"]}
-{"mi": "kāmera", "gr": "noun", "en": ["camel"]}
+{"mi": "kāmera", "gr": "noun", "en": ["camera", "camel"]}
 {"mi": "utuutu", "gr": "noun", "en": ["repayments"]}
 {"mi": "aronui", "gr": "noun", "en": ["armspan, fathom"]}
 {"mi": "hākure", "gr": "noun", "en": ["lice"]}
@@ -868,10 +728,8 @@
 {"mi": "pūkaka", "gr": "noun", "en": ["humerus, thighbone"]}
 {"mi": "pātiki", "gr": "noun", "en": ["flounder"]}
 {"mi": "kōripo", "gr": "noun", "en": ["whirlpool, eddy"]}
-{"mi": "tōkere", "gr": "noun", "en": ["a deathwatch beetle (Anobiidae)"]}
-{"mi": "tōkere", "gr": "noun", "en": ["castanets made of wood, bone, or a pair of bivalve shells"]}
-{"mi": "rīanga", "gr": "noun", "en": ["screen, stretched physical divider"]}
-{"mi": "rīanga", "gr": "noun", "en": ["insurance"]}
+{"mi": "tōkere", "gr": "noun", "en": ["a deathwatch beetle (Anobiidae)", "castanets made of wood, bone, or a pair of bivalve shells"]}
+{"mi": "rīanga", "gr": "noun", "en": ["screen, stretched physical divider", "insurance"]}
 {"mi": "wawata", "gr": "noun", "en": ["yearning, aspiration, hope, dream"]}
 {"mi": "hītako", "gr": "noun", "en": ["the act of yawning"]}
 {"mi": "tiritiri", "gr": "noun", "en": ["scattering, apportion", "shimmering, flickering, mirage"]}
@@ -982,8 +840,7 @@
 {"mi": "tūpāpaku", "gr": "noun", "en": ["corpse, dead body", "sick person, invalid, someone who is terminally ill", "an intended victim of homicide"]}
 {"mi": "tapawhā", "gr": "noun", "en": ["quadrilateral"]}
 {"mi": "whakahirahira", "gr": "noun", "en": ["grandeur, greatness", "influence", "reputation, standing", "prominence", "importance", "eminence"]}
-{"mi": "pekapeka", "gr": "noun", "en": ["bat (animal) – especially the species Mystacina tuberculata"]}
-{"mi": "pekapeka", "gr": "noun", "en": ["toy windmill/pinwheel made from phormium leaves", "starfish", "a snood or gangion in a traditional longline set up"]}
+{"mi": "pekapeka", "gr": "noun", "en": ["bat (animal) – especially the species Mystacina tuberculata", "toy windmill/pinwheel made from phormium leaves", "starfish", "a snood or gangion in a traditional longline set up"]}
 {"mi": "rakuraku", "gr": "noun", "en": ["rake, harrow", "guitar"]}
 {"mi": "mātanga", "gr": "noun", "en": ["experienced person, expert, professional"]}
 {"mi": "moemoeā", "gr": "noun", "en": ["dream, vision"]}
@@ -994,8 +851,7 @@
 {"mi": "hemokai", "gr": "noun", "en": ["hunger"]}
 {"mi": "marutau", "gr": "noun", "en": ["safety"]}
 {"mi": "haumaru", "gr": "noun", "en": ["low frequency sound"]}
-{"mi": "potipoti", "gr": "noun", "en": ["box", "a special kind of compartment with a rope-hinged lid used by tohunga"]}
-{"mi": "potipoti", "gr": "noun", "en": ["conch trumpet", "sand flea, sandhopper"]}
+{"mi": "potipoti", "gr": "noun", "en": ["box", "a special kind of compartment with a rope-hinged lid used by tohunga", "conch trumpet", "sand flea, sandhopper"]}
 {"mi": "uwhiuwhi", "gr": "noun", "en": ["covering"]}
 {"mi": "tiketike", "gr": "noun", "en": ["height", "altitude"]}
 {"mi": "retihuka", "gr": "noun", "en": ["ski", "skiing", "snowboard"]}
@@ -1098,19 +954,16 @@
 {"mi": "rauemi", "gr": "noun", "en": ["resource", "material"]}
 {"mi": "kounga", "gr": "noun", "en": ["quality", "excellence"]}
 {"mi": "hukapuri", "gr": "noun", "en": ["hard frost"]}
-{"mi": "rongo", "gr": "noun", "en": ["hearing", "any other sense excluding sight", "perception, awareness", "fame", "news"]}
-{"mi": "rongo", "gr": "noun", "en": ["peace"]}
+{"mi": "rongo", "gr": "noun", "en": ["hearing", "any other sense excluding sight", "perception, awareness", "fame", "news", "peace"]}
 {"mi": "hangahanga", "gr": "noun", "en": ["practice, habit"]}
 {"mi": "mōhio", "gr": "noun", "en": ["knowledge", "an expert", "wisdom"]}
 {"mi": "mā", "gr": "noun", "en": ["white"]}
 {"mi": "rongonui", "gr": "noun", "en": ["fame; renown"]}
-{"mi": "kiwikiwi", "gr": "noun", "en": ["grey"]}
-{"mi": "kiwikiwi", "gr": "noun", "en": ["Blechnum fluviatile, the star fern or creek fern."]}
+{"mi": "kiwikiwi", "gr": "noun", "en": ["grey", "Blechnum fluviatile, the star fern or creek fern."]}
 {"mi": "maramara", "gr": "noun", "en": ["piece, bit, portion, chip, splinter."]}
 {"mi": "kutikuti", "gr": "noun", "en": ["scissors, shears, clippers"]}
 {"mi": "kōuraura", "gr": "noun", "en": ["shrimp (decapod crustacean)"]}
-{"mi": "raumanga", "gr": "noun", "en": ["hound's tongue fern (Microsorum pustulatum)"]}
-{"mi": "raumanga", "gr": "noun", "en": ["kitchen bench"]}
+{"mi": "raumanga", "gr": "noun", "en": ["hound's tongue fern (Microsorum pustulatum)", "kitchen bench"]}
 {"mi": "tangitangi", "gr": "noun", "en": ["sound", "salute", "wave"]}
 {"mi": "apārangi", "gr": "noun", "en": ["group of noble people"]}
 {"mi": "hanahana", "gr": "noun", "en": ["garment"]}
@@ -1360,8 +1213,7 @@
 {"mi": "whakakai", "gr": "noun", "en": ["cylindrical greenstone earring", "teething ring for babies"]}
 {"mi": "pai", "gr": "noun", "en": ["goodness", "excellence", "suitability"]}
 {"mi": "pōhutukawa", "gr": "noun", "en": ["Metrosideros excelsa"]}
-{"mi": "pungapunga", "gr": "noun", "en": ["pumice"]}
-{"mi": "pungapunga", "gr": "noun", "en": ["ankle"]}
+{"mi": "pungapunga", "gr": "noun", "en": ["pumice", "ankle"]}
 {"mi": "pongipongi", "gr": "noun", "en": ["dawn"]}
 {"mi": "kangakanga", "gr": "noun", "en": ["swearing, profanity"]}
 {"mi": "tāuwhiuwhi", "gr": "noun", "en": ["shower (a shower bath)"]}
@@ -1488,7 +1340,6 @@
 {"mi": "tapawhitu", "gr": "noun", "en": ["heptagon"]}
 {"mi": "tupuranga", "gr": "noun", "en": ["a place to grow something"]}
 {"mi": "whakatewhatewha", "gr": "noun", "en": ["investigator", "inspector"]}
-{"mi": "rāhui", "gr": "noun", "en": ["restriction of access to a place (as a form of taboo)"]}
 {"mi": "kite", "gr": "noun", "en": ["sight", "perception", "divination"]}
 {"mi": "pirihimana", "gr": "noun", "en": ["police", "police officer, constable"]}
 {"mi": "orokohanga", "gr": "noun", "en": ["origin", "creation"]}
@@ -1514,8 +1365,7 @@
 {"mi": "waru", "gr": "noun", "en": ["any scraper", "wood plane"]}
 {"mi": "māramatanga", "gr": "noun", "en": ["clarity", "enlightenment"]}
 {"mi": "tāpiritanga", "gr": "noun", "en": ["appendix, addendum", "addition"]}
-{"mi": "tae", "gr": "noun", "en": ["excrement, filth", "sap or gum excreted from plants", "refuse, waste, rubbish"]}
-{"mi": "tae", "gr": "noun", "en": ["stain", "dye, pigment", "colour"]}
+{"mi": "tae", "gr": "noun", "en": ["excrement, filth", "sap or gum excreted from plants", "refuse, waste, rubbish", "stain", "dye, pigment", "colour"]}
 {"mi": "pīne-ā-Wīwī", "gr": "noun", "en": ["French bean"]}
 {"mi": "hōkakatanga", "gr": "noun", "en": ["sexual orientation, sexuality"]}
 {"mi": "mārenatanga", "gr": "noun", "en": ["marriage"]}
@@ -1552,8 +1402,7 @@
 {"mi": "kaimātakitaki", "gr": "noun", "en": ["spectator, onlooker, audience, observer"]}
 {"mi": "pūngāwerewere", "gr": "noun", "en": ["spider"]}
 {"mi": "atewharowharo", "gr": "noun", "en": ["lung"]}
-{"mi": "rā", "gr": "noun", "en": ["sail (a piece of fabric attached to a boat)"]}
-{"mi": "rā", "gr": "noun", "en": ["sun", "daytime, period of brightness in the morning and afternoon", "day, time cycle of 24 hours"]}
+{"mi": "rā", "gr": "noun", "en": ["sail (a piece of fabric attached to a boat)", "sun", "daytime, period of brightness in the morning and afternoon", "day, time cycle of 24 hours"]}
 {"mi": "whakapakotanga", "gr": "noun", "en": ["banishment", "exile"]}
 {"mi": "matatangitangi", "gr": "noun", "en": ["lament", "dirge"]}
 {"mi": "Wīwī", "gr": "noun", "en": ["French person (of, from or relating to France)"]}
@@ -1561,8 +1410,7 @@
 {"mi": "kaniawheatanga", "gr": "noun", "en": ["remorse"]}
 {"mi": "poporokaiwhiri", "gr": "noun", "en": ["pigeonwood (Hedycarya arborea)"]}
 {"mi": "ō", "gr": "noun", "en": ["food, provisions"]}
-{"mi": "koro", "gr": "noun", "en": ["grandfather", "term of address to an elderly man"]}
-{"mi": "koro", "gr": "noun", "en": ["cove, inlet", "noose", "white rātā (Metrosideros perforata)"]}
+{"mi": "koro", "gr": "noun", "en": ["grandfather", "term of address to an elderly man", "cove, inlet", "noose", "white rātā (Metrosideros perforata)"]}
 {"mi": "Ngāi", "gr": "noun", "en": ["Descent group marker used in iwi or hapū names beginning with T."]}
 {"mi": "huhu", "gr": "noun", "en": ["huhu grub, the larval form of Prionoplus reticularis (a longhorn beetle species of the Cerambycidae family which is the largest endemic beetle found in New Zealand)"]}
 {"mi": "mou", "gr": "noun", "en": ["island, islet, alternative form of motu"]}
@@ -1718,4 +1566,3 @@
 {"mi": "Meri Kirihimete", "gr": "noun", "en": ["merry Christmas"]}
 {"mi": "Pāremata Aotearoa", "gr": "noun", "en": ["New Zealand Parliament"]}
 {"mi": "Whiringa ki Tawhiti", "gr": "noun", "en": ["Pluto"]}
-

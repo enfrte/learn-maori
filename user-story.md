@@ -1,4 +1,4 @@
-Look for duplicate "mi": property values in @src/topics/mi-en-dic-adjectives-by-frequency.jsonl
+Look for duplicate "mi": property values in @src/topics/mi-en-dic-nouns-by-frequency.jsonl
 
 For example
 
