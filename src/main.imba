@@ -13,13 +13,13 @@ import './stage1-recall'
 # original dark palette. The `dark` class is toggled on the document
 # element by the app tag and persisted via the settings store.
 
-global css @root
-	$bg: #e9eeac          # page background
+global css @root 		# Default light theme
+	$bg: #e9eeac      # page background
 	$surface: white     # cards, stats, word tiles
-	$hover: warm2       # quiet button hover surface
-	$text: #0d1713        # body text
-	$strong: #0d1713      # emphasized text (word tiles)
-	$muted: #0d1713       # secondary text and borders' contrast companion
+	$hover: warm1       # quiet button hover surface
+	$text: #0d1713    # body text
+	$strong: #0d1713  # emphasized text (word tiles)
+	$muted: #0d1713   # secondary text and borders' contrast companion
 	$border: warm4      # outlines on quiet buttons
 	$error: red5        # error text links
 	$ok: green6         # success text
@@ -29,6 +29,23 @@ global css @root
 	$mi-red-ochre: #a53c24 
 	$mi-fire: #f68b29 
 	$mi-black: #0d1713
+	# Neutral colors (work on light and dark themes)
+	$blue: 	#2563EB
+	$blue-hover:		#1D4ED8
+	$indigo:	#4F46E5
+	$indigo-hover:	#4338CA
+	$teal:	#0D9488
+	$teal-hover:		#0F766E
+	$green:	#16A34A
+	$green-hover:	#15803D
+	$purple:	#9333EA
+	$purple-hover:	#7E22CE
+	$slate:	#475569
+	$slate-hover:	#334155
+	$red:	#DC2626
+	$red-hover:		#B91C1C
+	$orange:	#EA580C
+	$orange-hover:	#C2410C
 
 global css html.dark
 	$bg: warm8
@@ -57,10 +74,12 @@ global css .card p c:$muted m:0
 global css .row d:flex gap:3 flex-wrap:wrap mt:4
 global css .footer d:flex gap:3 flex-wrap:wrap ai:center mt:4
 # Buttons
-global css .next-btn bg:$mi-greenstone c:white rd:4 p:3 flex:1 1 100% d:block fs:1.2rem fw:700 
-global css .mi-red-ochre-btn c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:$mi-red-ochre @hover:#a53c24
+global css .options-btn bg:$surface @hover:$hover rd:4 d:4 p:5 flex:1 1 100% d:block fs:1.2rem fw:500 c:$strong cursor:pointer
+global css .next-btn bg:$green @hover:$green-hover c:white rd:4 bd:0 p:3 flex:1 1 100% d:block fs:1.2rem fw:700 cursor:pointer 
+global css .orange-btn c:white p:3 px:5 rd:4 bd:0 fs:1rem fw:600 cursor:pointer bg:$orange @hover:$orange-hover
+global css .teal-btn c:white p:3 px:5 rd:4 bd:0 fs:1rem fw:600 cursor:pointer bg:$teal @hover:$teal-hover
 global css .secondary c:$muted p:3 px:5 rd:4 fs:1rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
-global css .primary c:white p:3 px:5 rd:4 fs:1rem fw:600 cursor:pointer bg:#263f2d @hover:#a53c24
+global css .primary c:white p:3 px:5 rd:4 bd:0 fs:1rem fw:600 cursor:pointer bg:$blue @hover:$blue-hover
 global css .back c:$muted p:2 px:3 rd:4 fs:0.9rem cursor:pointer bd:2px solid $border bg:transparent @hover:$hover
 global css .disabled o:0.45 pe:none
 global css .danger bg:transparent fs:0.85rem p:2 rd:2 cursor:pointer bd:0 c:$muted @hover:$error
@@ -69,7 +88,6 @@ global css .word bg:$surface rd:4 p:3 min-width:180px flex:1 1 220px
 global css .word .mi d:inline fs:1.5rem fw:700 c:$strong
 global css .word .en d:block fs:0.95rem c:$muted mt:1
 global css .word .gr d:inline fs:0.95rem c:$muted px:2
-global css .options-btn bg:$surface rd:4 p:5 flex:1 1 100% d:block fs:1.2rem fw:500 c:$strong cursor:pointer
 global css .tracker c:$muted mb:3 fs:0.95rem
 global css .feedback mt:3 c:$error fs:1rem
 global css .feedback.ok c:$ok
@@ -144,7 +162,7 @@ tag landing-page
 					"Learned {self.stats-for(t).count} / {self.stats-for(t).total} ({self.stats-for(t).percent}%) · {self.inprogress-for(t).length} in progress"
 				<div.row>
 					<button.primary @click=(self.emit('learn', t.id))> "Learn new words"
-					<button.mi-red-ochre-btn
+					<button.teal-btn
 						.disabled=(self.loaded and !self.learned-for(t).length)
 						@click=(self.emit('recall', t.id))>
 						"Recall learned words ({self.learned-for(t).length})"
