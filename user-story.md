@@ -1,14 +1,19 @@
-Look for duplicate "mi": property values in @src/topics/mi-en-dic-nouns-by-frequency.jsonl
 
-For example
 
-{"mi": "piro", "gr": "adj", "en": ["rotten, putrid", "smelly", "disgusting", "offensive"]}
-{"mi": "piro", "gr": "adj", "en": ["extinguished, put out", "defeated, beaten (in games)"]}
+In places that call <div.word-list> like @src/stage1-learn.imba and @src/mcq.imba - the words that are stored in the "en": array only output the first element. 
+We need to change this so that for only "en" output, the output of `for opt in self.q.options` shows all the elements of the array. For example 
 
-both have "piro" 
+{"mi": "whare", "gr": "noun", "en": ["house", "any building", "people in a house", "suit (cards)"]}
 
-Add the "en": property value of the later entry to the "en": property value or the earlier entry. For example 
+would show 
 
-{"mi": "piro", "gr": "adj", "en": ["rotten, putrid", "smelly", "disgusting", "offensive", "extinguished, put out", "defeated, beaten (in games)"]}
+"1. house, 2. any building, 3. people in a house, 4. suit (cards)"
 
-Then delete the later entry. 
+however a single entry woul not be numbered. for example 
+
+{"mi": "tangata", "gr": "noun", "en": ["human being, person, man"]}
+
+would show 
+
+"human being, person, man"
+

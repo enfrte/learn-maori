@@ -8,7 +8,14 @@ const IS_DEV = location.hostname == 'localhost'
 let byTopic = {}
 
 def english e
-	e.en.length ? e.en[0] : ''
+	unless e.en.length
+		return ''
+	if e.en.length == 1
+		return e.en[0]
+	let parts = []
+	for d, i in e.en
+		parts.push("{i + 1}. {d}")
+	parts.join(', ')
 
 # Shuffles a copy of the array (Fisher-Yates).
 export def shuffled arr
